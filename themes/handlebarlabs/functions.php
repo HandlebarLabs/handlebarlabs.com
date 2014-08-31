@@ -43,6 +43,10 @@ function child_theme_setup() {
   // Remove the big genesis header
   remove_action( 'genesis_header', 'genesis_do_header' );
 
+  // Change footer text
+  remove_action( 'genesis_footer', 'genesis_do_footer' );
+  add_action('genesis_footer', 'hbl_do_footer');
+
 }
 
 // Add bootstrap 3 navigation for primary nav
@@ -69,6 +73,10 @@ function hbl_do_nav() {
     </div>'
   ));
 
+}
+
+function hbl_do_footer() {
+  echo 'Copyright &#xa9; 2014 &#x000B7 <a href="http://handlebarlabs.com">Handlebar Labs</a>';
 }
 
 // Enque scripts
