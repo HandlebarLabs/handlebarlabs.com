@@ -70,7 +70,7 @@ function hbl_do_nav() {
 // Enque scripts
 function hbl_do_scripts() {
 
-  // Bootstrap
-  wp_register_script ('bootstrap', get_stylesheet_directory_uri() . '/js/bootstrap.js', array( 'jquery' ),'1',true);
-  wp_enqueue_script('bootstrap');
+  // Nav collapse. Delete this if I load in all of bootstrap
+  wp_register_script ('bootstrapNavCollapse', get_stylesheet_directory_uri() . '/js/bootstrapNavCollapse.js', array( 'jquery' ),'1',true);
+  wp_enqueue_script('bootstrapNavCollapse');
 }
