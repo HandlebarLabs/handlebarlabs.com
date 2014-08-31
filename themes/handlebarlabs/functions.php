@@ -21,4 +21,7 @@
 add_action('genesis_setup','child_theme_setup', 15);
 function child_theme_setup() {
 
+  add_theme_support( 'html5' );
+  add_theme_support( 'genesis-responsive-viewport' );
+  add_theme_support( 'genesis-footer-widgets', 3 );
 }
