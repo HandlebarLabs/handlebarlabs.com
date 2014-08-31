@@ -4,7 +4,6 @@
  *
  * @package      HBL_Genesis_Child
  * @since        1.0.0
- * @link         https://github.com/billerickson/BE-Genesis-Child
  * @author       Spencer Carli <spencercarli@gmail.com>
  *
  */
