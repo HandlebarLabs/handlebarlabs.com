@@ -31,7 +31,7 @@ function child_theme_setup() {
   // add_action( 'genesis_before_header', 'genesis_do_nav', 12 );
 
   // Add in bootstrap menu
-  add_action('genesis_header', 'hbl_do_nav', 3);
+  add_action('genesis_header', 'hbl_do_nav', 4);
 
   // Reposition the secondary nav
   remove_action( 'genesis_after_header', 'genesis_do_subnav' );
@@ -39,6 +39,9 @@ function child_theme_setup() {
 
   // Load in my scripts
   add_action( 'wp_enqueue_scripts', 'hbl_do_scripts' );
+
+  // Remove the big genesis header
+  remove_action( 'genesis_header', 'genesis_do_header' );
 
 }
 
@@ -50,7 +53,7 @@ function hbl_do_nav() {
     'container_class' => 'navbar navbar-default navbar-static-top navbar-inverse',
     'menu_class' => 'nav navbar-nav navbar-right',
     'menu_id' => 'navigation',
-    'items_wrap' => ' <div class="container-fluid">
+    'items_wrap' => '<div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mry-navbar-collapse-1">
           <span class="sr-only">Toggle navigation</span>
@@ -58,6 +61,7 @@ function hbl_do_nav() {
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
+        <a class="navbar-brand" href="/">Handlebar Labs</a>
       </div>
       <div class="collapse navbar-collapse" id="mry-navbar-collapse-1">
         <ul id="%1$s" class="%2$s">%3$s</ul>
