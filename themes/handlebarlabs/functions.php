@@ -31,7 +31,7 @@ function child_theme_setup() {
   // add_action( 'genesis_before_header', 'genesis_do_nav', 12 );
 
   // Add in bootstrap menu
-  add_action('genesis_header', 'hbl_do_nav', 12);
+  add_action('genesis_header', 'hbl_do_nav', 3);
 
   // Reposition the secondary nav
   remove_action( 'genesis_after_header', 'genesis_do_subnav' );
@@ -47,7 +47,7 @@ function hbl_do_nav() {
   wp_nav_menu(array(
     'menu' => 'Primary Navigation',
     'container' => 'nav',
-    'container_class' => 'navbar navbar-default navbar-static-top',
+    'container_class' => 'navbar navbar-default navbar-static-top navbar-inverse',
     'menu_class' => 'nav navbar-nav navbar-right',
     'menu_id' => 'navigation',
     'items_wrap' => ' <div class="container-fluid">
