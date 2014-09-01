@@ -105,7 +105,7 @@ function hbl_do_scripts() {
 
 // Read more button
 function hbl_read_more_link() {
-	return '<a class="more-link btn btn-primary" href="' . get_permalink() . '">Continue Reading</a>';
+	return '<a class="more-link btn btn-primary pull-right" href="' . get_permalink() . '">Continue Reading</a>';
 }
 
 // My favicon
