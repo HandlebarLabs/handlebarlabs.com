@@ -54,7 +54,7 @@ function hbl_do_nav() {
   wp_nav_menu(array(
     'menu' => 'Primary Navigation',
     'container' => 'nav',
-    'container_class' => 'navbar navbar-default navbar-static-top navbar-inverse',
+    'container_class' => 'navbar navbar-default navbar-static-top',
     'menu_class' => 'nav navbar-nav navbar-right',
     'menu_id' => 'navigation',
     'items_wrap' => '<div class="container">

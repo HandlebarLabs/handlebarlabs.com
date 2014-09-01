@@ -1,7 +1,7 @@
 // main: main.less
 
 body {
-  background-color: #F5F5F5;
+  background-color: #F3F3F3;
 }
 
 .site-header {
@@ -12,8 +12,44 @@ body {
   padding-top: 0;
 }
 
+@height: 70px;
+@lnheight: 40px;
+@headerbg: #fff;
 .navbar-default {
   margin-bottom: 0;
+  height: @height;
+  background-color: @headerbg;
+
+  .navbar-brand {
+    height: @height;
+    font-size: 24px;
+    line-height: @lnheight;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #3C3C3C;
+  }
+
+  .navbar-nav>li>a {
+    line-height: @lnheight;
+    height: @height;
+    color: #292929;
+    font-weight: 500;
+    font-size: 15px;
+    background-color: @headerbg;
+
+    &:hover {
+      background: #FFF;
+      border-bottom: 5px solid #34495E;
+    }
+  }
+
+  .navbar-nav {
+    margin-top: 0;
+  }
+
+  .navbar-toggle {
+    margin-top: 17px;
+  }
 }
 
 // Landing Page
