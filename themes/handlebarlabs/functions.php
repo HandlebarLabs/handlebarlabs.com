@@ -62,6 +62,9 @@ function child_theme_setup() {
   // Use custom post info (after post title)
   remove_action( 'genesis_entry_header', 'genesis_post_info', 12 );
   add_action( 'genesis_entry_header', 'hbl_post_info', 12 );
+
+  // Gravatar
+  add_filter( 'genesis_author_box_gravatar_size', 'author_box_gravatar_size' );
 }
 
 // Add bootstrap 3 navigation for primary nav
@@ -131,4 +134,9 @@ function hbl_post_info() {
 
   echo $output;
 
+}
+
+// Author Gravatar
+function author_box_gravatar_size( $size ) {
+	return '150';
 }
