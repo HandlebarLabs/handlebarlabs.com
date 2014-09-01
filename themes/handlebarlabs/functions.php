@@ -55,6 +55,13 @@ function child_theme_setup() {
 
   // Favicon
   add_filter( 'genesis_pre_load_favicon', 'hbl_favicon_filter' );
+
+  // Remove after post meta
+  remove_action( 'genesis_entry_footer', 'genesis_post_meta');
+
+  // Use custom post info (after post title)
+  remove_action( 'genesis_entry_header', 'genesis_post_info', 12 );
+  add_action( 'genesis_entry_header', 'hbl_post_info', 12 );
 }
 
 // Add bootstrap 3 navigation for primary nav
@@ -104,4 +111,24 @@ function hbl_read_more_link() {
 // My favicon
 function hbl_favicon_filter( $favicon_url ) {
 	return get_stylesheet_directory_uri() . '/images/favicon.ico';
+}
+
+// After post title
+function hbl_post_info() {
+
+  if ( 'page' === get_post_type() )
+    return;
+
+  $output = genesis_markup( array(
+    'html5'   => '<p %s>',
+    'xhtml'   => '<div class="post-info">',
+    'context' => 'entry-meta-before-content',
+    'echo'    => false,
+  ) );
+
+  $output .= apply_filters( 'genesis_post_info', '[post_date] ' );
+  $output .= genesis_html5() ? '</p>' : '</div>';
+
+  echo $output;
+
 }
