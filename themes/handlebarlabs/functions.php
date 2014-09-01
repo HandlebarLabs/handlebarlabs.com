@@ -50,6 +50,7 @@ function child_theme_setup() {
   // Change read more button
   add_filter( 'the_content_more_link', 'hbl_read_more_link' );
 
+  // Enable the author box after the post
   add_filter( 'get_the_author_genesis_author_box_single', '__return_true' );
 }
 
