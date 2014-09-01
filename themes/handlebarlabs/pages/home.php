@@ -15,7 +15,11 @@ remove_all_actions( 'genesis_footer' );
 genesis();
 
 ?>
-
+<style media="screen">
+  .site-inner {
+    display:none;
+  }
+</style>
 <div class="old_home">
   <div id="lead" class="row">
     <div class="container">
