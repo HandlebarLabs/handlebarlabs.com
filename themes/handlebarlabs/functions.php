@@ -47,6 +47,10 @@ function child_theme_setup() {
   remove_action( 'genesis_footer', 'genesis_do_footer' );
   add_action('genesis_footer', 'hbl_do_footer');
 
+  // Change read more button
+  add_filter( 'the_content_more_link', 'hbl_read_more_link' );
+
+  add_filter( 'get_the_author_genesis_author_box_single', '__return_true' );
 }
 
 // Add bootstrap 3 navigation for primary nav
@@ -75,6 +79,7 @@ function hbl_do_nav() {
 
 }
 
+// Footer text
 function hbl_do_footer() {
   echo 'Copyright &#xa9; 2014 &#x000B7 <a href="http://handlebarlabs.com">Handlebar Labs</a>';
 }
@@ -85,4 +90,9 @@ function hbl_do_scripts() {
   // Nav collapse. Delete this if I load in all of bootstrap
   wp_register_script ('bootstrapNavCollapse', get_stylesheet_directory_uri() . '/js/bootstrapNavCollapse.js', array( 'jquery' ),'1',true);
   wp_enqueue_script('bootstrapNavCollapse');
+}
+
+// Read more button
+function hbl_read_more_link() {
+	return '<a class="more-link btn btn-primary" href="' . get_permalink() . '">Continue Reading</a>';
 }
