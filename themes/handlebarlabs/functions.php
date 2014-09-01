@@ -52,6 +52,9 @@ function child_theme_setup() {
 
   // Enable the author box after the post
   add_filter( 'get_the_author_genesis_author_box_single', '__return_true' );
+
+  // Favicon
+  add_filter( 'genesis_pre_load_favicon', 'hbl_favicon_filter' );
 }
 
 // Add bootstrap 3 navigation for primary nav
@@ -96,4 +99,9 @@ function hbl_do_scripts() {
 // Read more button
 function hbl_read_more_link() {
 	return '<a class="more-link btn btn-primary" href="' . get_permalink() . '">Continue Reading</a>';
+}
+
+// My favicon
+function hbl_favicon_filter( $favicon_url ) {
+	return get_stylesheet_directory_uri() . '/images/favicon.ico';
 }
