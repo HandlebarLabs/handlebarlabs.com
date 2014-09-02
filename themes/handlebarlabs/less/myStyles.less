@@ -21,13 +21,22 @@ h1, h2, h3, h4, h5, h6 {
 
 body {
   background-color: #34495E;
-  // background: url(../images/background.jpg);
+  background: url(../images/background.jpg);
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 20px;
 }
 
 .site-header {
   display: none;
+}
+
+.btn-primary {
+  background: #34495E;
+  border-color: #34495E;
+
+  &:hover {
+    background-color: #2C4257 !important;
+  }
 }
 
 // .site-inner {
@@ -43,6 +52,10 @@ body {
   background-color: @headerbg;
   border: none;
   font-family: 'chunkfiveroman', Arial, sans-serif;
+
+  -webkit-box-shadow: -4px 6px 29px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow: -4px 6px 29px -5px rgba(0,0,0,0.75);
+  box-shadow: -4px 6px 29px -5px rgba(0,0,0,0.75);
 
   .navbar-brand {
     height: @height;
@@ -81,6 +94,7 @@ body {
   color: #FFF;
 }
 
+
 // Landing Page
 .page-template-pageslanding-php {
 
@@ -100,6 +114,23 @@ body {
   .widget_text {
     padding: 0;
   }
+
+  .pad-widget {
+    padding: 20px 30px;
+  }
+
+  .email-signup-widget {
+    padding: 20px 30px;
+
+    h4 {
+      margin-top: 0;
+      font-size: 21px;
+    }
+
+    .btn {
+      margin-top: 10px;
+    }
+  }
 }
 
 // Content
@@ -107,6 +138,13 @@ body {
   .entry {
     margin-bottom: 10px;
     padding-top: 5px;
+
+    .entry-title {
+      a:hover {
+        color: #34495E;
+        text-decoration: none;
+      }
+    }
   }
 
   .author-box {
