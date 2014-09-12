@@ -103,7 +103,7 @@ Template Name: Food Truck Landing Page
         <p>
           +$35/month for premium web hosting
         </p>
-        <a href="#" class="btn btn-primary row">Get a Free Consultation</a>
+        <a href="#" class="btn btn-primary row showContact">Get a Free Consultation</a>
       </div>
 
       <div class="col-xs-10 col-xs-offset-1 col-md-offset-2 col-md-8">
@@ -114,6 +114,32 @@ Template Name: Food Truck Landing Page
 
     </div>
   </div>
+
+  <!-- Contact -->
+  <div class="container contact">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <form role="form">
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox"> Check me out
+            </label>
+          </div>
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="pad-bottom"></div>
 
   <!-- Footer -->
   <footer class="site-footer" role="contentinfo" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
