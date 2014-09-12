@@ -37,8 +37,8 @@ Template Name: Food Truck Landing Page
           At Handlebar Labs we use responsive design to build one website for your food truck that will work on any size device.
         </p>
       </div>
-      <div class="col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-0">
-        <img src="/wp-content/themes/handlebarlabs/images/foodtruck/responsive.png" alt="" />
+      <div class="col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-0 img">
+        <img src="/wp-content/themes/handlebarlabs/images/foodtruck/responsive.png"  alt="" />
       </div>
     </div>
   </div>
@@ -60,8 +60,8 @@ Template Name: Food Truck Landing Page
           No longer will your customers have to search through dozens of tweets to find out where you are.
         </p>
       </div>
-      <div class="col-md-4 col-md-offset-0 col-xs-10 col-xs-offset-1 col-md-pull-8">
-        <img src="/wp-content/themes/handlebarlabs/images/foodtruck/calendar.jpg" alt="" />
+      <div class="col-md-4 col-md-offset-0 col-xs-10 col-xs-offset-1 col-md-pull-8 img">
+        <img src="/wp-content/themes/handlebarlabs/images/foodtruck/calendar.jpg" class="img-thumbnail" alt="" />
       </div>
     </div>
   </div>
@@ -82,8 +82,8 @@ Template Name: Food Truck Landing Page
           To build up a burning craving to dash out of the office at lunch to come visit you.
         </p>
       </div>
-      <div class="col-md-4 col-md-offset-0 col-xs-10 col-xs-offset-1">
-        <img src="/wp-content/themes/handlebarlabs/images/foodtruck/menu.jpg" alt="" />
+      <div class="col-md-4 col-md-offset-0 col-xs-10 col-xs-offset-1 img">
+        <img src="/wp-content/themes/handlebarlabs/images/foodtruck/menu.jpg" class="img-thumbnail" alt="" />
       </div>
     </div>
   </div>
