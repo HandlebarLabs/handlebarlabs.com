@@ -75,6 +75,23 @@ Template Name: Food Truck Landing Page
     </div>
   </div>
 
+  <div class="container">
+    <div class="seperator"></div>
+  </div>
+
+  <!-- Pricing -->
+  <div class="row pricing section">
+    <div class="container">
+      <div class="col-md-12">
+        <h2>Starting at only $500</h2>
+        <p>
+          +$35/month for premium web hosting
+        </p>
+        <a href="#" class="btn btn-primary">Get a Free Consultation</a>
+      </div>
+    </div>
+  </div>
+
   <!-- Footer -->
   <footer class="site-footer" role="contentinfo" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
     <div class="wrap">
