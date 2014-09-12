@@ -26,6 +26,26 @@
         }
       }
     }
+
+    @media (max-width: @screen-xs-max) {
+      height: 300px;
+      text-align: center;
+      h1 {
+        margin-top: 65px;
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.75);
+
+        span {
+          background: none;
+          font-size: 24px;
+          line-height: 29px;
+
+          .spacer {
+            padding:0;
+          }
+        }
+      }
+    }
   }
 
   .section {
@@ -57,11 +77,15 @@
       background: #03b686;
       border: #03B686;
       padding: 11px 20px;
-      
+
       &:hover {
         background: #00A579 !important;
       }
     }
+    @media (max-width: @screen-xs-max) {
+      .btn-primary {
+        font-size: 19px;
+      }
+    }
   }
-
 }
