@@ -12,8 +12,8 @@
       margin-top: 110px;
 
       span {
-        font-size: 1.8em;
-        line-height: 0.88em;
+        // font-size: 1.8em;
+        // line-height: 0.88em;
         color: white;
         letter-spacing: -1px;
         background: rgb(0, 0, 0); /* fallback color */
@@ -23,6 +23,29 @@
         .spacer {
           padding:0 5px;
           background: none;
+        }
+      }
+    }
+
+    @media (max-width: @screen-sm-max) {
+      h1 {
+        margin-top: 165px;
+
+        span {
+          font-size: 39px;
+          line-height: 69px;
+
+        }
+      }
+    }
+
+    @media (min-width: @screen-sm-max) {
+      h1 {
+        margin-top: 165px;
+
+        span {
+          font-size: 39px;
+          line-height: 69px;
         }
       }
     }
@@ -46,11 +69,22 @@
         }
       }
     }
+
   }
 
   .section {
     padding-top: 2em;
     padding-bottom: 2em;
+    text-align: left;
+
+    img {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    @media (max-width: @screen-sm-max) {
+      text-align: center;
+    }
   }
 
   .responsive {
