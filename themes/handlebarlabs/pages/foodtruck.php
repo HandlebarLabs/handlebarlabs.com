@@ -26,7 +26,7 @@ Template Name: Food Truck Landing Page
   </div>
 
   <!-- Responsive Section -->
-  <div class="row responive">
+  <div class="row responsive section">
     <div class="container">
       <div class="col-md-8">
         <h2>Great on Any Device</h2>
@@ -39,8 +39,12 @@ Template Name: Food Truck Landing Page
     </div>
   </div>
 
+  <div class="container">
+    <div class="seperator"></div>
+  </div>
+
   <!-- Calendar Section -->
-  <div class="row calendar">
+  <div class="row calendar section">
     <div class="container">
       <div class="col-md-8 col-md-push-4">
         <h2>Easy Calendar Integration</h2>
@@ -53,8 +57,12 @@ Template Name: Food Truck Landing Page
     </div>
   </div>
 
+  <div class="container">
+    <div class="seperator"></div>
+  </div>
+
   <!-- Menu Section -->
-  <div class="row menu">
+  <div class="row menu section">
     <div class="container">
       <div class="col-md-8">
         <h2>Amazing Menu</h2>
