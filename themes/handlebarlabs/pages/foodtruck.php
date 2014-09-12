@@ -18,37 +18,41 @@ Template Name: Food Truck Landing Page
 <div class="foodtruck">
 
   <!-- Leader -->
-  <div class="row leader">
-    <div class="container">
-      <h1><span>Simple and Beautiful Design <span class="spacer"></span> <br>
-        <span class="spacer"></span> for your Food Truck's Website</span></h1>
+  <div class="container leader">
+    <div class="row">
+      <div class="col-md-12">
+        <h1><span>Simple and Beautiful Design <span class="spacer"></span> <br>
+          <span class="spacer"></span> for your Food Truck's Website</span></h1>
+      </div>
     </div>
   </div>
 
   <!-- Responsive Section -->
-  <div class="row responsive section">
-    <div class="container">
-      <div class="col-md-8">
+  <div class="container responsive section">
+    <div class="row">
+      <div class="col-md-8 col-xs-10 col-xs-offset-1 col-xs-12">
         <h2>Great on Any Device</h2>
         <p>
           Don't worry about where your customer is browsing from. Your website will look great on any device. Anytime, from anywhere.
           At Handlebar Labs we use responsive design to build one website for your food truck that will work on any size device.
         </p>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 col-xs-10 col-xs-offset-1 col-sm-12">
         <img src="/wp-content/themes/handlebarlabs/images/foodtruck/responsive.png" alt="" />
       </div>
     </div>
   </div>
 
   <div class="container">
-    <div class="seperator"></div>
+    <div class="row">
+      <div class="seperator"></div>
+    </div>
   </div>
 
   <!-- Calendar Section -->
-  <div class="row calendar section">
-    <div class="container">
-      <div class="col-md-8 col-md-push-4">
+  <div class="container calendar section">
+    <div class="row">
+      <div class="col-md-8 col-xs-10 col-xs-offset-1 col-md-push-4">
         <h2>Easy Calendar Integration</h2>
         <p>
           Keep you loyal fans in the know and inform your soon to be fans where you're going to be.
@@ -56,49 +60,53 @@ Template Name: Food Truck Landing Page
           No longer will your customers have to search through dozens of tweets to find out where you are.
         </p>
       </div>
-      <div class="col-md-4 col-md-pull-8">
+      <div class="col-md-4 col-xs-10 col-xs-offset-1 col-md-pull-8">
         <img src="/wp-content/themes/handlebarlabs/images/foodtruck/calendar.jpg" alt="" />
       </div>
     </div>
   </div>
 
   <div class="container">
-    <div class="seperator"></div>
+    <div class="row">
+      <div class="seperator"></div>
+    </div>
   </div>
 
   <!-- Menu Section -->
-  <div class="row menu section">
-    <div class="container">
-      <div class="col-md-8">
+  <div class="container menu section">
+    <div class="row">
+      <div class="col-md-8 col-xs-10 col-xs-offset-1">
         <h2>Amazing Menu</h2>
         <p>
           Once your customers know where you are, let them know exactly what you've got. Provide a full featured menu for your customers to love.
           To build up a burning craving to dash out of the office at lunch to come visit you.
         </p>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 col-xs-10 col-xs-offset-1">
         <img src="/wp-content/themes/handlebarlabs/images/foodtruck/menu.jpg" alt="" />
       </div>
     </div>
   </div>
 
   <div class="container">
-    <div class="seperator"></div>
+    <div class="row">
+      <div class="seperator"></div>
+    </div>
   </div>
 
   <!-- Pricing -->
-  <div class="row pricing section">
-    <div class="container">
+  <div class="container pricing section">
+    <div class="row">
 
-      <div class="col-md-12">
+      <div class="col-md-12 col-xs-10 col-xs-offset-1">
         <h2>Are you ready?<br> Pricing starts at only $500</h2>
         <p>
           +$35/month for premium web hosting
         </p>
-        <a href="#" class="btn btn-primary">Get a Free Consultation</a>
+        <a href="#" class="btn btn-primary row">Get a Free Consultation</a>
       </div>
 
-      <div class="col-md-8 col-md-offset-2">
+      <div class="col-md-8 col-xs-10 col-xs-offset-1 col-md-offset-2">
         <p>
           Don't worry. You're under <b>zero</b> obligation to buy. We'll talk with you and figure out exactly what is right for your food truck.
         </p>
