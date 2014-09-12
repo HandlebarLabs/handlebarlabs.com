@@ -19,8 +19,8 @@ Template Name: Food Truck Landing Page
   <!-- Leader -->
   <div class="row leader">
     <div class="container">
-      <h1>Simple and Beautiful Design<br>
-        for your Food Truck's Website</h1>
+      <h1><span>Simple and Beautiful Design <span class="spacer"></span> <br>
+        <span class="spacer"></span> for your Food Truck's Website</span></h1>
     </div>
   </div>
 
