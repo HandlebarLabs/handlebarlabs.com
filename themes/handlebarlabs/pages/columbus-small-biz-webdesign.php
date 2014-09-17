@@ -175,7 +175,9 @@ Template Name: Columbus Small biz web design Landing Page
           Use the contact form below. Fill in as much information about your business as you can and I’ll respond with the next steps.
         </p>
 
-        <div id="contact"></div>
+        <div class="col-md-8 col-md-offset-2" id="contact">
+          <?php echo do_shortcode( '[contact-form-7 id="2268" title="Columbus Small Business Web Design"]' ) ?>
+        </div>
 
       </div>
     </div>
