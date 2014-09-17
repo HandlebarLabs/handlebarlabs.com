@@ -52,7 +52,7 @@ Template Name: Columbus Small biz web design Landing Page
           Why does it matter for your business? The way people are finding companies to work with has fundamentally changed.
         </p>
         <p>
-          No longer do people go to the phone book. They pull out their cell phone and google their problem. What’s going to show up? Companies that have put an emphasis on their web site.
+          No longer do people go to the phone book. Rather, they pull out their cell phone and google their problem. What’s going to show up? Companies that have put an emphasis on their web site.
         </p>
         <h4>It’s that simple.</h4>
         <p>
@@ -83,7 +83,7 @@ Template Name: Columbus Small biz web design Landing Page
 
     <div class="row">
       <div class="col-md-12 center">
-        <a href="#" class="btn btn-primary">I'm ready to expose my business to new customers</a>
+        <a href="#pricing" class="btn btn-primary">Tell Me How Much</a>
         <p>
           Not sure yet? No worries. Read on, I’m sure I’ll cover you concerns.
         </p>
@@ -150,25 +150,17 @@ Template Name: Columbus Small biz web design Landing Page
       </div>
     </div>
 
-    <div class="row center">
-      <div class="col-md-10 col-md-offset-1">
-        <h2>So, how are you feeling? Are you ready to get started?</h2>
-        <a href="#" class="btn btn-primary">I’m ready. How much will it cost?</a>
-        <a href="#" class="btn btn-default">I’ve got a question</a>
-      </div>
-    </div>
-
     <div class="row">
-      <div class="col-md-10 col-md-offset-1">
+      <div class="col-md-10 col-md-offset-1" id="pricing">
         <h2>Pricing</h2>
         <p>
           I’m so happy that you’re ready to get a new website design for your small business. And I’m so happy I’m helping a fellow Columbus small business do that.
         </p>
         <p>
-          To make things simple, all projects start at a flat $500 + $35/month. So what are you getting for this price. I’ll break it down exactly.
+          To make things simple, all projects start at a flat $500 + $35/month. So what are you getting for this price? I’ll break it down exactly.
         </p>
         <p>
-          For the $500 you get a website branded to your business.
+          For the $500 you get a website branded to your business. A website that will get you showing up on Google. A website that markets your company 24/7. A website that makes sure you stay relevant.
         </p>
         <p>
           The $35/month gets you fully managed website hosting. This is paying for the server that keeps your website online all the time. It’s also covering all technical aspects that come with hosting. I’ll take care of keeping your site secure, backed up, and online. No need for you to think about that.
@@ -182,11 +174,29 @@ Template Name: Columbus Small biz web design Landing Page
         <p>
           Use the contact form below. Fill in as much information about your business as you can and I’ll respond with the next steps.
         </p>
-        <p>
-          <b>Thank you</b> for choosing to work with me. I’m excited for what we can build together.
-        </p>
+
+        <div id="contact"></div>
+
       </div>
     </div>
   </div>
 
 </div>
+
+<script type="text/javascript">
+  $ = jQuery;
+  $(function() {
+    $('a[href*=#]:not([href=#])').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+          $('html,body').animate({
+            scrollTop: target.offset().top
+          }, 1000);
+          return false;
+        }
+      }
+    });
+  });
+</script>
