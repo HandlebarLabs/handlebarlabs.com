@@ -32,15 +32,18 @@ Template Name: Columbus Small biz web design Landing Page
 
 ?>
 
-<div class="container">
-   <div class="row leader">
-    <div class="col-md-10 col-md-offset-1">
+<div class="row leader">
+  <div class="container">
+    <div class="col-md-12">
       <h1>Are you ready to make your Columbus based Small business relevant?</h1>
       <h2>Expose your company to new customers?</h2>
       <h2>A top notch website will do just that.</h2>
     </div>
   </div>
+</div>
 
+
+<div class="container">
   <div class="row">
     <div class="col-md-8 col-md-offset-2">
       <p>
