@@ -82,7 +82,7 @@ Template Name: Columbus Small biz web design Landing Page
     </div>
 
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-12 center">
         <a href="#" class="btn btn-primary">I'm ready to expose my business to new customers</a>
         <p>
           Not sure yet? No worries. Read on, I’m sure I’ll cover you concerns.
@@ -150,7 +150,7 @@ Template Name: Columbus Small biz web design Landing Page
       </div>
     </div>
 
-    <div class="row">
+    <div class="row center">
       <div class="col-md-10 col-md-offset-1">
         <h2>So, how are you feeling? Are you ready to get started?</h2>
         <a href="#" class="btn btn-primary">I’m ready. How much will it cost?</a>
