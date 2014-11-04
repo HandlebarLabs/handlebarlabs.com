@@ -1,4 +1,17 @@
 ---
-layout: default
+layout: services
 ---
-<h1>HI</h1>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h1>Services</h1>
+      <ul>
+      {% for service in site.data.services.services %}
+        <li>
+          {{ service.name }}
+        </li>
+      {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>

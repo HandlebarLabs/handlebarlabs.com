@@ -104,3 +104,10 @@ body.page-home h3 {
     font-size: 24px;
   }
 }
+
+/* SERVICES */
+body.page-services {
+  -webkit-font-smoothing: antialiased;
+  background: #2C3E4F;
+  color: white;
+}
