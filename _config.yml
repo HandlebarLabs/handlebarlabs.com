@@ -1,2 +1,5 @@
 # Site Settings
 title: Handlebar Labs
+
+# Build settings
+markdown: kramdown
