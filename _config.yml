@@ -1,5 +1,6 @@
 # Site Settings
 title: Handlebar Labs
+baseurl: "/"
 
 # Build settings
 markdown: kramdown
