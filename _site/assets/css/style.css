@@ -4,6 +4,20 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+.green-bg {
+  background: #1ABC9C;
+  color: #fff;
+}
+
+.blue-bg {
+  background: #34495E;
+  color: #fff;
+}
+
+.orange-bg {
+  background: #FF7A23;
+}
+
 /* TEXT*/
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
@@ -114,4 +128,18 @@ body.page-services {
   -webkit-font-smoothing: antialiased;
   background: #FDFDFD;
   color: #2F2F2F;
+}
+
+.page-services .fa-circle {
+  color: #34495E;
+}
+
+.page-services .pad {
+  padding: 80px 0;
+}
+
+.service {
+  background-color:rgba(0,0,0,0.1);
+  padding: 20px;
+  margin-top: 20px;
 }

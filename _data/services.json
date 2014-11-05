@@ -2,20 +2,24 @@
   "services": [
     {
       "name": "Test 1",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam finibus lacinia magna. Morbi dictum dui eu augue ornare, et cursus tortor elementum. Nam maximus ornare augue, ac malesuada magna accumsan sed. Integer consequat dui ac congue euismod. Maecenas at mi eget lorem maximus pellentesque sit amet sed purus. Suspendisse iaculis viverra lectus, sed mattis felis gravida sit amet. Donec finibus."
+      "icon": "fa-flag",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nunc eget nunc faucibus bibendum. Proin finibus justo eget aliquet congue. Suspendisse quis felis ut augue vulputate dapibus nec ut est."
     },
     {
       "name": "Test 2",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam finibus lacinia magna. Morbi dictum dui eu augue ornare, et cursus tortor elementum. Nam maximus ornare augue, ac malesuada magna accumsan sed. Integer consequat dui ac congue euismod. Maecenas at mi eget lorem maximus pellentesque sit amet sed purus. Suspendisse iaculis viverra lectus, sed mattis felis gravida sit amet. Donec finibus."
+      "icon": "fa-bullhorn",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nunc eget nunc faucibus bibendum. Proin finibus justo eget aliquet congue. Suspendisse quis felis ut augue vulputate dapibus nec ut est."
     }
     ,
     {
       "name": "Test 3",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam finibus lacinia magna. Morbi dictum dui eu augue ornare, et cursus tortor elementum. Nam maximus ornare augue, ac malesuada magna accumsan sed. Integer consequat dui ac congue euismod. Maecenas at mi eget lorem maximus pellentesque sit amet sed purus. Suspendisse iaculis viverra lectus, sed mattis felis gravida sit amet. Donec finibus."
+      "icon": "fa-compass",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nunc eget nunc faucibus bibendum. Proin finibus justo eget aliquet congue. Suspendisse quis felis ut augue vulputate dapibus nec ut est."
     },
     {
       "name": "Test 4",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam finibus lacinia magna. Morbi dictum dui eu augue ornare, et cursus tortor elementum. Nam maximus ornare augue, ac malesuada magna accumsan sed. Integer consequat dui ac congue euismod. Maecenas at mi eget lorem maximus pellentesque sit amet sed purus. Suspendisse iaculis viverra lectus, sed mattis felis gravida sit amet. Donec finibus."
+      "icon": "fa-fighter-jet",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nunc eget nunc faucibus bibendum. Proin finibus justo eget aliquet congue. Suspendisse quis felis ut augue vulputate dapibus nec ut est."
     }
   ]
 }

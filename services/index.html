@@ -1,36 +1,42 @@
 ---
 layout: services
 ---
+<div class="blue-bg pad">
 <div class="container">
-  <div class="row">
-    <div class="col-md-8 col-md-offset-2 text-center">
-      <h1>How will Handlebar Labs help you?</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nunc eget nunc faucibus bibendum. Proin finibus justo eget aliquet congue. Suspendisse quis felis ut augue vulputate dapibus nec ut est. Vivamus sed nibh orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus eros est, finibus sed enim et, hendrerit hendrerit risus. Ut vitae dui dapibus arcu fermentum eleifend non eu erat. Nam vel lacus interdum, sodales nisi vel, pretium risus. Nam ullamcorper lacus lacus, eu dapibus diam dignissim eu. Suspendisse molestie sodales urna sit amet egestas. Morbi sed ante scelerisque, volutpat justo eget, porttitor felis. In suscipit nunc sit amet commodo tristique.
-      </p>
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2 text-center">
+        <h1>How will Handlebar Labs help you?</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nunc eget nunc faucibus bibendum. Proin finibus justo eget aliquet congue. Suspendisse quis felis ut augue vulputate dapibus nec ut est. Vivamus sed nibh orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus eros est, finibus sed enim et, hendrerit hendrerit risus. Ut vitae dui dapibus arcu fermentum eleifend non eu erat. Nam vel lacus interdum, sodales nisi vel, pretium risus. Nam ullamcorper lacus lacus, eu dapibus diam dignissim eu. Suspendisse molestie sodales urna sit amet egestas. Morbi sed ante scelerisque, volutpat justo eget, porttitor felis. In suscipit nunc sit amet commodo tristique.
+        </p>
+      </div>
     </div>
-    <!-- <ul>
-    {% for service in site.data.services.services %}
-      <li>
-        {{ service.name }}
-      </li>
-    {% endfor %}
-    </ul> -->
   </div>
 </div>
-<div>
+
+<div class="green-bg pad">
   <div class="container">
     <div class="row">
-      {% for service in site.data.services.services %}
-        <div class="col-md-6">
-          <div class="row">
-            <h2>{{service.name}}</h2>
-            <p>
-              {{service.description}}
-            </p>
+      <div class="col-md-12">
+        {% for service in site.data.services.services %}
+          <div class="col-md-6 text-center">
+            <div class="service">
+              <span class="fa-stack fa-3x">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa {{service.icon}} fa-stack-1x fa-inverse"></i>
+              </span>
+              <h2>{{service.name}}</h2>
+              <p>
+                {{service.description}}
+              </p>
+            </div>
           </div>
-        </div>
-      {% endfor %}
+        {% endfor %}
+      </div>
     </div>
+  </div>
+
+  <div class="text-center">
+    <a href="/services" class="btn btn-primary btn-lg btn-blue">View Our Portfolio</a>  
   </div>
 </div>
