@@ -1,10 +1,21 @@
 {
   "services": [
     {
-      "name": "Test 1"
+      "name": "Test 1",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam finibus lacinia magna. Morbi dictum dui eu augue ornare, et cursus tortor elementum. Nam maximus ornare augue, ac malesuada magna accumsan sed. Integer consequat dui ac congue euismod. Maecenas at mi eget lorem maximus pellentesque sit amet sed purus. Suspendisse iaculis viverra lectus, sed mattis felis gravida sit amet. Donec finibus."
     },
     {
-      "name": "Test 2"
+      "name": "Test 2",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam finibus lacinia magna. Morbi dictum dui eu augue ornare, et cursus tortor elementum. Nam maximus ornare augue, ac malesuada magna accumsan sed. Integer consequat dui ac congue euismod. Maecenas at mi eget lorem maximus pellentesque sit amet sed purus. Suspendisse iaculis viverra lectus, sed mattis felis gravida sit amet. Donec finibus."
+    }
+    ,
+    {
+      "name": "Test 3",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam finibus lacinia magna. Morbi dictum dui eu augue ornare, et cursus tortor elementum. Nam maximus ornare augue, ac malesuada magna accumsan sed. Integer consequat dui ac congue euismod. Maecenas at mi eget lorem maximus pellentesque sit amet sed purus. Suspendisse iaculis viverra lectus, sed mattis felis gravida sit amet. Donec finibus."
+    },
+    {
+      "name": "Test 4",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam finibus lacinia magna. Morbi dictum dui eu augue ornare, et cursus tortor elementum. Nam maximus ornare augue, ac malesuada magna accumsan sed. Integer consequat dui ac congue euismod. Maecenas at mi eget lorem maximus pellentesque sit amet sed purus. Suspendisse iaculis viverra lectus, sed mattis felis gravida sit amet. Donec finibus."
     }
   ]
 }

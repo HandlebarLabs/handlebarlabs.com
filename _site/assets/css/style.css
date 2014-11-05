@@ -9,6 +9,10 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 
+p {
+  font-size: 17px !important;
+}
+
 .text-heavy {
   font-weight: 700;
 }
@@ -108,21 +112,6 @@ body.page-home h3 {
 /* SERVICES */
 body.page-services {
   -webkit-font-smoothing: antialiased;
-  background: #868686;
-  /*background: url(http://tmacfitness.com/wp-content/uploads/2013/04/Beauty-of-nature-random-4884759-1280-800.jpg);*/
-  color: white;
-}
-
-body.page-services:before {
-  /*content: '';
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  background: #000;
-  opacity: .7;*/
+  background: #FDFDFD;
+  color: #2F2F2F;
 }
