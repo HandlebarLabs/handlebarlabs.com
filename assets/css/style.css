@@ -82,13 +82,35 @@ p {
   line-height: 35px;
 }
 
+/* FOOTER NAV */
+.navbar-footer {
+  border: none !important;
+}
+.navbar-footer .navbar-nav {
+  display: inline-block;
+  float: none;
+}
+
+.navbar-footer .navbar-collapse {
+  text-align: center;
+}
+
+.navbar-footer .navbar-nav>li>a {
+  color: white;
+}
+
+.navbar-footer .navbar-nav>li>a:hover {
+  color: white;
+  background: rgba(0,0,0,0.1);
+}
+
 /* PAGES*/
 /* ############################################################ */
 
 /* HOMEPAGE */
 body.page-home {
   text-align: center;
-  background: url(http://aetherthemes.com/demo/maven/images/preview.jpg);
+  background: url(/assets/img/homepage.jpg);
   color: white;
   -webkit-font-smoothing: antialiased;
 }
@@ -166,6 +188,12 @@ body.page-services {
 
 .page-services .fa-circle {
   color: #34495E;
+}
+
+.page-services .background {
+  background: #34495E;
+  color: white;
+  background: url(/assets/img/keyboard.png);
 }
 
 .page-services .pad {
