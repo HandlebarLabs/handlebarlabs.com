@@ -1,0 +1,20 @@
+{
+  "portfolio": [
+    {
+      "title": "Apple",
+      "logoUrl": "http://cf.juggle-images.com/matte/white/280x280/apple-1-logo-primary.jpg"
+    },
+    {
+      "title": "Ebay",
+      "logoUrl": "http://cf.juggle-images.com/matte/white/280x280/ebay-logo-primary.jpg"
+    },
+    {
+      "title": "Disney",
+      "logoUrl": "http://cf.juggle-images.com/matte/white/280x280/disney-logo-primary.jpg"
+    },
+    {
+      "title": "Samsung",
+      "logoUrl": "http://cf.juggle-images.com/matte/white/280x280/samsung-1-logo-primary.jpg"
+    }
+  ]
+}

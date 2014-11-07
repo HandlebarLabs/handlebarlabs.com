@@ -1,4 +1,40 @@
 ---
 layout: portfolio
 ---
-<h1>Portfolio</h1>
+<div class="green-bg pad">
+  <div class="row">
+    <div class="col-md-12 text-center">
+      <h1>We're Happy to Serve You</h1>
+    </div>
+    <div class="col-md-8 col-md-offset-2 text-center">
+      <p>
+        Handlebar Labs has worked with dozens of small businesses and non-profits.
+        Listed below are a few recent projects. Interested in seeing more?
+        Contact us and we'll give you a list of projects similar to yours.
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 text-center">
+      <h1>Portfolio</h1>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <div class="row">
+        {% for item in site.data.portfolio.portfolio %}
+          <div class="col-md-6 text-center portfolio-item">
+            <img src="{{item.logoUrl}}" class="img-responsive" alt="{{item.title}}" />
+            <p>
+              {{item.title}}
+            </p>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>

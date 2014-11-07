@@ -215,3 +215,32 @@ body.page-services {
   padding: 20px;
   margin-top: 20px;
 }
+
+/* PORTFOLIO */
+body.page-portfolio {
+  -webkit-font-smoothing: antialiased;
+  background: #FDFDFD;
+  color: #2F2F2F;
+}
+
+.page-portfolio .navbar-default {
+  border-bottom: 1px solid #2A3C4D;
+  background: #34495E;
+}
+
+.page-portfolio .navbar-default .navbar-nav>li>a {
+  color: white;
+}
+
+.page-portfolio .pad {
+  padding: 60px 0;
+}
+
+.page-portfolio .portfolio-item {
+
+}
+
+.page-portfolio .portfolio-item img {
+  margin-left: auto;
+  margin-right: auto;
+}
