@@ -1,4 +1,6 @@
 // main: ../style.less
+@import 'variables.less';
+@import 'mixins.less';
 
 body {
   font-family: 'Montserrat', sans-serif;
@@ -6,17 +8,17 @@ body {
 }
 
 .green-bg {
-  background: #1ABC9C;
-  color: #fff;
+  background: @green;
+  color: @light-text;
 }
 
 .blue-bg {
-  background: #34495E;
-  color: #fff;
+  background: @blue;
+  color: @light-text;
 }
 
 .orange-bg {
-  background: #FF7A23;
+  background: @orange;
 }
 
 /* TEXT*/
@@ -47,21 +49,22 @@ p {
 }
 
 .btn-blue {
-  background: #34495E;
-  border: #34495E;
-}
-.btn-blue:hover {
-  background: #2C3E4F;
-  border: #2C3E4F;
-}
+  background: @blue;
+  border: @blue;
 
-.btn-green {
-  background: #1ABC9C;
-  border: #1ABC9C;
+  &:hover {
+    background: @dark-blue;
+    border: @dark-blue;
+  }
 }
-.btn-green:hover {
-  background: #15A084;
-  border: #15A084;
+.btn-green {
+  background: @green;
+  border: @green;
+
+  &:hover {
+    background: @dark-green;
+    border: @dark-green;
+  }
 }
 
 /* Navbar */
@@ -71,17 +74,17 @@ p {
   margin-bottom: 0;
   line-height: 0.9em;
   letter-spacing: -0.05em;
-}
 
-.navbar-default .navbar-brand {
-  font-weight: 800;
-  color: white;
-  font-size: 24px;
-  line-height: 35px;
-}
+  .navbar-brand {
+    font-weight: 800;
+    color: white;
+    font-size: 24px;
+    line-height: 35px;
 
-.navbar-default .navbar-brand:hover {
-  color: white;
+    &:hover {
+      color: white;
+    }
+  }
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -92,21 +95,22 @@ p {
 /* FOOTER NAV */
 .navbar-footer {
   border: none !important;
-}
-.navbar-footer .navbar-nav {
-  display: inline-block;
-  float: none;
-}
 
-.navbar-footer .navbar-collapse {
-  text-align: center;
-}
+  .navbar-nav {
+    display: inline-block;
+    float: none;
+  }
 
-.navbar-footer .navbar-nav>li>a {
-  color: white;
-}
+  .navbar-collapse {
+    text-align: center;
+  }
 
-.navbar-footer .navbar-nav>li>a:hover {
-  color: white;
-  background: rgba(0,0,0,0.1);
+  .navbar-nav>li>a {
+    color: white;
+  }
+
+  .navbar-nav>li>a:hover {
+    color: white;
+    background: rgba(0,0,0,0.1);
+  }
 }

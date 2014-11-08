@@ -3,15 +3,15 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 .green-bg {
-  background: #1ABC9C;
-  color: #fff;
+  background: #1abc9c;
+  color: #ffffff;
 }
 .blue-bg {
-  background: #34495E;
-  color: #fff;
+  background: #34495e;
+  color: #ffffff;
 }
 .orange-bg {
-  background: #FF7A23;
+  background: #ff7a23;
 }
 /* TEXT*/
 h1,
@@ -41,20 +41,20 @@ p {
   margin: 10px;
 }
 .btn-blue {
-  background: #34495E;
-  border: #34495E;
+  background: #34495e;
+  border: #34495e;
 }
 .btn-blue:hover {
-  background: #2C3E4F;
-  border: #2C3E4F;
+  background: #2c3e4f;
+  border: #2c3e4f;
 }
 .btn-green {
-  background: #1ABC9C;
-  border: #1ABC9C;
+  background: #1abc9c;
+  border: #1abc9c;
 }
 .btn-green:hover {
-  background: #15A084;
-  border: #15A084;
+  background: #15a084;
+  border: #15a084;
 }
 /* Navbar */
 .navbar-default {
