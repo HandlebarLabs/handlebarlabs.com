@@ -1,0 +1,51 @@
+body.page-services {
+  -webkit-font-smoothing: antialiased;
+  background: #FDFDFD;
+  color: #2F2F2F;
+}
+.page-services .navbar-default {
+  border-bottom: 1px solid #2A3C4D;
+  background: #34495E;
+}
+.page-services .navbar-default .navbar-nav > li > a {
+  color: white;
+}
+.page-services .fa-circle {
+  color: #34495E;
+}
+.page-services .background {
+  background: #34495E;
+  color: white;
+  background: url(/assets/img/keyboard.png);
+}
+.page-services .pad {
+  padding: 60px 0;
+}
+.page-services .pad-button {
+  margin-top: 40px;
+}
+.page-services .service {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 20px;
+}
+/* PORTFOLIO */
+body.page-portfolio {
+  -webkit-font-smoothing: antialiased;
+  background: #FDFDFD;
+  color: #2F2F2F;
+}
+.page-portfolio .navbar-default {
+  border-bottom: 1px solid #2A3C4D;
+  background: #34495E;
+}
+.page-portfolio .navbar-default .navbar-nav > li > a {
+  color: white;
+}
+.page-portfolio .pad {
+  padding: 60px 0;
+}
+.page-portfolio .portfolio-item img {
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,42 +1,37 @@
-/* GLOBAL */
-/* ############################################################ */
 body {
   font-family: 'Montserrat', sans-serif;
 }
-
 .green-bg {
   background: #1ABC9C;
   color: #fff;
 }
-
 .blue-bg {
   background: #34495E;
   color: #fff;
 }
-
 .orange-bg {
   background: #FF7A23;
 }
-
 /* TEXT*/
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: 700;
 }
-
 p {
   font-size: 17px !important;
 }
-
 .text-heavy {
   font-weight: 700;
 }
-
 .header-text {
   text-align: center;
   margin-top: 0;
   font-size: 40px;
 }
-
 /* BUTTONS */
 .btn {
   border-radius: 0;
@@ -44,7 +39,6 @@ p {
   font-weight: 700;
   margin: 10px;
 }
-
 .btn-blue {
   background: #34495E;
   border: #34495E;
@@ -53,7 +47,6 @@ p {
   background: #2C3E4F;
   border: #2C3E4F;
 }
-
 .btn-green {
   background: #1ABC9C;
   border: #1ABC9C;
@@ -62,7 +55,6 @@ p {
   background: #15A084;
   border: #15A084;
 }
-
 /* Navbar */
 .navbar-default {
   background: none;
@@ -71,23 +63,19 @@ p {
   line-height: 0.9em;
   letter-spacing: -0.05em;
 }
-
 .navbar-default .navbar-brand {
   font-weight: 800;
   color: white;
   font-size: 24px;
   line-height: 35px;
 }
-
 .navbar-default .navbar-brand:hover {
   color: white;
 }
-
-.navbar-default .navbar-nav>li>a {
+.navbar-default .navbar-nav > li > a {
   font-size: 16px;
   line-height: 35px;
 }
-
 /* FOOTER NAV */
 .navbar-footer {
   border: none !important;
@@ -96,31 +84,22 @@ p {
   display: inline-block;
   float: none;
 }
-
 .navbar-footer .navbar-collapse {
   text-align: center;
 }
-
-.navbar-footer .navbar-nav>li>a {
+.navbar-footer .navbar-nav > li > a {
   color: white;
 }
-
-.navbar-footer .navbar-nav>li>a:hover {
+.navbar-footer .navbar-nav > li > a:hover {
   color: white;
-  background: rgba(0,0,0,0.1);
+  background: rgba(0, 0, 0, 0.1);
 }
-
-/* PAGES*/
-/* ############################################################ */
-
-/* HOMEPAGE */
 body.page-home {
   text-align: center;
   background: url(/assets/img/homepage.jpg);
   color: white;
   -webkit-font-smoothing: antialiased;
 }
-
 body.page-home:before {
   content: '';
   display: block;
@@ -134,7 +113,6 @@ body.page-home:before {
   background: #000;
   opacity: .7;
 }
-
 /* TEXT */
 body.page-home h1 {
   font-size: 105px;
@@ -142,104 +120,79 @@ body.page-home h1 {
   line-height: 0.9em;
   letter-spacing: -0.05em;
 }
-
 body.page-home h2 {
   font-size: 40px;
 }
-
 body.page-home h3 {
   font-size: 24px;
   font-weight: 400;
 }
-
-@media (max-width: 830px){
+@media (max-width: 830px) {
   body.page-home h1 {
     font-size: 80px;
   }
-
   body.page-home h2 {
     font-size: 30px;
   }
-
   body.page-home h3 {
     font-size: 18px;
   }
 }
-
-@media (max-width: 600px){
+@media (max-width: 600px) {
   body.page-home h1 {
     font-size: 45px;
   }
-
   body.page-home h2 {
     font-size: 24px;
   }
 }
-
-/* SERVICES */
 body.page-services {
   -webkit-font-smoothing: antialiased;
   background: #FDFDFD;
   color: #2F2F2F;
 }
-
 .page-services .navbar-default {
   border-bottom: 1px solid #2A3C4D;
   background: #34495E;
 }
-
-.page-services .navbar-default .navbar-nav>li>a {
+.page-services .navbar-default .navbar-nav > li > a {
   color: white;
 }
-
 .page-services .fa-circle {
   color: #34495E;
 }
-
 .page-services .background {
   background: #34495E;
   color: white;
   background: url(/assets/img/keyboard.png);
 }
-
 .page-services .pad {
   padding: 60px 0;
 }
-
 .page-services .pad-button {
   margin-top: 40px;
 }
-
 .page-services .service {
-  background-color:rgba(0,0,0,0.1);
+  background-color: rgba(0, 0, 0, 0.1);
   padding: 20px;
   margin-top: 20px;
 }
-
 /* PORTFOLIO */
 body.page-portfolio {
   -webkit-font-smoothing: antialiased;
   background: #FDFDFD;
   color: #2F2F2F;
 }
-
 .page-portfolio .navbar-default {
   border-bottom: 1px solid #2A3C4D;
   background: #34495E;
 }
-
-.page-portfolio .navbar-default .navbar-nav>li>a {
+.page-portfolio .navbar-default .navbar-nav > li > a {
   color: white;
 }
-
 .page-portfolio .pad {
   padding: 60px 0;
 }
-
-.page-portfolio .portfolio-item {
-
-}
-
 .page-portfolio .portfolio-item img {
   margin-left: auto;
   margin-right: auto;

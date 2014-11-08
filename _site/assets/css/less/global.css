@@ -1,42 +1,37 @@
-// main: ../style.less
-
 body {
   font-family: 'Montserrat', sans-serif;
 }
-
 .green-bg {
   background: #1ABC9C;
   color: #fff;
 }
-
 .blue-bg {
   background: #34495E;
   color: #fff;
 }
-
 .orange-bg {
   background: #FF7A23;
 }
-
 /* TEXT*/
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: 700;
 }
-
 p {
   font-size: 17px !important;
 }
-
 .text-heavy {
   font-weight: 700;
 }
-
 .header-text {
   text-align: center;
   margin-top: 0;
   font-size: 40px;
 }
-
 /* BUTTONS */
 .btn {
   border-radius: 0;
@@ -44,7 +39,6 @@ p {
   font-weight: 700;
   margin: 10px;
 }
-
 .btn-blue {
   background: #34495E;
   border: #34495E;
@@ -53,7 +47,6 @@ p {
   background: #2C3E4F;
   border: #2C3E4F;
 }
-
 .btn-green {
   background: #1ABC9C;
   border: #1ABC9C;
@@ -62,7 +55,6 @@ p {
   background: #15A084;
   border: #15A084;
 }
-
 /* Navbar */
 .navbar-default {
   background: none;
@@ -71,23 +63,19 @@ p {
   line-height: 0.9em;
   letter-spacing: -0.05em;
 }
-
 .navbar-default .navbar-brand {
   font-weight: 800;
   color: white;
   font-size: 24px;
   line-height: 35px;
 }
-
 .navbar-default .navbar-brand:hover {
   color: white;
 }
-
-.navbar-default .navbar-nav>li>a {
+.navbar-default .navbar-nav > li > a {
   font-size: 16px;
   line-height: 35px;
 }
-
 /* FOOTER NAV */
 .navbar-footer {
   border: none !important;
@@ -96,16 +84,13 @@ p {
   display: inline-block;
   float: none;
 }
-
 .navbar-footer .navbar-collapse {
   text-align: center;
 }
-
-.navbar-footer .navbar-nav>li>a {
+.navbar-footer .navbar-nav > li > a {
   color: white;
 }
-
-.navbar-footer .navbar-nav>li>a:hover {
+.navbar-footer .navbar-nav > li > a:hover {
   color: white;
-  background: rgba(0,0,0,0.1);
+  background: rgba(0, 0, 0, 0.1);
 }
