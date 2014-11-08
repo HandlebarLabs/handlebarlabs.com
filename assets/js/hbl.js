@@ -1,3 +1,6 @@
+// Minify by using CMD+Shift+M
+// Need `minifier` package on atom
+
 $(function() {
   jQuery.fn.center = function () {
     this.css("position","absolute");
