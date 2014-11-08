@@ -24,12 +24,12 @@ $(function() {
 
   // Contact
   // =========================================
-  $('#contact').on('click', function(e) {
+  $('.contact').on('click', function(e) {
     e.preventDefault();
 
-    $("body").find('#contactOverlay').show();
+    $("body").find('.contact-overlay').show();
 
-    var overlay = $("#contactOverlay");
+    var overlay = $(".contact-overlay");
     overlay.height($(document).height());
     overlay.find('.contact-text').center();
 
@@ -37,8 +37,8 @@ $(function() {
       overlay.find('.contact-text').center();
     });
 
-    $('#contactOverlay').on('click', function(e) {
-      $('#contactOverlay').hide();
+    $('.contact-overlay').on('click', function(e) {
+      $('.contact-overlay').hide();
     });
   });
 
