@@ -4,3 +4,4 @@ baseurl: "/"
 
 # Build settings
 markdown: kramdown
+gems: ['jekyll-less']
