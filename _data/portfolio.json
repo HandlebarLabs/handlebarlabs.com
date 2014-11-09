@@ -2,27 +2,33 @@
   "portfolio": [
     {
       "title": "Granite America USA",
-      "logoUrl": "http://placehold.it/350x350&text=Granite America USA"
+      "logoUrl": "/assets/img/portfolio/granite_america.png",
+      "url": "http://graniteamericausa.com/"
     },
     {
       "title": "From Lemons 2 Lemonade",
-      "logoUrl": "http://placehold.it/350x350&text=From Lemons 2 Lemonade"
+      "logoUrl": "/assets/img/portfolio/fl2l.png",
+      "url": "http://fromlemons2lemonade.com/"
     },
     {
       "title": "Clum Creative Media",
-      "logoUrl": "http://placehold.it/350x350&text=Clum Creative Media"
+      "logoUrl": "/assets/img/portfolio/clummedia.png",
+      "url": "http://clumcreative.com/"
     },
     {
       "title": "TEDx Ohio State University",
-      "logoUrl": "http://placehold.it/350x350&text=TEDx Ohio State University"
+      "logoUrl": "/assets/img/portfolio/tedxosu.png",
+      "url": "http://tedx.osu.edu/"
     },
     {
       "title" : "Blue Dove Orthotics",
-      "logoUrl": "http://placehold.it/350x350&text=Blue Dove Orthotics"
+      "logoUrl": "/assets/img/portfolio/bluedove.png",
+      "url": "http://bluedoveorthotics.com/"
     },
     {
       "title" : "Research and Portfolio Management",
-      "logoUrl": "http://placehold.it/350x350&text=Research and Portfolio Management"
+      "logoUrl": "/assets/img/portfolio/rpmanagement.png",
+      "url": "http://rpmanagement.co/"
     }
   ],
   "private": [
