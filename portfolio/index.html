@@ -21,12 +21,14 @@ layout: portfolio
     <div class="col-md-10 col-md-offset-1">
       <div class="row">
         {% for item in site.data.portfolio.portfolio %}
-          <div class="col-md-4 text-center portfolio-item">
+          <a href="{{item.url}}" target="blank" class="col-md-4 col-sm-6 text-center portfolio-item">
             <img src="{{item.logoUrl}}" class="img-responsive" alt="{{item.title}}" />
-            <p>
-              {{item.title}}
-            </p>
-          </div>
+            <div class="overlay">
+              <p>
+                {{item.title}}
+              </p>
+            </div>
+          </a>
         {% endfor %}
       </div>
     </div>
