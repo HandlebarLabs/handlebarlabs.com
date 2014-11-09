@@ -40,6 +40,13 @@ p {
   font-size: 40px;
 }
 
+.lead-text {
+  font-size: 50px;
+  margin: 20px 0 20px 0;
+  line-height: 0.9em;
+  letter-spacing: -0.05em;
+}
+
 /* BUTTONS */
 .btn {
   border-radius: 0;
@@ -52,7 +59,7 @@ p {
   background: @blue;
   border: @blue;
 
-  &:hover {
+  &:hover, &:active {
     background: @dark-blue;
     border: @dark-blue;
   }
@@ -61,7 +68,7 @@ p {
   background: @green;
   border: @green;
 
-  &:hover {
+  &:hover, &:active {
     background: @dark-green;
     border: @dark-green;
   }
