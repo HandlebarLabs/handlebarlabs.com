@@ -18,16 +18,10 @@ layout: portfolio
 
 <div class="container">
   <div class="row">
-    <div class="col-md-12 text-center">
-      <h1>Portfolio</h1>
-    </div>
-  </div>
-
-  <div class="row">
     <div class="col-md-10 col-md-offset-1">
       <div class="row">
         {% for item in site.data.portfolio.portfolio %}
-          <div class="col-md-6 text-center portfolio-item">
+          <div class="col-md-4 text-center portfolio-item">
             <img src="{{item.logoUrl}}" class="img-responsive" alt="{{item.title}}" />
             <p>
               {{item.title}}

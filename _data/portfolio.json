@@ -1,20 +1,69 @@
 {
   "portfolio": [
     {
-      "title": "Apple",
-      "logoUrl": "http://cf.juggle-images.com/matte/white/280x280/apple-1-logo-primary.jpg"
+      "title": "Granite America USA",
+      "logoUrl": "http://placehold.it/350x350&text=Granite America USA"
     },
     {
-      "title": "Ebay",
-      "logoUrl": "http://cf.juggle-images.com/matte/white/280x280/ebay-logo-primary.jpg"
+      "title": "From Lemons 2 Lemonade",
+      "logoUrl": "http://placehold.it/350x350&text=From Lemons 2 Lemonade"
     },
     {
-      "title": "Disney",
-      "logoUrl": "http://cf.juggle-images.com/matte/white/280x280/disney-logo-primary.jpg"
+      "title": "Clum Creative Media",
+      "logoUrl": "http://placehold.it/350x350&text=Clum Creative Media"
     },
     {
-      "title": "Samsung",
-      "logoUrl": "http://cf.juggle-images.com/matte/white/280x280/samsung-1-logo-primary.jpg"
+      "title": "TEDx Ohio State University",
+      "logoUrl": "http://placehold.it/350x350&text=TEDx Ohio State University"
+    },
+    {
+      "title" : "Blue Dove Orthotics",
+      "logoUrl": "http://placehold.it/350x350&text=Blue Dove Orthotics"
+    },
+    {
+      "title" : "Research and Portfolio Management",
+      "logoUrl": "http://placehold.it/350x350&text=Research and Portfolio Management"
+    }
+  ],
+  "private": [
+    {
+      "title" : "Columbus Cars and Coffee"
+    },
+    {
+      "title" : "Angels Restoration"
+    },
+    {
+      "title" : "Super Spinner"
+    },
+    {
+      "title" : "The Runner and The Therapist"
+    },
+    {
+      "title" : "The Woodford Inn"
+    },
+    {
+      "title" : "Queen City Angels"
+    },
+    {
+      "title" : "Stacy Tapke"
+    },
+    {
+      "title" : "Patton's Taxidermy"
+    },
+    {
+      "title" : "Stephanie Knapp"
+    },
+    {
+      "title" : "Bivouac Supply"
+    },
+    {
+      "title" : "Katchy"
+    },
+    {
+      "title" : "Papaflow"
+    },
+    {
+      "title" : "Ponziskeem"
     }
   ]
 }
