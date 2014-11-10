@@ -1,25 +1,25 @@
 {
   "services": [
     {
-      "name": "Test 1",
+      "name": "Digital Strategy",
       "icon": "fa-flag",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nunc eget nunc faucibus bibendum. Proin finibus justo eget aliquet congue. Suspendisse quis felis ut augue vulputate dapibus nec ut est."
+      "description": "Whether you're just starting your business or you're already established and looking to improve, we help businesses define and plan their next steps online. From no idea to an actionable plan, we help you all the way."
     },
     {
-      "name": "Test 2",
+      "name": "Web Design &amp; Development",
       "icon": "fa-bullhorn",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nunc eget nunc faucibus bibendum. Proin finibus justo eget aliquet congue. Suspendisse quis felis ut augue vulputate dapibus nec ut est."
+      "description": "Need to establish your brand online? Looking to reinvent your online image? Your website plays a critical role in the success of your mission. Allow us to help turn your dreams into a reality with a world class website."
     }
     ,
     {
-      "name": "Test 3",
+      "name": "Online Management",
       "icon": "fa-compass",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nunc eget nunc faucibus bibendum. Proin finibus justo eget aliquet congue. Suspendisse quis felis ut augue vulputate dapibus nec ut est."
+      "description": "Managing your online presence can be a daunting task. Countless social networks for your business can lead to distraction and lost productivty. Let professionals learn about your business and manage your online presence in the most effective way."
     },
     {
-      "name": "Test 4",
+      "name": "Online Growth",
       "icon": "fa-fighter-jet",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nunc eget nunc faucibus bibendum. Proin finibus justo eget aliquet congue. Suspendisse quis felis ut augue vulputate dapibus nec ut est."
+      "description": "Are you ready to take your business to the next step online? Have the budget to buy advertisements but don't know where to start? Want to generate warm leads via an email list? Make it as easy as possible for yourself and work with experts to get it done quickly and efficiently."
     }
   ]
 }
