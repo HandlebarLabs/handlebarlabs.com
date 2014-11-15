@@ -5,4 +5,4 @@ baseurl: "/"
 # Build settings
 markdown: kramdown
 # gems: ['jekyll-less']
-exclude: ['dploy.yaml']
+exclude: ['dploy.yaml', 'Gruntfile.js', 'package.json', 'README.md']
