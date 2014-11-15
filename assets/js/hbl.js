@@ -10,6 +10,13 @@ $(function() {
     return this;
   };
 
+  jQuery.fn.centerHeight = function () {
+    this.css("position","absolute");
+    this.css("top", Math.max(0, (($(window).height() - $(this).outerHeight()) / 2)) + "px");
+
+    return this;
+  };
+
   // Homepage
   // =========================================
   // Center hero unit
@@ -17,7 +24,7 @@ $(function() {
 
   // Center hero unit if page changes
   $(window).resize(function() {
-    $('.hero').center();
+    $('.hero').centerHeight();
   });
 
 
