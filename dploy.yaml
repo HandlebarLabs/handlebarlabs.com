@@ -1,0 +1,11 @@
+live:
+    scheme: sftp
+    host: 104.236.11.215
+    port: 22
+    user: root
+    pass: sNtVDKf69PLFpf
+    check: true
+    exclude: ["*.yaml", "*.md", ".rev"]
+    path:
+        local: _site/
+        remote: /var/www/handlebarlabs.com/public

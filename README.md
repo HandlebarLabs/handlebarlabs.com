@@ -8,4 +8,5 @@
 
 
 ### To Deploy
-- Upload to the _sites directory to server
+- Install [dploy](http://leanmeanfightingmachine.github.io/dploy/)
+- Run `dploy` in project root
