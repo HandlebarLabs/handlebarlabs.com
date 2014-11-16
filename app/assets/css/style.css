@@ -317,3 +317,6 @@ body.page-portfolio .portfolio-item p {
 .page-blog h3 {
   font-size: 2em;
 }
+html {
+  display: none;
+}

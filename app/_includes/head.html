@@ -4,13 +4,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{%     endif %}</title>
 
-  <!-- Bootstrap -->
-  <!-- <link href="assets/css/bootstrap.min.css" rel="stylesheet"> -->
-  <link rel="stylesheet" href="{{ "assets/css/bootstrap/bootstrap.min.css" | prepend: site.baseurl }}">
+  <!-- build:css({app,.tmp}) /assets/css/main.css -->
+    <!-- Bootstrap -->
+    <!-- <link href="assets/css/bootstrap.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="{{ "assets/css/bootstrap/bootstrap.min.css" | prepend: site.baseurl }}">
 
-  <!-- Custom -->
-  <!-- <link href="assets/css/style.css" rel="stylesheet"> -->
-  <link rel="stylesheet" href="{{ "assets/css/style.css" | prepend: site.baseurl }}">
+    <!-- Custom -->
+    <!-- <link href="assets/css/style.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="{{ "assets/css/style.css" | prepend: site.baseurl }}">
+  <!-- endbuild -->
 
   <!-- Font Awesome -->
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
