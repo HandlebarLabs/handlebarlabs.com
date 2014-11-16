@@ -1,8 +1,30 @@
-# Site Settings
-title: Handlebar Labs | Your Digital Partner
-baseurl: "/"
+# Jekyll configuration precedence:
+# 1. Gruntfile task
+# 2. config.build.yml
+# 3. config.yml
 
-# Build settings
-markdown: kramdown
-# gems: ['jekyll-less']
-exclude: ['dploy.yaml', 'Gruntfile.js', 'package.json', 'README.md']
+name: handlebarlabs
+description: 
+author:
+  name: Spencer Carli
+  email: spencercarli@gmail.com
+
+# Grunt handles images and assets.
+exclude: ['img', 'css', 'js', 'fonts',
+          '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico']
+
+include: ['.htaccess']
+
+# _config.build.yml sets future and show_drafts to false on `grunt build`
+future: true
+show_drafts: true
+
+permalink: pretty
+paginate: 3
+paginate_path: 'page:num'
+
+# Markdown library
+markdown: redcarpet
+#   extensions: ['fenced_code_blocks', 'smart']
+
+pygments: true
