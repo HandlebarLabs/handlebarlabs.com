@@ -3,8 +3,10 @@
 # 2. config.build.yml
 # 3. config.yml
 
+title: Handlebar Labs | Your Digital Partner
+
 name: handlebarlabs
-description: 
+description:
 author:
   name: Spencer Carli
   email: spencercarli@gmail.com
