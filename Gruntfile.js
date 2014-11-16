@@ -290,6 +290,22 @@ module.exports = function (grunt) {
       dist: [
         'copy:dist'
       ]
+    },
+    'sftp-deploy': {
+      build: {
+        auth: {
+          host: '104.236.11.215',
+          port: 22,
+          authKey: 'key1'
+        },
+        // cache: 'sftpCache.json',
+        src: 'dist',
+        dest: '/var/www/handlebarlabs.com/public/',
+        exclusions: [],
+        serverSep: '/',
+        concurrency: 4,
+        progress: true
+      }
     }
   });
 
@@ -343,7 +359,11 @@ module.exports = function (grunt) {
     'filerev',
     'usemin',
     'htmlmin'
-    ]);
+  ]);
+
+  grunt.registerTask('deploy', function() {
+    return grunt.task.run(['build', 'sftp-deploy']);
+  });
 
   grunt.registerTask('default', [
     'check',
