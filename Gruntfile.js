@@ -22,7 +22,7 @@ module.exports = function (grunt) {
     watch: {
       jekyll: {
         files: [
-          '<%= yeoman.app %>/**/*.{html,yml,md,mkd,markdown,json,yaml}',
+          '<%= yeoman.app %>/**/*.{html,yml,md,mkd,markdown,json,yaml,less,css}',
           '!<%= yeoman.app %>/_bower_components/**/*'
         ],
         tasks: ['jekyll:server']
@@ -164,6 +164,17 @@ module.exports = function (grunt) {
           src: '**/*.html',
           dest: '<%= yeoman.dist %>'
         }]
+      }
+    },
+    // less
+    less: {
+      compile: {
+        options: {
+          paths: ['<%= yeoman.app %>/assets/css']
+        },
+        files: {
+          "<%= yeoman.app %>/assets/css/style.css": "<%= yeoman.app %>/assets/css/style.less"
+        }
       }
     },
     // Usemin adds files to concat
