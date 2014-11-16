@@ -25,7 +25,7 @@ module.exports = function (grunt) {
           '<%= yeoman.app %>/**/*.{html,yml,md,mkd,markdown,json,yaml,less,css}',
           '!<%= yeoman.app %>/_bower_components/**/*'
         ],
-        tasks: ['jekyll:server']
+        tasks: ['less:compile','copy:stageCss','jekyll:server']
       },
       livereload: {
         options: {
