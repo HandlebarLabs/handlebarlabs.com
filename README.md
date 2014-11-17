@@ -1,12 +1,9 @@
 # Handlebar Labs Static Site
 
-### To get the site running locally...
+## Scaffolding by
+[jekyllrb](https://github.com/robwierzbowski/generator-jekyllrb)
 
-- Clone directory
-- Run `[sudo] gem install jekyll-less`
-- Run `jekyll serve -w`
-
-
-### To Deploy
-- Install [dploy](http://leanmeanfightingmachine.github.io/dploy/)
-- Run `dploy` in project root
+## Grunt Tasks
+- `grunt serve`
+- `grunt build`
+- `grunt deploy`
