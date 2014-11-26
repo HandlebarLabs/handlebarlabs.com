@@ -56,20 +56,34 @@ p {
 
 .btn-blue {
   background: @blue;
-  border: @blue;
+  border: none;
+  border-bottom: 3px solid @dark-blue;
+  .shadow(0px 1px 7px 0px rgba(0, 0, 0, 0.4));
 
-  &:hover, &:active {
+  &:hover {
+    background: @medium-blue;
+    border-bottom: 3px solid @dark-blue;
+  }
+
+  &:active {
     background: @dark-blue;
-    border: @dark-blue;
+    border-bottom: 3px solid @dark-blue;
   }
 }
 .btn-green {
   background: @green;
-  border: @green;
+  border: none;
+  border-bottom: 3px solid @dark-green;
+  .shadow(0px 1px 7px 0px rgba(0, 0, 0, 0.4));
 
-  &:hover, &:active {
+  &:hover {
+    background: @medium-green;
+    border-bottom: 3px solid @dark-green;
+  }
+
+  &:active {
     background: @dark-green;
-    border: @dark-green;
+    border-bottom: 3px solid @dark-green;
   }
 }
 
