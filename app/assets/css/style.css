@@ -1,6 +1,6 @@
 body {
-  font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
+  font-family: "Open Sans", sans-serif;
 }
 .green-bg {
   background: #1abc9c;
@@ -21,9 +21,26 @@ h4,
 h5,
 h6 {
   font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+}
+p,
+ul,
+ol,
+dl {
+  -webkit-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
+  -moz-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
+  -o-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
+  margin: 0 0 1.75em 0;
 }
 p {
   font-size: 17px !important;
+  letter-spacing: -0.01rem;
+  line-height: 1.85em;
+}
+h1 {
+  font-size: 5rem;
+  letter-spacing: -2px;
+  text-indent: -3px;
 }
 .text-heavy {
   font-weight: 700;
@@ -38,6 +55,10 @@ p {
   margin: 20px 0 20px 0;
   line-height: 1em;
   letter-spacing: -0.05em;
+}
+.mont-font {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.4em;
 }
 /* BUTTONS */
 .btn {
@@ -87,6 +108,7 @@ p {
   letter-spacing: -0.05em;
   border-bottom: 1px solid #2c3e4f;
   background: #34495e;
+  font-family: 'Montserrat', sans-serif;
 }
 .navbar-default .navbar-brand {
   font-weight: 800;
