@@ -32,7 +32,10 @@ dl {
   -o-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
   margin: 0 0 1.75em 0;
 }
-p {
+p,
+ul,
+ol,
+li {
   font-size: 17px !important;
   letter-spacing: -0.01rem;
   line-height: 1.85em;
