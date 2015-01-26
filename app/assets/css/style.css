@@ -318,11 +318,6 @@ body.page-home h3 {
 body.page-services .fa-circle {
   color: #34495e;
 }
-body.page-services .background {
-  background: #1abc9c;
-  color: white;
-  background: url(/assets/img/keyboard.png);
-}
 body.page-services .pad {
   padding: 60px 0;
 }
