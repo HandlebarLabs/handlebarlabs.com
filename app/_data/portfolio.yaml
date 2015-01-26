@@ -23,24 +23,28 @@ portfolio:
     title: "Research and Portfolio Management"
     logoUrl: "/assets/img/portfolio/rpmanagement.png"
     url: "http://rpmanagement.co/"
-    
+
 private:
   -
+    title: "EMCO Landscaping"
+    url: "http://emcolandscaping.com/"
+  -
     title: "Columbus Cars and Coffee"
+    url: "http://columbuscarsandcoffee.net/"
   -
     title: "Angels Restoration"
   -
     title: "Super Spinner"
   -
     title: "The Runner and The Therapist"
+    url: "http://timetotalkaboutmentalhealth.com/"
   -
     title: "The Woodford Inn"
   -
     title: "Queen City Angels"
   -
-    title: "Stacy Tapke"
-  -
     title: "Patton's Taxidermy"
+    url: "http://pattonstaxidermyshop.com/"
   -
     title: "Stephanie Knapp"
   -
@@ -51,3 +55,5 @@ private:
     title: "Papaflow"
   -
     title: "Ponziskeem"
+  -
+    title: "Stacy Tapke"
