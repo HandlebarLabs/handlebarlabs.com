@@ -250,3 +250,42 @@ h1 {
     margin-right: auto;
   }
 }
+
+/* TESTIMONIAL */
+.testimonial-margin {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.testimonial {
+  position:relative;
+  color: #666;
+  font-style:italic;
+  text-shadow:0 1px 0 #ECFBFF;
+  margin:0;
+  padding:10px 5px 10px 80px;
+  border-left: none;
+
+  &:before {
+    content: "\201C";
+    position: absolute;
+    font-size: 180px;
+    line-height: 1;
+    color: #C5C5C5;
+    font-style: normal;
+    top: -10px;
+    left: 10px;
+  }
+}
+
+.testimonial-author {
+  color: #666;
+  text-align:left;
+  margin:0 0 0 80px;
+
+  a {
+    font-size:12px;
+    color: @medium-green;
+    text-decoration: none;
+  }
+}
