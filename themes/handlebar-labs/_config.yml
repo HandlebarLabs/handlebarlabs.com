@@ -1,3 +1,8 @@
 # Header
 menu:
   Home: /
+
+# Less
+less:
+    paths:
+      - source/less
