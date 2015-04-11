@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="241px" height="241px" viewBox="0 0 241 241" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="50%" id="radialGradient-1">
+            <stop stop-color="#C2C2C2" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#919191" stop-opacity="0.5" offset="100%"></stop>
+        </radialGradient>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <circle id="path-3" cx="112.5" cy="112.5" r="112.5"></circle>
+    </defs>
+    <g id="Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop" sketch:type="MSArtboardGroup" transform="translate(-926.000000, -762.000000)">
+            <g id="Services" sketch:type="MSLayerGroup" transform="translate(0.000000, 620.000000)">
+                <g id="Marketing" transform="translate(885.000000, 148.000000)">
+                    <g id="Icon" transform="translate(49.000000, 0.000000)">
+                        <g id="Oval-1" filter="url(#filter-2)">
+                            <use fill="#1ABC9C" sketch:type="MSShapeGroup" xlink:href="#path-3"></use>
+                            <use fill-opacity="0.1" fill="url(#radialGradient-1)" xlink:href="#path-3"></use>
+                        </g>
+                        <g id="fa-check" transform="translate(51.923077, 65.934066)" fill="#FFFFFF" sketch:type="MSShapeGroup">
+                            <path d="M2.4299306,51.9473626 L41.1366975,90.6902198 C42.5261712,92.080989 44.3374494,92.7763736 46.4278629,92.7763736 C48.5182765,92.7763736 50.3233516,92.080989 51.7190283,90.6902198 L118.550231,23.7967033 C119.939705,22.2631319 120.634442,20.592967 120.634442,18.5006044 C120.634442,16.4082418 119.939705,14.5952747 118.550231,13.2045055 L107.967901,2.61230769 C106.572224,1.07873626 104.767149,0.383351648 102.676735,0.383351648 C100.586322,0.383351648 98.7750434,1.07873626 97.3855697,2.61230769 L46.4278629,53.6175275 L23.5945922,30.762967 C22.1989156,29.2293956 20.3938404,28.534011 18.3034268,28.534011 C16.2130133,28.534011 14.4017351,29.2293956 13.0122614,30.762967 L2.4299306,41.3551648 C1.04045691,42.7459341 0.339517062,44.5589011 0.339517062,46.6512637 C0.339517062,48.7436264 1.04045691,50.4137912 2.4299306,51.9473626" id="Fill-112"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
