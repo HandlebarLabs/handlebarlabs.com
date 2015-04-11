@@ -1,5 +1,6 @@
 @import '../variables.less';
 
+/* HERO */
 .hero {
   background: @brand-primary;
   background: url('/images/rock.png') no-repeat center center fixed;
@@ -20,7 +21,7 @@
   h2 {
     font-style: italic;
     font-size: 32px;
-    color: #FFFFFF;
+    color: @text-white;
     line-height: 43px;
     font-weight: 500;
     margin-top: 0;
@@ -33,6 +34,7 @@
   }
 }
 
+/* SERVICES */
 .services {
   padding: 100px 0;
 
@@ -45,4 +47,15 @@
     margin-top: 0;
     width: 275px;
   }
+}
+
+/* TESTIMONIAL */
+.testimonial {
+  padding: 100px 0;
+  background: @brand-primary;
+  background: url('/images/mountains.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
