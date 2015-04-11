@@ -2,10 +2,18 @@
 @import 'bootstrap-3.3.4/bootstrap.less';
 
 /* Components */
+@import 'components/buttons.less';
 @import 'components/navbar.less';
+
+/* Pages */
+@import 'pages/home.less';
 
 /* GLOBAL STYLES */
 body, html {
   -webkit-font-smoothing: antialiased;
   font-family: 'Roboto', sans-serif;
+}
+
+.margin-for-nav {
+  margin-top: @navbar-height;
 }
