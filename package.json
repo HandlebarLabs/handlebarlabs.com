@@ -19,6 +19,7 @@
   },
   "devDependencies": {
     "grunt": "^0.4.5",
+    "grunt-sftp-deploy": "^0.2.2",
     "grunt-shell": "^1.1.2"
   }
 }
