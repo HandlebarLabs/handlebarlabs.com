@@ -1,9 +1,7 @@
 # Header
 menu:
   Home: /
-  About: /
-  Blog: /
-  Contact: /
+  Contact: /#contact
 
 # Less
 less:
