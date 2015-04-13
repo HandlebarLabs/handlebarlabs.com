@@ -10,6 +10,12 @@ p, li, a {
 
 a {
   color: @brand-secondary;
+  text-decoration: none;
+
+  &:hover, &:active, &:focus {
+    text-decoration: none;
+    color: @brand-secondary;
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
