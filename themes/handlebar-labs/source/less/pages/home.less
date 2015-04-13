@@ -2,8 +2,7 @@
 
 /* HERO */
 .hero {
-  background: @brand-primary;
-  background: url('/images/rock.png') no-repeat center center fixed;
+  background: #343D4E url('/images/rock.png') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -37,6 +36,7 @@
 @media (max-width: @screen-sm-max) {
   .hero {
     padding: 50px 0 50px 0;
+    background-attachment: scroll;
   }
 }
 
@@ -60,7 +60,7 @@
     img {
       margin-top: 0;
     }
-    
+
     img.center-img {
       width: 225px;
     }
@@ -70,12 +70,17 @@
 /* TESTIMONIAL */
 .testimonial {
   padding: 100px 0;
-  background: @brand-primary;
-  background: url('/images/mountains.png') no-repeat center center fixed;
+  background: #7D7D87 url('/images/mountains.png') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+@media (max-width: @screen-sm-max) {
+  .testimonial {
+    background-attachment: scroll;
+  }
 }
 
 /* WWP */
@@ -86,8 +91,7 @@
 /* WHAT IS */
 .what-is {
   padding: 100px 0;
-  background: @brand-primary;
-  background: url('/images/wood-panel.png') no-repeat center center fixed;
+  background: #414654 url('/images/wood-panel.png') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -103,6 +107,12 @@
   }
 }
 
+@media (max-width: @screen-sm-max) {
+  .what-is {
+    background-attachment: scroll;
+  }
+}
+
 /* EXPERIENCE */
 .experience {
   padding: 100px 0;
@@ -111,8 +121,7 @@
 /* CONNECT */
 .connect {
   padding: 100px 0;
-  background: @brand-primary;
-  background: url('/images/sunrise.png') no-repeat center center fixed;
+  background: #212930 url('/images/sunrise.png') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -125,5 +134,11 @@
 
   .btn {
     padding: 5px 25px;
+  }
+}
+
+@media (max-width: @screen-sm-max) {
+  .connect {
+    background-attachment: scroll;
   }
 }
