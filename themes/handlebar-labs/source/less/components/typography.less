@@ -30,6 +30,17 @@ p.testimonial-text {
   font-size: 22px;
   color: @text-white;
   line-height: 28px;
+  z-index: 2;
+  position: relative;
+
+  &:before {
+    content: url(/svg/fa-quote-left.svg);
+    position: absolute;
+    color: rgba(51,73,94,0.30);
+    left: -20px;
+    top: -20px;
+    z-index: -1;
+  }
 }
 
 p.testimonial-by {
