@@ -2,10 +2,14 @@
 
 /* GENERAL */
 p, li, a {
-  font-weight: 400;
+  font-weight: 300;
   font-size: 21px;
-  color: @text-body;
+  color: @text-body-dark;
   line-height: 29px;
+}
+
+p {
+  margin-bottom: 25px;
 }
 
 a {
@@ -20,13 +24,34 @@ a {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 900;
-  color: @brand-primary;
+  color: @text-body-dark;
+  margin-bottom: 0.5em;
 }
 
-h2 {
-  font-size: 40px;
-  line-height: 53px;
-  margin-bottom: 20px;
+h1 { font-size: 3.5em; }
+h2 { font-size: 3.1em; }
+h3 { font-size: 2.7em; }
+h4 { font-size: 2.3em; }
+h5 { font-size: 1.9em; }
+h6 { font-size: 1.5em; }
+
+/* GENERAL - HOMEPAGE */
+.page-home {
+  p, li, a {
+    font-weight: 400;
+    color: @text-body;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 900;
+    color: @brand-primary;
+  }
+
+  h2 {
+    font-size: 40px;
+    line-height: 53px;
+    margin-bottom: 20px;
+  }
 }
 
 /* UNIQUE */

@@ -1,12 +1,13 @@
 title: "About"
 date: 2015-04-13 21:53:42
 ---
+<h1 class="text-center">About Handlebar Labs</h1>
 
 I’m Spencer. Last Summer I made the decision to drop out of College. I studied Computer Science, Business, and Entrepreneurship and was doing quite well. But none of it really had me interested, I felt the best way to learn was to go out and learn by doing.
 
 So I decided to take a leap. Over the last few months I’ve been building custom web applications for new technology startups. I love that work - it’s challenging and rewarding.
 
-I’ve lived different places among Columbus and, previously, Cincinnati. I’m a huge supporter of small businesses. The personalized touch the owners and employees give to the work they do draw me to them... and I love that I’m supporting the local community.
+I’ve [lived]() different places among Columbus and, previously, Cincinnati. I’m a huge supporter of small businesses. The personalized touch the owners and employees give to the work they do draw me to them... and I love that I’m supporting the local community.
 
 To find new businesses I search for what I’m looking for on Google and go to the places that show up on Google. It’s the fastest and most convenient way for me to find somewhere to do business.
 
