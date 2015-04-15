@@ -1,6 +1,6 @@
 {
-  "name": "hexo-site",
-  "version": "0.0.0",
+  "name": "handlebar-labs",
+  "version": "3.0.0",
   "private": true,
   "hexo": {
     "version": "3.0.1"
@@ -16,5 +16,10 @@
     "hexo-renderer-marked": "^0.2.4",
     "hexo-renderer-stylus": "^0.2.0",
     "hexo-server": "^0.1.2"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-sftp-deploy": "^0.2.2",
+    "grunt-shell": "^1.1.2"
   }
 }
