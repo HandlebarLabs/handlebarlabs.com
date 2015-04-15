@@ -1,0 +1,9 @@
+# Header
+menu:
+  Home: /
+  Contact: /#contact
+
+# Less
+less:
+    paths:
+      - source/less

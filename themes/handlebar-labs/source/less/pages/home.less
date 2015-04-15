@@ -1,0 +1,144 @@
+@import '../variables.less';
+
+/* HERO */
+.hero {
+  background: #343D4E url('/images/rock.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 270px 0 50px 0;
+
+  h1 {
+    font-weight: 900;
+    font-size: 64px;
+    color: @text-white;
+    line-height: 84px;
+    margin-bottom: 0px;
+  }
+
+  h2 {
+    font-style: italic;
+    font-size: 32px;
+    color: @text-white;
+    line-height: 43px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+
+  span.bold {
+    font-weight: 900;
+    font-style: normal;
+  }
+}
+
+@media (max-width: @screen-sm-max) {
+  .hero {
+    padding: 50px 0 50px 0;
+    background-attachment: scroll;
+  }
+}
+
+/* SERVICES */
+.services {
+  padding: 100px 0;
+
+  img {
+    width: 225px;
+    margin-top: 50px;
+  }
+
+  img.center-img {
+    margin-top: 0;
+    width: 275px;
+  }
+}
+
+@media (max-width: @screen-sm-max) {
+  .services {
+    img {
+      margin-top: 0;
+    }
+
+    img.center-img {
+      width: 225px;
+    }
+  }
+}
+
+/* TESTIMONIAL */
+.testimonial {
+  padding: 100px 0;
+  background: #7D7D87 url('/images/mountains.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@media (max-width: @screen-sm-max) {
+  .testimonial {
+    background-attachment: scroll;
+  }
+}
+
+/* WWP */
+.wounded-warrior-project {
+  padding: 100px 0;
+}
+
+/* WHAT IS */
+.what-is {
+  padding: 100px 0;
+  background: #414654 url('/images/wood-panel.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  h2 {
+    color: @text-white;
+    text-shadow: 0px 2px 4px rgba(0,0,0,0.50);
+  }
+
+  p {
+    color: rgba(255,255,255,0.90);
+  }
+}
+
+@media (max-width: @screen-sm-max) {
+  .what-is {
+    background-attachment: scroll;
+  }
+}
+
+/* EXPERIENCE */
+.experience {
+  padding: 100px 0;
+}
+
+/* CONNECT */
+.connect {
+  padding: 100px 0;
+  background: #212930 url('/images/sunrise.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  h2 {
+    color: @text-white;
+    text-shadow: 0px 2px 4px rgba(0,0,0,0.50);
+  }
+
+  .btn {
+    padding: 5px 25px;
+  }
+}
+
+@media (max-width: @screen-sm-max) {
+  .connect {
+    background-attachment: scroll;
+  }
+}
