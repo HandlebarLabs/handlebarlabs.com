@@ -1,4 +1,4 @@
-title: "about"
+title: "About | Handlebar Labs"
 date: 2015-04-15 09:26:18
 ---
 <h1 class="text-center">About Handlebar Labs</h1>
