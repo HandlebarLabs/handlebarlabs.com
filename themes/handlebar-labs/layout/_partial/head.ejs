@@ -9,6 +9,9 @@
     }
 
     var description = config.description;
+    if (page.description) {
+      description = page.description;
+    }
   %>
 
   <title><%= title %></title>

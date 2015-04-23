@@ -1,11 +1,9 @@
-title: "Easy Websites for Custom Goods Makers"
+title: "Easy Websites for Handcrafted Goods"
 date: 2015-04-23 10:18:06
+description: If you make custom handcrafted goods and are looking to create a website look no further. We have the perfect solution for you.
 ---
-<!-- # Custom Goods Maker and Need a Website?
-## Quickly and easily create your website. -->
-
 <div class="text-center">
-<h1>Custom Goods Maker and Need a Website?</h1><h2>Quickly and easily create your website.</h2>
+<h1>Do You Make Handcrafted Goods and Need a Website?</h1><h2>Quickly and easily create yours.</h2>
 </div>
 
 
@@ -57,9 +55,15 @@ Our pricing starts at $30 per month + $200 initial set up fee. This includes web
 _BONUS:_ We're just getting started and want to learn from you. If you sign up today we'll wave the initial set up fee. Then having your own website will only cost _$30 per month._
 
 ### How do I sign up?
-We're not currently accepting new clients at this time. But we do want to hear from you. Leave us your email address below and we'll notify you as soon we're ready for you. And of course you'll get the _$200 initial set up fee waved_ by leaving your email address.
+We're not currently accepting new clients at this time. But we do want to hear from you. Leave us your email address below and we'll notify you as soon we're ready for you. And of course you'll get the _$200 initial set up fee waved_ by leaving your email address. If you have any questions please email us, hello@handlebarlabs.com.
+<link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
 <div class="text-center"><div id="mc_embed_signup"><form action="//handlebarlabs.us10.list-manage.com/subscribe/post?u=75b2bc7741c51c5cc14952add&amp;id=5443dd6b89" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate><div id="mc_embed_signup_scroll">
-	<input type="email" value="" name="EMAIL" class="email form-control" id="mce-EMAIL" placeholder="Email Address" required>
+	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email Address" required>
     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
     <div style="position: absolute; left: -5000px;"><input type="text" name="b_75b2bc7741c51c5cc14952add_5443dd6b89" tabindex="-1" value=""></div><div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-green"></div>
     </div>
