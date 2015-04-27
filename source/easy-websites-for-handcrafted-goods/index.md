@@ -44,7 +44,7 @@ Just like the ease of updating your website, we make it quick to get your websit
 **Support**
 We'll guide you every step of the way. Whether you're moving an existing website over or starting a brand new one we will help get your domain set up. Once online we'll answer any questions you have and update your site as we go.
 
-Also, once your a customer you get free access to all new standard features. Even if prices rise you'll be locked into the price you signed up at. _And still have access to every new feature._
+Also, once you're a customer you get free access to all new standard features. Even if prices are raised you'll be locked into the price you signed up at. _And still have access to every new feature._
 
 **Security**
 This is what we do. We build websites. We understand and stay up to date with the latest in web security. You'll never have to worry about updating your site or keeping hackers from getting access to it. We'll handle all of that for you. _At no extra cost._
@@ -55,7 +55,7 @@ Our pricing starts at $30 per month + $200 initial set up fee. This includes web
 _BONUS:_ We're just getting started and want to learn from you. If you sign up today we'll wave the initial set up fee. Then having your own website will only cost _$30 per month._
 
 ### How do I sign up?
-We're not currently accepting new clients at this time. But we do want to hear from you. Leave us your email address below and we'll notify you as soon we're ready for you. And of course you'll get the _$200 initial set up fee waved_ by leaving your email address. If you have any questions please email us, hello@handlebarlabs.com.
+We're working to make this the best possible experience for our clients. By leaving your email address below you'll get the _$200 initial set up fee waved_ and be contacted to get the process moving. If you have any questions please email us, hello@handlebarlabs.com.
 <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
 <style type="text/css">
 	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
@@ -63,9 +63,7 @@ We're not currently accepting new clients at this time. But we do want to hear f
 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 </style>
 <div class="text-center"><div id="mc_embed_signup"><form action="//handlebarlabs.us10.list-manage.com/subscribe/post?u=75b2bc7741c51c5cc14952add&amp;id=5443dd6b89" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate><div id="mc_embed_signup_scroll">
-	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email Address" required>
-    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-    <div style="position: absolute; left: -5000px;"><input type="text" name="b_75b2bc7741c51c5cc14952add_5443dd6b89" tabindex="-1" value=""></div><div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-green"></div>
+	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email Address" required><!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups--><div style="position: absolute; left: -5000px;"><input type="text" name="b_75b2bc7741c51c5cc14952add_5443dd6b89" tabindex="-1" value=""></div><div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-green"></div>
     </div>
 </form>
 </div>
