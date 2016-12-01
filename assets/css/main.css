@@ -294,13 +294,20 @@ header {
 }
 
 .header-info {
-  position: absolute;
+  /*position: absolute;
   bottom: 0;
   width: 100%;
   left: 0;
   right: 0;
   margin-left: 0px;
-  margin-bottom: 25%;
+  margin-bottom: 25%;*/
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
 }
 
 .signin {
