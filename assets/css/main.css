@@ -293,6 +293,14 @@ header {
   -o-background-size: cover;
 }
 
+.header-background-basic {
+  width: 100%;
+  padding: 20px 10px 60px 10px;
+  height: 100vh;
+  overflow: hidden;
+  background: #f0ede5;
+}
+
 .header-info {
   /*position: absolute;
   bottom: 0;
