@@ -4,9 +4,11 @@ import React from 'react'
 import Script from 'react-load-script'
 
 const SecondPage = () => (
-  <div>
-    <div id="_ck_173462"></div>
-    <Script url="https://forms.convertkit.com/173462?v=6" />
+  <div className="email-list-background">
+    <div className="email-list-content">
+      <div id="_ck_173462"></div>
+      <Script url="https://forms.convertkit.com/173462?v=6" />
+    </div>
   </div>
 );
 

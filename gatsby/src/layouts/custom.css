@@ -23,6 +23,8 @@ h1, h2, h3, h4, h5, h6, p, a, li {
   color: #ffffff;
 }
 
+/* HOMEPAGE */
+
 .homepage {
   height: 100vh;
   background-image: radial-gradient(
@@ -80,4 +82,23 @@ h1, h2, h3, h4, h5, h6, p, a, li {
     width: 100%;
     margin: 10px 0px;
   }
+}
+
+/* EMAIL LIST */
+.email-list-background {
+  width: 100%;
+  padding: 20px;
+  height: 100vh;
+  overflow: hidden;
+  background: #f0ede5;
+}
+
+.email-list-content {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  flex: 1;
+  justify-content: center;
 }
