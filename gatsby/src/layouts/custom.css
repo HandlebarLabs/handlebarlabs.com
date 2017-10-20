@@ -1,0 +1,83 @@
+@import url('http://fonts.googleapis.com/css?family=Montserrat:200,400,700');
+
+h1, h2, h3, h4, h5, h6, p, a, li {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn {
+  background-color: #ffffff;
+  color: #231f20;
+  font-size: 13px;
+  line-height: 1.33;
+  padding: 22px 30px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  border: none;
+  text-decoration: none;
+}
+
+.btn-alt {
+  background-color: #70cbce;
+  color: #ffffff;
+}
+
+.homepage {
+  height: 100vh;
+  background-image: radial-gradient(
+    circle,
+    #8192a2,
+    #738290
+  );
+}
+
+.homepage-content {
+  position: relative;
+  height: 100%;
+  z-index: 2;
+  text-align: center;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.homepage-content h1 {
+  font-size: 55px;
+  line-height: 55px;
+  letter-spacing: -1px;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.homepage-content p {
+  font-size: 21px;
+  line-height: 26px;
+  color: #ffffff;
+  font-weight: 200;
+}
+
+.homepage-content .btn-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.homepage-content .btn {
+  margin: 0px 20px;
+}
+
+@media (max-width: 900px) {
+  .homepage-content .btn-row {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .homepage-content .btn {
+    max-width: 400px;
+    width: 100%;
+    margin: 10px 0px;
+  }
+}

@@ -1,12 +1,19 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
+import BackgroundImage from '../assets/header-bg.jpg';
+
 const IndexPage = () => (
-  <div>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <Link to="/page-2/">Go to page 2</Link>
+  <div className="homepage">
+    <div className="homepage-content">
+      <h1>Learn React Native</h1>
+      <p>High Quality Online React Native Training Resources</p>
+      <div className="btn-row">
+        <a className="btn" href="https://medium.com/@spencer_carli">Tutorials</a>
+        <a className="btn btn-alt" href="https://learn.handlebarlabs.com">Courses</a>
+        <a className="btn" href="/m/email-list/">Email List</a>
+      </div>
+    </div>
   </div>
 )
 
