@@ -1,8 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-import BackgroundImage from '../assets/header-bg.jpg';
-
 const IndexPage = () => (
   <div className="homepage">
     <div className="homepage-content">
