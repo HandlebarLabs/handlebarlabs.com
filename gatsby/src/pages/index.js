@@ -13,9 +13,9 @@ const IndexPage = () => (
         <a className="btn btn-alt" href="https://learn.handlebarlabs.com">
           Courses
         </a>
-        <a className="btn" href="/m/email-list/">
+        <Link className="btn" to="/m/email-list/">
           Email List
-        </a>
+        </Link>
       </div>
     </div>
   </div>

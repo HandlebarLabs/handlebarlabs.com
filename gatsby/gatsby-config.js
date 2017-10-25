@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
+    title: `Learn React Native | Handlebar Labs`,
   },
   plugins: [`gatsby-plugin-react-helmet`],
 }
