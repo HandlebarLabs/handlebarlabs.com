@@ -40,17 +40,21 @@ const TemplateWrapper = ({ children }) => (
     <Helmet
       title="Learn React Native | Handlebar Labs"
       meta={[
-        { name: 'description', content: 'High Quality Online React Native Training Resources' },
-        { name: 'keywords', content: 'react native, react, mobile development, training' },
+        {
+          name: 'description',
+          content: 'High Quality Online React Native Training Resources',
+        },
+        {
+          name: 'keywords',
+          content: 'react native, react, mobile development, training',
+        },
       ]}
       link={[
         { rel: 'icon', href: '/static/favicon.png' },
         { rel: 'shortcut icon', href: '/static/favicon.png' },
       ]}
     />
-    <div>
-      {children()}
-    </div>
+    <div>{children()}</div>
   </div>
 )
 
