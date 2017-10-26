@@ -1,13 +1,13 @@
-Jekyll based
+# gatsby-starter-default
+The default Gatsby starter
 
-## Development
+For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/)
 
-`bundle exec jekyll serve`
+Install this starter (assuming Gatsby is installed) by running from your CLI:
+```
+gatsby new gatsby-example-site
+```
 
-`jekyll build`
+## Deploy
 
-## Deployment
-
-Using [s3_website](https://github.com/laurilehmijoki/s3_website).
-
-`s3_website push`
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
