@@ -19,9 +19,12 @@
     "develop": "gatsby develop",
     "serve": "gatsby serve",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "upload-s3": "s3-deploy './public/**' --cwd './public/' --region us-east-1 --bucket www.handlebarlabs.com --profile handlebarlabsS3",
+    "deploy": "yarn run build && yarn run upload-s3"
   },
   "devDependencies": {
-    "prettier": "^1.7.4"
+    "prettier": "^1.7.4",
+    "s3-deploy": "^0.7.5"
   }
 }
