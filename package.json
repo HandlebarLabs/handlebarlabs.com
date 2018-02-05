@@ -18,7 +18,7 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "serve": "gatsby serve",
-    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js'",
+    "format": "prettier --trailing-comma es5 --single-quote --write 'src/**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1",
     "upload-s3": "s3-deploy './public/**' --cwd './public/' --region us-east-1 --bucket www.handlebarlabs.com --profile handlebarlabsS3",
     "deploy": "yarn run build && yarn run upload-s3"

@@ -1,2 +1,2 @@
-import Comp from './m/react-native'
-export default Comp
+import Comp from './m/react-native';
+export default Comp;

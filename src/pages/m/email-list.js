@@ -1,7 +1,7 @@
 // TODO: Add redirect from /email-list/
 
-import React from 'react'
-import Script from 'react-load-script'
+import React from 'react';
+import Script from 'react-load-script';
 
 export default class extends React.Component {
   render() {
@@ -12,6 +12,6 @@ export default class extends React.Component {
           <Script url="https://forms.convertkit.com/133004?v=6" />
         </div>
       </div>
-    )
+    );
   }
 }

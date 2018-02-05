@@ -1,5 +1,5 @@
-import React from 'react'
-import Script from 'react-load-script'
+import React from 'react';
+import Script from 'react-load-script';
 
 const SecondPage = () => (
   <div className="email-list-background">
@@ -8,6 +8,6 @@ const SecondPage = () => (
       <Script url="https://forms.convertkit.com/281271?v=6" />
     </div>
   </div>
-)
+);
 
-export default SecondPage
+export default SecondPage;
