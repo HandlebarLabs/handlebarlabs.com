@@ -1,11 +1,11 @@
-import React from 'react';
-import Link from 'gatsby-link';
+import React from "react";
+import Link from "gatsby-link";
 
 const IndexPage = () => (
   <div className="homepage">
     <div className="homepage-content">
       <h1>Learn React Native</h1>
-      <p>High Quality Online React Native Training Resources</p>
+      <p>Professional React Native Training</p>
       <div className="btn-row">
         <a className="btn" href="https://medium.com/@spencer_carli">
           Tutorials
@@ -17,6 +17,7 @@ const IndexPage = () => (
           Email List
         </Link>
       </div>
+      <p className="small">hello@handlebarlabs.com</p>
     </div>
   </div>
 );

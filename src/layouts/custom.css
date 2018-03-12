@@ -1,7 +1,15 @@
-@import url('http://fonts.googleapis.com/css?family=Montserrat:200,400,700');
+@import url("https://fonts.googleapis.com/css?family=Raleway:200,400,800");
 
-h1, h2, h3, h4, h5, h6, p, a, li {
-  font-family: 'Montserrat', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+li {
+  font-family: "Raleway", sans-serif;
 }
 
 .btn {
@@ -27,11 +35,7 @@ h1, h2, h3, h4, h5, h6, p, a, li {
 
 .homepage {
   height: 100vh;
-  background-image: radial-gradient(
-    circle,
-    #8192a2,
-    #738290
-  );
+  background-image: radial-gradient(circle, #8192a2, #738290);
 }
 
 .homepage-content {
@@ -49,7 +53,6 @@ h1, h2, h3, h4, h5, h6, p, a, li {
 .homepage-content h1 {
   font-size: 55px;
   line-height: 55px;
-  letter-spacing: -1px;
   color: #ffffff;
   font-weight: 700;
 }
@@ -65,10 +68,15 @@ h1, h2, h3, h4, h5, h6, p, a, li {
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-bottom: 30px;
 }
 
 .homepage-content .btn {
   margin: 0px 20px;
+}
+
+.homepage-content .small {
+  font-size: 18px;
 }
 
 @media (max-width: 900px) {
