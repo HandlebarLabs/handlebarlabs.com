@@ -5,6 +5,7 @@ import Helmet from 'react-helmet';
 
 import './index.css';
 import './custom.css';
+import favicon from '../images/favicon.png';
 
 const TemplateWrapper = ({ children }) => (
   <div>
@@ -21,8 +22,8 @@ const TemplateWrapper = ({ children }) => (
         },
       ]}
       link={[
-        { rel: 'icon', href: '/static/favicon.png' },
-        { rel: 'shortcut icon', href: '/static/favicon.png' },
+        { rel: 'icon', href: favicon },
+        { rel: 'shortcut icon', href: favicon },
       ]}
     />
     <div>{children()}</div>
