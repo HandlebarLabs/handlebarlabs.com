@@ -9,7 +9,7 @@ export default class extends React.Component {
       <div className="email-list-background">
         <div className="email-list-content">
           <div id="_ck_133004" />
-          <Script url="https://forms.convertkit.com/133004?v=6" />
+          <Script url="https://forms.convertkit.com/133004?v=7" />
         </div>
       </div>
     );
