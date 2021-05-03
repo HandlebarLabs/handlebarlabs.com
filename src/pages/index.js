@@ -4,20 +4,13 @@ import Link from "gatsby-link";
 const IndexPage = () => (
   <div className="homepage">
     <div className="homepage-content">
-      <h1>Learn React Native</h1>
-      <p>Professional React Native Training</p>
+      <h1>React Native Training & Consulting</h1>
       <div className="btn-row">
-        <a className="btn" href="https://medium.com/@spencer_carli">
-          Tutorials
+        <a className="btn btn-alt" href="https://www.reactnativeschool.com">
+          React Native School
         </a>
-        <a className="btn btn-alt" href="https://learn.handlebarlabs.com">
-          Courses
-        </a>
-        <Link className="btn" to="/m/email-list/">
-          Email List
-        </Link>
+        <p className="small">hello@handlebarlabs.com</p>
       </div>
-      <p className="small">hello@handlebarlabs.com</p>
     </div>
   </div>
 );
