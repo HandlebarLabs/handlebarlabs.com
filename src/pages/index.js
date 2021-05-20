@@ -1,5 +1,5 @@
-import React from "react"
-import { Link, graphql } from "gatsby"
+import React from 'react';
+import { Link, graphql } from 'gatsby';
 
 export default function Home({ data }) {
   return (
@@ -22,7 +22,7 @@ export default function Home({ data }) {
         ))}
       </ul>
     </>
-  )
+  );
 }
 
 export const query = graphql`
@@ -57,4 +57,4 @@ export const query = graphql`
       }
     }
   }
-`
+`;

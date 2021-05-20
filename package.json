@@ -8,6 +8,7 @@
     "build": "gatsby build",
     "dev": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "lint": "eslint .",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
@@ -21,6 +22,10 @@
     "react-dom": "^17.0.1"
   },
   "devDependencies": {
+    "eslint": "^7.26.0",
+    "eslint-config-handlebarlabs": "^0.0.6",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
     "prettier": "2.2.1"
   },
   "repository": {

@@ -1,19 +1,19 @@
-const { createFilePath } = require(`gatsby-source-filesystem`)
-const path = require(`path`)
+const { createFilePath } = require(`gatsby-source-filesystem`);
+const path = require(`path`);
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
-  const { createNodeField } = actions
+  const { createNodeField } = actions;
   if (node.internal.type === `MarkdownRemark`) {
-    let slug
+    let slug;
     // Creates slug for products
-    if (node.fileAbsolutePath.includes("content/products")) {
+    if (node.fileAbsolutePath.includes('content/products')) {
       // basePath removes products/ from the slug
-      slug = createFilePath({ node, getNode, basePath: `products/` })
+      slug = createFilePath({ node, getNode, basePath: `products/` });
     }
 
-    if (node.fileAbsolutePath.includes("content/blog")) {
+    if (node.fileAbsolutePath.includes('content/blog')) {
       // basePath removes products/ from the slug
-      slug = createFilePath({ node, getNode, basePath: `blog/` })
+      slug = createFilePath({ node, getNode, basePath: `blog/` });
     }
 
     if (slug) {
@@ -21,10 +21,10 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
         node,
         name: `slug`,
         value: slug,
-      })
+      });
     }
   }
-}
+};
 
 const createProductPages = async ({ graphql, actions }) => {
   const products = await graphql(`
@@ -41,10 +41,10 @@ const createProductPages = async ({ graphql, actions }) => {
         }
       }
     }
-  `)
+  `);
 
   products.data.allMarkdownRemark.edges.forEach(({ node }) => {
-    const { createPage } = actions
+    const { createPage } = actions;
 
     createPage({
       path: node.fields.slug,
@@ -52,9 +52,9 @@ const createProductPages = async ({ graphql, actions }) => {
       context: {
         slug: node.fields.slug,
       },
-    })
-  })
-}
+    });
+  });
+};
 
 const createBlogPosts = async ({ graphql, actions }) => {
   const posts = await graphql(`
@@ -71,10 +71,10 @@ const createBlogPosts = async ({ graphql, actions }) => {
         }
       }
     }
-  `)
+  `);
 
   posts.data.allMarkdownRemark.edges.forEach(({ node }) => {
-    const { createPage } = actions
+    const { createPage } = actions;
 
     createPage({
       path: node.fields.slug,
@@ -82,11 +82,11 @@ const createBlogPosts = async ({ graphql, actions }) => {
       context: {
         slug: node.fields.slug,
       },
-    })
-  })
-}
+    });
+  });
+};
 
 exports.createPages = async ({ graphql, actions }) => {
-  await createProductPages({ graphql, actions })
-  await createBlogPosts({ graphql, actions })
-}
+  await createProductPages({ graphql, actions });
+  await createBlogPosts({ graphql, actions });
+};
