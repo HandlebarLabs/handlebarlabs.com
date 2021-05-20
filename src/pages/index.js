@@ -6,9 +6,18 @@ export default function Home({ data }) {
     <>
       <h2>Products</h2>
       <ul>
-        {data.allMarkdownRemark.edges.map(({ node }) => (
+        {data.products.edges.map(({ node }) => (
           <li key={node.id}>
             <Link to={node.fields.slug}>{node.frontmatter.name}</Link>
+          </li>
+        ))}
+      </ul>
+
+      <h2>Blog</h2>
+      <ul>
+        {data.blog.edges.map(({ node }) => (
+          <li key={node.id}>
+            <Link to={node.fields.slug}>{node.frontmatter.title}</Link>
           </li>
         ))}
       </ul>
@@ -18,11 +27,28 @@ export default function Home({ data }) {
 
 export const query = graphql`
   query {
-    allMarkdownRemark {
+    products: allMarkdownRemark(
+      filter: { fileAbsolutePath: { regex: "content/products/" } }
+    ) {
       edges {
         node {
           frontmatter {
             name
+          }
+          fields {
+            slug
+          }
+        }
+      }
+    }
+
+    blog: allMarkdownRemark(
+      filter: { fileAbsolutePath: { regex: "content/blog/" } }
+    ) {
+      edges {
+        node {
+          frontmatter {
+            title
           }
           fields {
             slug

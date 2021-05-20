@@ -1,18 +1,18 @@
 import React from "react"
 import { graphql } from "gatsby"
 
-const ProductTemplate = ({ data }) => {
-  const product = data.markdownRemark
+const BlogPostTemplate = ({ data }) => {
+  const post = data.markdownRemark
 
   return (
     <div>
-      <h1>{product.frontmatter.name}</h1>
-      <div dangerouslySetInnerHTML={{ __html: product.html }} />
+      <h1>{post.frontmatter.title}</h1>
+      <div dangerouslySetInnerHTML={{ __html: post.html }} />
     </div>
   )
 }
 
-export default ProductTemplate
+export default BlogPostTemplate
 
 export const query = graphql`
   query($slug: String!) {
