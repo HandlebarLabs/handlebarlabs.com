@@ -3,8 +3,10 @@ import { Link, graphql } from 'gatsby';
 
 export default function Home({ data }) {
   return (
-    <>
-      <h2>Products</h2>
+    <div className="container mx-auto px-8 max-w-screen-md content">
+      <h2 className="text-3xl font-semibold leading-tight pt-8 pb-2 text-gray-800">
+        Products
+      </h2>
       <ul>
         {data.products.edges.map(({ node }) => (
           <li key={node.id}>
@@ -13,7 +15,9 @@ export default function Home({ data }) {
         ))}
       </ul>
 
-      <h2>Blog</h2>
+      <h2 className="text-3xl font-semibold leading-tight pt-8 pb-2 text-gray-800">
+        Blog
+      </h2>
       <ul>
         {data.blog.edges.map(({ node }) => (
           <li key={node.id}>
@@ -21,7 +25,7 @@ export default function Home({ data }) {
           </li>
         ))}
       </ul>
-    </>
+    </div>
   );
 }
 
