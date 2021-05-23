@@ -7,16 +7,16 @@ export default function Home({ data }) {
       <h2 className="text-3xl font-semibold leading-tight pt-8 pb-2 text-gray-800">
         Products
       </h2>
-      <div className="grid grid-cols-4 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         {data.products.edges.map(({ node }) => (
           <Link key={node.id} to={node.fields.slug}>
-            <div className="max-w-sm rounded overflow-hidden shadow-lg">
+            <div className="max-w-md h-full rounded overflow-hidden shadow-lg flex flex-col">
               <img
-                className="w-full h-36 object-cover"
+                className="w-full h-48 object-cover"
                 src={node.frontmatter.logo.publicURL}
                 alt={`${node.frontmatter.name} Logo`}
               />
-              <div className="px-6 py-4">
+              <div className="px-6 py-4 flex-1">
                 <div className="font-bold text-xl mb-2">
                   {node.frontmatter.name}
                 </div>
