@@ -1,33 +1,23 @@
 import React from 'react';
 import { Link, graphql } from 'gatsby';
 
+import { Card } from '../components/Card';
+
 export default function Home({ data }) {
   return (
     <div className="container mx-auto px-8 py-6">
       <h2 className="text-3xl font-semibold leading-tight pt-8 pb-2 text-gray-800">
         Products
       </h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         {data.products.edges.map(({ node }) => (
           <Link key={node.id} to={node.fields.slug}>
-            <div className="max-w-md h-full rounded overflow-hidden shadow-lg flex flex-col">
-              <img
-                className="w-full h-48 object-cover"
-                src={node.frontmatter.logo.publicURL}
-                alt={`${node.frontmatter.name} Logo`}
-              />
-              <div className="px-6 py-4 flex-1">
-                <div className="font-bold text-xl mb-2">
-                  {node.frontmatter.name}
-                </div>
-                <p className="text-gray-700 text-base">{node.excerpt}</p>
-              </div>
-              <div className="px-6 pt-4 pb-2">
-                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                  {node.frontmatter.status}
-                </span>
-              </div>
-            </div>
+            <Card
+              name={node.frontmatter.name}
+              image={node.frontmatter.logo.publicURL}
+              excerpt={node.excerpt}
+              status={node.frontmatter.status}
+            />
           </Link>
         ))}
       </div>
