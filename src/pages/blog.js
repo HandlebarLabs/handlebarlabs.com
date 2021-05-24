@@ -1,20 +1,19 @@
 import React from 'react';
-import { Link, graphql } from 'gatsby';
+import { graphql } from 'gatsby';
 
 import ContentLayout from '../layouts/Content';
+import ProjectItem from '../components/ProjectItem';
 
 const Blog = ({ data }) => {
   return (
     <ContentLayout>
       {data.blog.edges.map(({ node }) => (
-        <Link key={node.id} to={node.fields.slug}>
-          <div className="mb-10">
-            <h2 className="text-2xl font-semibold mb-2">
-              {node.frontmatter.title}
-            </h2>
-            <p className="">{node.excerpt}</p>
-          </div>
-        </Link>
+        <ProjectItem
+          key={node.id}
+          slug={node.fields.slug}
+          name={node.frontmatter.title}
+          caption={node.excerpt}
+        />
       ))}
     </ContentLayout>
   );
@@ -25,7 +24,11 @@ export default Blog;
 export const query = graphql`
   query {
     blog: allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "content/blog/" } }
+      filter: {
+        fileAbsolutePath: { regex: "content/blog/" }
+        frontmatter: { published: { eq: true } }
+      }
+      sort: { fields: frontmatter___updated, order: DESC }
     ) {
       edges {
         node {

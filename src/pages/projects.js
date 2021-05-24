@@ -26,25 +26,12 @@ const Projects = ({ data }) => {
     data.products.edges,
     ({ node }) => node.frontmatter.status,
   );
-  console.log('groups', groups);
+
   return (
     <ContentLayout>
       <DataGroup title="Active Projects" data={groups.Active} />
       <DataGroup title="Projects on Hold" data={groups.Hold} />
       <DataGroup title="Sunset Projects" data={groups.Sunset} />
-      {/* <h2 className="text-3xl font-semibold mb-6 text-gray-800">
-        Active Projects
-      </h2>
-
-      {data.products.edges.map(({ node }) => (
-        <ProjectItem
-          key={node.fields.slug}
-          slug={node.fields.slug}
-          imageUrl={node.frontmatter.logo.publicURL}
-          name={node.frontmatter.name}
-          caption={node.excerpt}
-        />
-      ))} */}
     </ContentLayout>
   );
 };

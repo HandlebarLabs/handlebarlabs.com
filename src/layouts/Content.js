@@ -22,7 +22,7 @@ const Content = ({ children, leftContent = null, rightContent = null }) => {
           <Link to="/" className="text-3xl font-bold text-gray-800">
             <img
               src={logo}
-              className="w-12 h-12 rounded-full mb-5"
+              className="w-12 h-12 rounded-full mb-3"
               alt="Handlebar Labs Logo"
             />
             Handlebar Labs

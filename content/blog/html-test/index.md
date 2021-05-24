@@ -1,5 +1,7 @@
 ---
 title: 'HTML Test'
+updated: 2021-05-24
+published: true
 ---
 
 # h1 Heading 8-)
