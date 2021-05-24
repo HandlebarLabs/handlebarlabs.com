@@ -7,7 +7,7 @@ import ProjectItem from '../components/ProjectItem';
 
 const DataGroup = ({ title, data = [] }) => (
   <div className="mb-20">
-    <h2 className="text-3xl font-semibold mb-6 text-gray-800">{title}</h2>
+    <h2 className="text-2xl font-semibold mb-6 text-gray-700">{title}</h2>
 
     {data.map(({ node }) => (
       <ProjectItem

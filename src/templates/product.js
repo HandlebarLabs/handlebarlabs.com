@@ -23,7 +23,8 @@ const ProductTemplate = ({ data }) => {
       <h1 className="font-bold text-4xl leading-none text-gray-800 mb-0">
         {product.frontmatter.name}
       </h1>
-      <div className="prose">
+
+      <div className="prose prose-indigo lg:prose-lg">
         <div dangerouslySetInnerHTML={{ __html: product.html }} />
       </div>
     </ContentLayout>

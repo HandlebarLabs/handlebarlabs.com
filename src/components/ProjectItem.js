@@ -12,8 +12,8 @@ const ProjectItem = ({ slug, imageUrl, name, caption }) => (
         />
       )}
       <div>
-        <h2 className="text-2xl font-semibold mb-2">{name}</h2>
-        <p>{caption}</p>
+        <h2 className="text-2xl text-gray-900 font-bold mb-1">{name}</h2>
+        <p className="text-gray-700">{caption}</p>
       </div>
     </div>
   </Link>
