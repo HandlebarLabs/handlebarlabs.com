@@ -12,7 +12,11 @@ const Home = ({ data }) => {
         title="Handlebar Labs | Software & Information Product Development"
         description="Handlebar Labs builds software and information products."
       />
-      {/* TODO: Quick HBL description. Pull from markdown */}
+
+      <div className="prose prose-indigo lg:prose-lg -mt-6 mb-12">
+        <div dangerouslySetInnerHTML={{ __html: data.content.html }} />
+      </div>
+
       <h2 className="text-3xl font-semibold mb-6 text-gray-800">
         Active Projects
       </h2>
@@ -31,9 +35,12 @@ const Home = ({ data }) => {
 
 export default Home;
 
-// TODO: just get active projects
 export const query = graphql`
   query {
+    content: markdownRemark(fileAbsolutePath: { regex: "/pages/index/g" }) {
+      html
+    }
+
     products: allMarkdownRemark(
       filter: {
         fileAbsolutePath: { regex: "content/products/" }
