@@ -1,1 +1,5 @@
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id rutrum augue. Mauris semper sem vel vestibulum feugiat. Praesent vestibulum velit ipsum, sit amet luctus nunc interdum at. Sed a nibh et nibh laoreet blandit. Duis ut cursus erat. Phasellus vel nulla nec enim egestas molestie a bibendum nunc. Cras ultricies quam et nibh aliquam, vitae pretium enim dictum.
+👋 Welcome to Handlebar Labs.
+
+We've been building software and information products (for clients and internally) since 2014.
+
+Below you can find what we're currently working on and a full archive on the [projects page](/projects).

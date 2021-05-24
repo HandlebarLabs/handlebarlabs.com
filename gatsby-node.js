@@ -60,7 +60,10 @@ const createBlogPosts = async ({ graphql, actions }) => {
   const posts = await graphql(`
     query {
       allMarkdownRemark(
-        filter: { fileAbsolutePath: { regex: "content/blog/" } }
+        filter: {
+          fileAbsolutePath: { regex: "content/blog/" }
+          frontmatter: { published: { eq: true } }
+        }
       ) {
         edges {
           node {
