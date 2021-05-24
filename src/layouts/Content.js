@@ -14,10 +14,10 @@ const items = [
   },
 ];
 
-const Content = ({ children }) => {
+const Content = ({ children, leftContent = null, rightContent = null }) => {
   return (
     <>
-      <div className="container px-6 lg:px-20 mt-6 max-w-screen-md mx-auto">
+      <div className="container px-6 lg:px-10 mt-6 max-w-screen-md mx-auto">
         <nav className="mb-10">
           <Link to="/" className="text-3xl font-bold text-gray-800">
             <img
@@ -36,8 +36,12 @@ const Content = ({ children }) => {
           </ul>
         </nav>
       </div>
-      <div className="container px-6 lg:px-20 max-w-screen-md mx-auto mb-48">
-        {children}
+      <div className="flex flex-row">
+        <div className="flex-1 invisible lg:visible">{leftContent}</div>
+        <div className="container px-6 lg:px-10 max-w-screen-md mb-48 flex-0">
+          {children}
+        </div>
+        <div className="flex-1 invisible lg:visible">{rightContent}</div>
       </div>
     </>
   );

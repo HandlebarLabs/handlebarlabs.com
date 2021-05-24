@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 
 const ProjectItem = ({ slug, imageUrl, name, caption }) => (
   <Link to={slug}>
-    <div className="mb-6 flex flex-row items-center">
+    <div className="mb-10 flex flex-row items-center">
       <img
         src={imageUrl}
         className="w-24 h-24 object-cover rounded mr-6"

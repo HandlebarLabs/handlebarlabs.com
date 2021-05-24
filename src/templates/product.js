@@ -7,14 +7,19 @@ const ProductTemplate = ({ data }) => {
   const product = data.markdownRemark;
 
   return (
-    <ContentLayout>
-      {/* {product.frontmatter.logo && (
-          <img
-            src={product.frontmatter.logo.publicURL}
-            alt={`${product.frontmatter.name} Logo`}
-            className="mb-4 h-28 object-cover"
-          />
-        )} */}
+    <ContentLayout
+      leftContent={
+        product.frontmatter.logo && (
+          <div className="flex justify-end">
+            <img
+              src={product.frontmatter.logo.publicURL}
+              alt={`${product.frontmatter.name} Logo`}
+              className="mb-4 h-24 object-cover rounded"
+            />
+          </div>
+        )
+      }
+    >
       <h1 className="font-bold text-4xl leading-none text-gray-800 mb-0">
         {product.frontmatter.name}
       </h1>
