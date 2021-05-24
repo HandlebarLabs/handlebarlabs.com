@@ -2,6 +2,7 @@
 name: React Native School
 logo: ../logos/react-native-school.png
 status: Active
+updated: 2021-05-23
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at libero id ante commodo cursus nec ut ex. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla tincidunt vehicula magna. Vivamus pharetra libero vestibulum magna pulvinar, vel aliquet ante feugiat. Proin semper cursus urna, in ornare tortor viverra ac. Aenean at urna eu libero convallis gravida in non odio. Sed arcu quam, semper vitae congue eu, tristique id leo. Suspendisse rutrum elementum eros, ac dignissim nibh vehicula a. Morbi imperdiet magna molestie semper malesuada. Praesent ut malesuada purus. Suspendisse ultrices metus quis risus ultrices lobortis. Donec dignissim ligula sem. Suspendisse quis purus pellentesque, tempus nunc non, ornare orci.
