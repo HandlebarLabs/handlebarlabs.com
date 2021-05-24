@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
-import logo from '../../content/logos/handlebarlabs.png';
+import logo from '../../static/handlebarlabs.png';
 
 const items = [
   {

@@ -6,6 +6,9 @@
 
 module.exports = {
   /* Your site config here */
+  siteMetadata: {
+    siteUrl: 'https://www.handlebarlabs.com',
+  },
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
@@ -20,5 +23,7 @@ module.exports = {
         plugins: [],
       },
     },
+    'gatsby-plugin-sitemap',
+    'gatsby-plugin-react-helmet',
   ],
 };

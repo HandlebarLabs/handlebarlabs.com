@@ -2,6 +2,7 @@ import React from 'react';
 import { graphql } from 'gatsby';
 
 import ContentLayout from '../layouts/Content';
+import SEO from '../components/SEO';
 
 const ProductTemplate = ({ data }) => {
   const product = data.markdownRemark;
@@ -20,6 +21,11 @@ const ProductTemplate = ({ data }) => {
         )
       }
     >
+      <SEO
+        title={`${product.frontmatter.name} | Handlebar Labs`}
+        description={product.excerpt}
+        image={product.frontmatter.logo.publicURL}
+      />
       <h1 className="font-bold text-4xl leading-none text-gray-800 mb-0">
         {product.frontmatter.name}
       </h1>
@@ -43,6 +49,7 @@ export const query = graphql`
           publicURL
         }
       }
+      excerpt
     }
   }
 `;

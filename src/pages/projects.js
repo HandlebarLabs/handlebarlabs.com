@@ -4,6 +4,7 @@ import { groupBy } from 'lodash';
 
 import ContentLayout from '../layouts/Content';
 import ProjectItem from '../components/ProjectItem';
+import SEO from '../components/SEO';
 
 const DataGroup = ({ title, data = [] }) => (
   <div className="mb-20">
@@ -29,6 +30,11 @@ const Projects = ({ data }) => {
 
   return (
     <ContentLayout>
+      <SEO
+        title="Projects | Handlebar Labs"
+        description="Present and past projects developed at Handlebar Labs."
+      />
+
       <DataGroup title="Active Projects" data={groups.Active} />
       <DataGroup title="Projects on Hold" data={groups.Hold} />
       <DataGroup title="Sunset Projects" data={groups.Sunset} />

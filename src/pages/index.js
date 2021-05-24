@@ -3,10 +3,15 @@ import { graphql } from 'gatsby';
 
 import ContentLayout from '../layouts/Content';
 import ProjectItem from '../components/ProjectItem';
+import SEO from '../components/SEO';
 
 const Home = ({ data }) => {
   return (
     <ContentLayout>
+      <SEO
+        title="Handlebar Labs | Software & Information Product Development"
+        description="Handlebar Labs builds software and information products."
+      />
       {/* TODO: Quick HBL description. Pull from markdown */}
       <h2 className="text-3xl font-semibold mb-6 text-gray-800">
         Active Projects
