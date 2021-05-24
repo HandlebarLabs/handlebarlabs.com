@@ -8,16 +8,18 @@ const ProductTemplate = ({ data }) => {
 
   return (
     <ContentLayout>
-      {product.frontmatter.logo && (
-        <img
-          src={product.frontmatter.logo.publicURL}
-          alt={`${product.frontmatter.name} Logo`}
-          className="mb-4 rounded-full h-24 w-24 object-cover"
-        />
-      )}
-      <h1 className="font-bold text-4xl leading-none text-gray-800 pt-1">
-        {product.frontmatter.name}
-      </h1>
+      <div className="mt-10">
+        {product.frontmatter.logo && (
+          <img
+            src={product.frontmatter.logo.publicURL}
+            alt={`${product.frontmatter.name} Logo`}
+            className="mb-4 h-28 object-cover"
+          />
+        )}
+        <h1 className="font-bold text-4xl leading-none text-gray-800 pt-1">
+          {product.frontmatter.name}
+        </h1>
+      </div>
       <div className="prose">
         <div dangerouslySetInnerHTML={{ __html: product.html }} />
       </div>

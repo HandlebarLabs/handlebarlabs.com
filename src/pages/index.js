@@ -22,10 +22,12 @@ const Home = ({ data }) => {
 
       {/* Products */}
       <div className="container mx-auto px-8 py-6 max-w-7xl">
-        <h2 className="text-3xl font-semibold leading-tight pt-8 pb-2 text-gray-800">
-          Products
-        </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="mb-6">
+          <h2 className="text-3xl font-semibold leading-tight pt-8 pb-2 text-gray-600">
+            Products
+          </h2>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {data.products.edges.map(({ node }) => (
             <Link key={node.id} to={node.fields.slug}>
               <Card

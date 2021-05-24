@@ -8,7 +8,7 @@ export const Card = ({ image, name, excerpt, status }) => (
       alt={`${name} Logo`}
     />
     <div className="px-6 py-4 flex-1">
-      <div className="font-bold text-xl mb-2">{name}</div>
+      <h2 className="font-bold text-xl mb-2 text-gray-700">{name}</h2>
       <p className="text-gray-700 text-base">{excerpt}</p>
     </div>
     <div className="px-6 pt-4 pb-2">
