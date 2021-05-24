@@ -1,11 +1,13 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 
+import ContentLayout from '../layouts/Content';
+
 const ProductTemplate = ({ data }) => {
   const product = data.markdownRemark;
 
   return (
-    <div className="container mx-auto px-8 py-6 max-w-screen-md">
+    <ContentLayout>
       {product.frontmatter.logo && (
         <img
           src={product.frontmatter.logo.publicURL}
@@ -19,7 +21,7 @@ const ProductTemplate = ({ data }) => {
       <div className="prose">
         <div dangerouslySetInnerHTML={{ __html: product.html }} />
       </div>
-    </div>
+    </ContentLayout>
   );
 };
 

@@ -3,12 +3,21 @@ import { Link, graphql } from 'gatsby';
 
 import { Card } from '../components/Card';
 
-export default function Home({ data }) {
+const Home = ({ data }) => {
   return (
-    <>
-      <div className="bg-hbl-brand text-center py-32 px-8 text-white">
-        <h1 className="text-6xl mb-2 font-bold	">Handlebar Labs</h1>
-        <h3 className="text-3xl">Building Software and Information Products</h3>
+    <div className="mb-24">
+      <div className="bg-hbl-brand text-white">
+        <div className="container mx-auto px-8 py-6 max-w-7xl flex flex-row justify-end">
+          <Link to="/blog" className="text-lg">
+            Blog
+          </Link>
+        </div>
+        <div className="text-center pt-24 pb-32 px-8">
+          <h1 className="text-6xl mb-2 font-bold">Handlebar Labs</h1>
+          <h3 className="text-2xl">
+            Building Software and Information Products
+          </h3>
+        </div>
       </div>
 
       {/* Products */}
@@ -28,21 +37,12 @@ export default function Home({ data }) {
             </Link>
           ))}
         </div>
-
-        <h2 className="text-3xl font-semibold leading-tight pt-8 pb-2 text-gray-800">
-          Blog
-        </h2>
-        <ul>
-          {data.blog.edges.map(({ node }) => (
-            <li key={node.id}>
-              <Link to={node.fields.slug}>{node.frontmatter.title}</Link>
-            </li>
-          ))}
-        </ul>
       </div>
-    </>
+    </div>
   );
-}
+};
+
+export default Home;
 
 export const query = graphql`
   query {
@@ -61,22 +61,6 @@ export const query = graphql`
             status
           }
           excerpt
-          fields {
-            slug
-          }
-        }
-      }
-    }
-
-    blog: allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "content/blog/" } }
-    ) {
-      edges {
-        node {
-          id
-          frontmatter {
-            title
-          }
           fields {
             slug
           }
