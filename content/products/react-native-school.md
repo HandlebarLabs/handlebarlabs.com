@@ -2,35 +2,40 @@
 name: React Native School
 logo: ../logos/react-native-school.png
 status: Active
-updated: 2021-05-23
+updated: 2021-05-25
 ---
 
-## Summary
+React Native School teaches beginner to intermediate React Native concepts online via free tutorials and private classes.
 
-- Started in late 2018
-- Culmination of a variety of React Native education products to improve cohesiveness
+Started in late 2018 as a followup to a [growing library of React Native courses](/projects) that we had created over the prior ~2 years.
 
-## Stats
+It's a monthly or yearly subscription to become a member and consists of three main components:
 
-- Taught over 23,500
-- 160+ tutorials
-- 1070+ reviews
-
-## Features
-
-- Private courses
-- Private community based on slack
+1. Free tutorials ([written](https://www.reactnativeschool.com/tutorials) and [video](https://www.youtube.com/ReactNativeSchool))
+2. [Paid classes/courses](https://www.reactnativeschool.com/classes)
+3. Private Slack Based Community
 
 ## Marketing
 
-- Free comprehensive course
-- Email marketing
-- Content marketing (text and youtube tutorials)
+To date React Native School's main source of traffic and enrollment is through content marketing.
+
+Help people solve common problems and give them how-to templates to start implementing features -> join the email list -> continued value add over time with a pitch for React Native School in each email.
+
+We've also created a [comprehensive free course](https://www.reactnativebasics.com/) teaching students how to build a React Native app from start to finish. This has been the source of a large number of enrollments.
+
+## Stats
+
+As of May 25, 2021.
+
+- 24,000 students (across all classes, including free)
+- 160 Tutorials
+- 18 Classes
+- 1,076 Reviews (4.7/5 Average)
 
 ## Socials
 
-- Twitter
-- Github
-- YouTube
+- [Twitter](https://twitter.com/learn_rn)
+- [Github](https://github.com/reactnativeschool)
+- [YouTube](https://www.youtube.com/ReactNativeSchool)
 
 [Visit the website →](https://www.reactnativeschool.com/)
