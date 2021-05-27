@@ -5,14 +5,14 @@ status: Active
 updated: 2021-05-25
 ---
 
-React Native School teaches beginner to intermediate React Native concepts online via free tutorials and private classes.
+React Native School teaches beginner to intermediate React Native concepts online via free tutorials and private courses.
 
 Started in late 2018 as a followup to a [growing library of React Native courses](/projects) that we had created over the prior ~2 years.
 
 It's a monthly or yearly subscription to become a member and consists of three main components:
 
 1. Free tutorials ([written](https://www.reactnativeschool.com/tutorials) and [video](https://www.youtube.com/ReactNativeSchool))
-2. [Paid classes/courses](https://www.reactnativeschool.com/classes)
+2. [Paid courses](https://www.reactnativeschool.com/classes)
 3. Private Slack Based Community
 
 ## Marketing
@@ -27,9 +27,9 @@ We've also created a [comprehensive free course](https://www.reactnativebasics.c
 
 As of May 25, 2021.
 
-- 24,000 students (across all classes, including free)
+- 24,000 students (across all courses, including free)
 - 160 Tutorials
-- 18 Classes
+- 18 Courses
 - 1,076 Reviews (4.7/5 Average)
 
 ## Socials

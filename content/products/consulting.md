@@ -15,8 +15,6 @@ Services include mobile, web, and backend development.
 
 Handlebar Labs works with people/companies that use technology to solve a problem in the "real world" where the success of an app isn't measured in how long someone spends using the app but by how much value it provides to them.
 
-We're particularly interested in the not-so-sexy industries.
-
 We want to help a small business improve their customer service processes so they can focus on what they want to be doing daily.
 
 We want to help a local plumbing business better manage their fleet.
