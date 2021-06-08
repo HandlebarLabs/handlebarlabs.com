@@ -22,6 +22,12 @@ module.exports = {
       options: {
         plugins: [
           {
+            resolve: '@weknow/gatsby-remark-twitter',
+            options: {
+              align: 'center',
+            },
+          },
+          {
             resolve: `gatsby-remark-images`,
             options: {
               // It's important to specify the maxWidth (in pixels) of
