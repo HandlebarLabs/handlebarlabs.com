@@ -10,6 +10,7 @@ module.exports = {
     siteUrl: 'https://www.handlebarlabs.com',
   },
   plugins: [
+    'gatsby-plugin-twitter',
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -22,10 +23,7 @@ module.exports = {
       options: {
         plugins: [
           {
-            resolve: '@weknow/gatsby-remark-twitter',
-            options: {
-              align: 'center',
-            },
+            resolve: `gatsby-remark-embedder`,
           },
           {
             resolve: `gatsby-remark-images`,
