@@ -17,19 +17,22 @@ const items = [
 const Content = ({ children, leftContent = null, rightContent = null }) => {
   return (
     <>
-      <div className="container px-6 lg:px-10 mt-6 max-w-screen-md mx-auto">
-        <nav className="mb-7">
-          <Link to="/" className="text-3xl font-bold text-gray-800">
+      <div className="container px-6 lg:px-10 mt-6 max-w-screen-md mx-auto mb-8">
+        <nav className="mb-7 flex flex-row justify-between items-center">
+          <Link
+            to="/"
+            className="text-xl font-bold text-gray-800 flex flex-row justify-center items-center"
+          >
             <img
               src={logo}
-              className="w-12 h-12 rounded-full mb-3"
+              className="w-12 h-12 rounded-full"
               alt="Handlebar Labs Logo"
             />
-            Handlebar Labs
+            <span className="hidden sm:block ml-2">Handlebar Labs</span>
           </Link>
-          <ul className="flex flex-row mt-1">
+          <ul className="flex flex-row">
             {items.map(i => (
-              <li key={i.to} className="text-gray-500 py-3 pr-6 text-sm">
+              <li key={i.to} className="text-gray-500 py-3 pl-6 text-sm">
                 <Link to={i.to}>{i.title}</Link>
               </li>
             ))}
