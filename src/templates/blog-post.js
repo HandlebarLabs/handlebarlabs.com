@@ -11,7 +11,7 @@ const BlogPostTemplate = ({ data }) => {
     <ContentLayout>
       <SEO title={post.frontmatter.title} description={post.excerpt} />
 
-      <div className="prose prose-indigo prose-sm lg:prose-lg">
+      <div className="prose prose-indigo lg:prose-lg">
         <h1>{post.frontmatter.title}</h1>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
       </div>
