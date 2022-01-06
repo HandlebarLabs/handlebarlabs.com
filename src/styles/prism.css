@@ -1,0 +1,147 @@
+code.language-text {
+  padding: 0.5em !important;
+}
+
+p.code-header {
+  margin-bottom: -0.7rem !important;
+  background: #0f2c44;
+  padding: 0.75em 1.5em;
+  color: #d4dee9 !important;
+  font-weight: 400;
+  border-bottom: 1px solid #0b2031;
+  margin-top: 1rem;
+
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  font-size: 16px !important;
+  font-weight: bold;
+}
+
+.gatsby-highlight {
+  margin-bottom: 1em;
+}
+
+/**
+ * prism.js tomorrow night eighties for JavaScript, CoffeeScript, CSS and HTML
+ * Based on https://github.com/chriskempson/tomorrow-theme
+ * @author Rose Pritchard
+ */
+
+code[class*='language-'],
+pre[class*='language-'] {
+  color: #d4dee9;
+  background: none;
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.5;
+
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+/* Code blocks */
+pre[class*='language-'] {
+  padding: 1em;
+  margin: 0.5em 0;
+  overflow: auto;
+}
+
+:not(pre) > code[class*='language-'],
+pre[class*='language-'] {
+  background: #011627;
+}
+
+/* Inline code */
+:not(pre) > code[class*='language-'] {
+  padding: 0.3em 0.5em !important;
+  border-radius: 0.3em;
+  white-space: nowrap;
+  line-height: 2;
+}
+
+.token.comment,
+.token.block-comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: #5e7877;
+}
+
+.token.punctuation {
+  color: #d4dee9;
+}
+
+.token.tag,
+.token.namespace,
+.token.deleted {
+  color: #ee815a;
+}
+
+.token.attr-name {
+  color: #a1dd52;
+}
+
+.token.boolean,
+.token.function,
+.token.function-variable,
+.token.function-name {
+  color: #78aaff;
+}
+
+.token.number {
+  color: #fc8361;
+}
+
+.token.property,
+.token.class-name,
+.token.symbol {
+  color: #ffc980;
+}
+
+.token.selector,
+.token.important,
+.token.atrule,
+.token.keyword,
+.token.constant,
+.token.builtin {
+  color: #d08ff1;
+}
+
+.token.string,
+.token.char,
+.token.attr-value,
+.token.regex,
+.token.variable {
+  color: #f1c384;
+}
+
+.token.operator,
+.token.entity,
+.token.url {
+  color: #77a8fd;
+}
+
+.token.important,
+.token.bold {
+  font-weight: bold;
+}
+.token.italic {
+  font-style: italic;
+}
+
+.token.entity {
+  cursor: help;
+}
+
+.token.inserted {
+  color: green;
+}

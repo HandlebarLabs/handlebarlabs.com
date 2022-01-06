@@ -109,6 +109,38 @@ var foo = function (bar) {
 console.log(foo(5));
 ```
 
+```jsx
+// Main.js
+
+// imports
+import React, { useState } from 'react';
+import {
+  Stack,
+  Card,
+  Button,
+  Text,
+  Box,
+  Header,
+} from 'react-native-design-system';
+import { ScrollView } from 'react-native';
+
+export default function Main({ text }) {
+  return (
+    <ScrollView>
+      <Header>Game Time</Header>
+      <Stack>
+        <Card shadow>// show random words as question</Card>
+        <Card shadow>// show selected words as answer</Card>
+        // show result
+      </Stack>
+      <Card space="xsmall">
+        <Button onPress={checkResult}>Submit</Button> // check result
+      </Card>
+    </ScrollView>
+  );
+}
+```
+
 ## Tables
 
 | Option | Description                                                               |
