@@ -7,7 +7,7 @@ import ProjectItem from '../components/ProjectItem';
 import SEO from '../components/SEO';
 
 const DataGroup = ({ title, data = [] }) => (
-  <div className="mb-20">
+  <div className="mb-10">
     <h2 className="text-2xl font-semibold mb-6 text-gray-700">{title}</h2>
 
     {data.map(({ node }) => (
@@ -17,6 +17,7 @@ const DataGroup = ({ title, data = [] }) => (
         imageUrl={node.frontmatter.logo.publicURL}
         name={node.frontmatter.name}
         caption={node.excerpt}
+        showCTA={false}
       />
     ))}
   </div>

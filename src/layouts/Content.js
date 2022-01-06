@@ -32,7 +32,10 @@ const Content = ({ children, leftContent = null, rightContent = null }) => {
           </Link>
           <ul className="flex flex-row">
             {items.map(i => (
-              <li key={i.to} className="text-gray-500 py-3 pl-6 text-sm">
+              <li
+                key={i.to}
+                className="text-gray-500 py-3 pl-6 text-sm font-medium"
+              >
                 <Link to={i.to}>{i.title}</Link>
               </li>
             ))}

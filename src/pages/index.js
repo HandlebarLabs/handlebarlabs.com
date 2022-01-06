@@ -13,7 +13,7 @@ const Home = ({ data }) => {
         description="Handlebar Labs builds software and information products."
       />
 
-      <div className="prose prose-indigo lg:prose-lg -mt-6 mb-12">
+      <div className="prose prose-indigo prose-lg -mt-6 mb-12">
         <div dangerouslySetInnerHTML={{ __html: data.content.html }} />
       </div>
 

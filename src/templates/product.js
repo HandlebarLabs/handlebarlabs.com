@@ -30,7 +30,7 @@ const ProductTemplate = ({ data }) => {
         {product.frontmatter.name}
       </h1>
 
-      <div className="prose prose-indigo lg:prose-lg">
+      <div className="prose prose-indigo prose-lg">
         <div dangerouslySetInnerHTML={{ __html: product.html }} />
       </div>
     </ContentLayout>

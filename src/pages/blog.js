@@ -22,6 +22,7 @@ const Blog = ({ data }) => {
           slug={node.fields.slug}
           name={node.frontmatter.title}
           caption={node.excerpt}
+          date={node.frontmatter.updated}
         />
       ))}
     </ContentLayout>
@@ -44,6 +45,7 @@ export const query = graphql`
           id
           frontmatter {
             title
+            updated
           }
           fields {
             slug
