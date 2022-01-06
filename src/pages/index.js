@@ -8,8 +8,8 @@ const Home = ({ data }) => {
   return (
     <ContentLayout>
       <SEO
-        title="Handlebar Labs | Software & Information Product Development"
-        description="Handlebar Labs builds software and information products."
+        title="Handlebar Labs | Steering Developers to Build Without the Handlebars"
+        description="Break the tutorial cycle and learn to solve problems on your own."
       />
       <div className="mt-8 border-b-2 pb-10">
         <h1 className="text-gray-800 text-3xl font-bold tracking-wide">
