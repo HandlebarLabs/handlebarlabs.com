@@ -20,7 +20,7 @@ Handlebar Labs’ mission is to teach you tools, techniques, and frameworks in a
 
 So many of us have been in the situation where everything made sense in the tutorial but as soon as you step out to solve a different problem... your mind just goes empty.
 
-You scramble to pull together disjointed pieces of information that when previously presented worked together but now the pieces don’t fit together in the same way.
+You scramble to pull together disjointed pieces of information that, when previously presented, worked together but now the pieces don’t fit together in the same way.
 
 **It’s an infurating experience that can be avoided.**
 
