@@ -4,7 +4,7 @@ We've been building software and information products (for clients and internall
 
 Below you can find what we're currently working on and a full archive on the [projects page](/projects). -->
 
-Software development is a learned skill.
+<!-- Software development is a learned skill.
 
 But once you learn it you can’t just do the same thing over and over again.
 
@@ -26,7 +26,7 @@ You scramble to pull together disjointed pieces of information that, when previo
 
 Through practical exercises you can learn to build high quality software that solves unique problems.
 
-That’s what we’re here to help you do.
+That’s what we’re here to help you do. -->
 
 ## About Handlebar Labs
 
