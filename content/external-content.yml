@@ -1,6 +1,1032 @@
-- title: Building an iOS Calculator Clone with React Native
-  summary: Today we’ll be building a clone of the iOS calculator (portrait only). It brings some unique challenges that allow us to leverage Flexbox and other styling properties to build it properly.
-  date: 2022-04-11
-  url: https://www.reactnativeschool.com/building-an-ios-calculator-clone-with-react-native
+- title: 'Building an iOS Calculator Clone with React Native'
+  summary: "Today we'll be building a clone of the iOS calculator (portrait only). It brings some unique challenges that allow us to leverage Flexbox and other styling properties to build it properly."
+  date: '2022-04-11T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/building-an-ios-calculator-clone-with-react-native'
   tags:
-    - react-native
+    - 'react-native'
+- title: 'Comparing Redux, Zustand, and mobx-state-tree'
+  summary: "In this post we'll look at Zustand, Redux, and Mobx State Tree in the context of a simple shopping cart and compare how they allow to store, update, and read data in a React Native app."
+  date: '2022-04-07T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/comparing-redux-zustand-and-mobx-state-tree'
+  tags:
+    - 'react-native'
+- title: 'Build a Wordle Clone with React Native'
+  summary: 'Learn how to build a Wordle clone with React Native in a single file.'
+  date: '2022-02-22T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/build-a-wordle-clone-with-react-native'
+  tags:
+    - 'react-native'
+- title: 'How to Upload Images from React Native'
+  summary: 'A high level look into uploading images from React Native to a remote server.'
+  date: '2022-01-06T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/how-to-upload-images-from-react-native'
+  tags:
+    - 'react-native'
+- title: 'How to Manage Environment Variables in React Native'
+  summary: 'A brief overview of some of the packages available to help you manage environment variables in your React Native apps.'
+  date: '2021-11-17T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/how-to-manage-environment-variables-in-react-native'
+  tags:
+    - 'react-native'
+- title: 'Announcing Build an E-Commerce App with React Native and Stripe'
+  summary: "Today I'm happy to announce the release of React Native School's latest and most comprehensive course, Build an E-Commerce App with React Native and Stripe."
+  date: '2021-10-20T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/announcing-build-an-e-commerce-app-with-react-native-and-stripe'
+  tags:
+    - 'react-native'
+- title: 'Sunsetting Work React Native'
+  summary: "After 4 years and 453 jobs we're sunsetting Work React Native."
+  date: '2021-09-29T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/sunsetting-work-react-native'
+  tags:
+    - 'react-native'
+- title: 'Expo Template with TypeScript, Navigation, and Testing'
+  summary: 'A simple Expo template, written in TypeScript, that includes navigation, testing, code formatting, and project structure.'
+  date: '2021-06-09T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/expo-template-with-typescript-navigation-and-testing'
+  tags:
+    - 'react-native'
+- title: 'List of React Native/Expo Templates Created by React Native School'
+  summary: 'Templates by React Native School for creating Expo and React Native apps.'
+  date: '2021-06-08T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/list-of-react-native-expo-templates-created-by-react-native-school'
+  tags:
+    - 'react-native'
+- title: 'Where to Find React Native Jobs'
+  summary: "If you're interested in finding work where you'll get to use React Native start your search here! A list of resources we use to regularly stay on top of the React Native job market."
+  date: '2021-06-02T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/where-to-find-react-native-jobs'
+  tags:
+    - 'react-native'
+- title: 'Build a cross-platform app with Expo (iOS, Android, Web)'
+  summary: 'In this tutorial, we’ll learn how to build a cross-platform app that runs on iOS, Android, and the web using Expo.'
+  date: '2021-05-26T00:00:00.000Z'
+  url: 'https://blog.logrocket.com/building-cross-platform-apps-expo-instead-of-react-native/'
+  tags:
+    - 'react-native'
+- title: 'How to Create an Expo Template for React Native Development'
+  summary: 'A quick guide to how to create a custom Expo Template for your future React Native projects.'
+  date: '2021-05-19T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/how-to-create-an-expo-template-for-react-native-development'
+  tags:
+    - 'react-native'
+- title: 'Simple Free Expo Starter Template with Navigation and Testing'
+  summary: 'A simple Expo template that includes navigation, testing, code formatting, and project structure.'
+  date: '2021-05-12T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/simple-free-expo-starter-template-with-navigation-and-testing'
+  tags:
+    - 'react-native'
+- title: 'How to Reset React Native Cache - NPM, iOS, Android, and More'
+  summary: "Things get funky in react native. Here's how to start fresh and clear a React Native app cache."
+  date: '2021-05-05T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/how-to-reset-react-native-cache-npm-ios-android-and-more'
+  tags:
+    - 'react-native'
+- title: 'How to Get Started with React Query - Migrate from Fetch'
+  summary: 'Write your first React Query request by converting a fetch request and see how to use cached data.'
+  date: '2021-04-28T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/how-to-get-started-with-react-query-migrate-from-fetch'
+  tags:
+    - 'react-native'
+- title: 'How to use Reanimated 2 (a beginners guide)'
+  summary: "In this guide we'll learn what the core building blocks of Reanimated 2 are and how ot use them."
+  date: '2021-04-21T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/how-to-use-reanimated-2-a-beginners-guide'
+  tags:
+    - 'react-native'
+- title: 'Capture Keyboard Input with a TextInput - React Native Basics'
+  summary: 'Learn how to use the core TextInput component to capture user input via the keyboard.'
+  date: '2021-04-14T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/capture-keyboard-input-with-a-textinput-react-native-basics'
+  tags:
+    - 'react-native'
+- title: 'Simple Splash/Launch/Boot Screen in React Native (iOS and Android)'
+  summary: 'In this lesson I walk you through installing and using the react-native-bootsplash library to quickly and easily setup a boot/splash/launch screen in your React Native apps.'
+  date: '2021-04-07T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/simple-splash-launch-boot-screen-in-react-native-ios-and-android'
+  tags:
+    - 'react-native'
+- title: 'Navigating Xcode for React Native Developers (with a web background)'
+  summary: 'A quick primer on navigating Xcode for web developers (geared towards React Native developers).'
+  date: '2021-03-31T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/navigating-xcode-for-react-native-developers-with-a-web-background'
+  tags:
+    - 'react-native'
+- title: 'Visual Studio Code Setup for React Native Development [2021]'
+  summary: 'A walk-through (with links) of how I have Visual Studio Code optimized for React Native development.'
+  date: '2021-03-17T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/visual-studio-code-setup-for-react-native-development'
+  tags:
+    - 'react-native'
+- title: 'Testing Context with React Native Testing Library'
+  summary: 'In this video I walk you through 3 different ways you approach writing tests in your React Native app when context is involved.'
+  date: '2021-03-03T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/testing-context-with-react-native-testing-library'
+  tags:
+    - 'react-native'
+- title: 'Testing a Screen with React Native Testing Library [Live Coding]'
+  summary: 'In this video I walk through my process for writing tests, using React Native Testing Library, on a React Native screen. We write tests for the client side validation and form submission.'
+  date: '2021-02-24T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/testing-a-screen-with-react-native-testing-library-live-coding'
+  tags:
+    - 'react-native'
+- title: 'React Navigation v5: Reset Stack Inside Tab After Leaving Tab'
+  summary: 'Reset a stack navigator to the initial screen when leaving that tab. Uses React Navigation v5'
+  date: '2021-02-10T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/reset-stack-inside-tab-after-leaving-tab'
+  tags:
+    - 'react-native'
+- title: 'Fix React Native Text Cutoff on OnePlus & Oppo Devices'
+  summary: 'Learn how to fix text being cutoff when using your React Native app on OnePlus, Oppo, and LG devices.'
+  date: '2021-02-03T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/fix-react-native-text-cutoff-on-oneplus-oppo-devices'
+  tags:
+    - 'react-native'
+- title: 'Like Animation with Lottie'
+  summary: "In this video we'll learn how to replace a state change for a liked/unliked stated with a lottie animation."
+  date: '2021-01-26T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/like-animation-with-lottie'
+  tags:
+    - 'react-native'
+- title: 'Resources for Mobile App Development'
+  summary: 'A list of our go-to resources to aid in building mobile apps.'
+  date: '2021-01-20T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/resources-for-mobile-app-development'
+  tags:
+    - 'react-native'
+- title: 'Which apollo-server to use? Comparing apollo-server, apollo-server-express, apollo-server-*'
+  summary: 'In this post we take a look at the different apollo-server packages and figure out which one is right for us.'
+  date: '2021-01-13T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/which-apollo-server-to-use'
+  tags:
+    - 'react-native'
+- title: 'Should You Use TypeScript with React Native? [2021]'
+  summary: 'Notes from my investigation on whether or not to invest in learning and using TypeScript in my React Native projects.'
+  date: '2021-01-06T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/should-you-use-typescript-with-react-native'
+  tags:
+    - 'react-native'
+- title: 'Vertical and Horizontal Scrolling in a SectionList/FlatList'
+  summary: 'Learn how to build a Spotify style list that can scroll both horizontally and vertically in React Native.'
+  date: '2021-03-10T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/vertical-and-horizontal-scrolling-in-a-sectionlist-flatlist'
+  tags:
+    - 'react-native'
+- title: 'Building a Mobile App - What to Expect'
+  summary: 'In this super brief article I''ll show you all the steps you need to hit to go from "I want to build and app" to "holy 💩, I''ve got an app in the app store".'
+  date: '2020-12-14T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/building-a-mobile-app-what-to-expect'
+  tags:
+    - 'react-native'
+- title: 'What to Expect from React Native School in 2021'
+  summary: 'Find out what you can expect from React Native School in 2020'
+  date: '2020-11-25T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/what-to-expect-from-react-native-school-in-2021'
+  tags:
+    - 'react-native'
+- title: 'How to Prepare to Build a Mobile App'
+  summary: ''
+  date: '2020-11-04T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/undefined'
+  tags:
+    - 'react-native'
+- title: 'Easily Persist Data with Context and AsyncStorage'
+  summary: 'Learn how to automatically store data in AsyncStorage when you store it in context.'
+  date: '2020-10-07T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/easily-persist-data-with-context-and-asyncstorage'
+  tags:
+    - 'react-native'
+- title: '12 Exercises to Learn React Native'
+  summary: 'Here are 12 exercises to help you better understand React Native'
+  date: '2020-10-05T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/12-exercises-to-learn-react-native'
+  tags:
+    - 'react-native'
+- title: 'Setup Jest Tests with React Navigation'
+  summary: 'Learn how to setup Jest tests when rendering a screen in React Navigation.'
+  date: '2020-09-25T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/setup-jest-tests-with-react-navigation'
+  tags:
+    - 'react-native'
+- title: 'How to Upgrade React Native App to API Level 29'
+  summary: 'Quickly upgrade your React Native to use the required API level 29 starting November 2, 2020.'
+  date: '2020-09-15T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/how-to-upgrade-react-native-app-to-api-level-29'
+  tags:
+    - 'react-native'
+- title: 'Load New Data Button with React Native FlatList'
+  summary: "Learn to build a button that allows you to scroll to the top of the list and load new data when it's available."
+  date: '2020-08-05T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/load-new-data-button-with-react-native-flatlist'
+  tags:
+    - 'react-native'
+- title: 'Getting Started with React Navigation v5 - Stack, Tabs, Drawer, Authentication'
+  summary: "In this video we'll do a somewhat quick deep dive into React Navigation and cover all the navigators you're likely to reach for first (Stack Navigator, Bottom Tab Navigator, Drawer Navigator), how to setup authentication, as well as a variety of other tips and tricks."
+  date: '2020-02-20T00:00:00.000Z'
+  url: 'https://www.reactnativebyexample.com/getting-started-with-react-navigation-v5'
+  tags:
+    - 'react-native'
+- title: 'Avoid React Native Splash Screen Flash on iOS (the easy way)'
+  summary: "When first opening your React Native app you may notice a flash between the splash screen and the app starting. Here's how to avoid that on iOS"
+  date: '2020-01-09T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/avoid-react-native-splash-screen-flash-on-ios-the-easy-way'
+  tags:
+    - 'react-native'
+- title: 'How to Add TypeScript to an Existing React Native Application'
+  summary: "In this lesson we'll learn how to incrementally add TypeScript to an existing React Native app."
+  date: '2021-01-06T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/adding-typescript-to-an-existing-react-native-application'
+  tags:
+    - 'react-native'
+- title: 'Strengths and Limitations of Over-the-Air Updates'
+  summary: "In this lesson we'll do a brief intro to over-the-air in React Native. The dos, don'ts, and tools to use."
+  date: '2019-12-04T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/strengths-and-limitations-of-over-the-air-updates'
+  tags:
+    - 'react-native'
+- title: 'Improved Form Error Messages using React Native Animatable and Hooks'
+  summary: "In this lesson we'll learn how to use the declarative and imperative APIs of react-native-animatable while also using React hooks!"
+  date: '2019-10-23T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/react-native-animatable-and-hooks-for-improved-error-messages'
+  tags:
+    - 'react-native'
+- title: 'Complex Navigation Example with React Navigation v4'
+  summary: 'React Navigation is the go to solution for navigation in React Native apps.'
+  date: '2019-10-15T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/complex-navigation-example-with-react-navigation'
+  tags:
+    - 'react-native'
+- title: 'Upgrade to React Navigation v4'
+  summary: "In this lesson we'll cover how to upgrade to React Navigation v4."
+  date: '2019-10-15T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/upgrade-to-react-navigation-v4'
+  tags:
+    - 'react-native'
+- title: 'CodePush Strategy for Beta Testing'
+  summary: "In this lesson we'll go over how I enable beta testing using CodePush."
+  date: '2019-10-09T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/react-native-codepush-strategy-for-beta-testing'
+  tags:
+    - 'react-native'
+- title: 'React (Native) Essentials'
+  summary: 'A quick reference document to give you all the essentials of working with React and React Native.'
+  date: '2019-10-02T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/react-native-essentials'
+  tags:
+    - 'react-native'
+- title: 'Intro to Styled Components in React Native'
+  summary: "In this lesson we'll take a look at Styled Components, how it works, and why you may want to use it to build components in your React Native app."
+  date: '2019-09-25T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/intro-to-styled-components-in-react-native'
+  tags:
+    - 'react-native'
+- title: 'JavaScript Essentials'
+  summary: 'A quick reference document to give you all the essentials of working with JavaScript.'
+  date: '2019-09-18T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/javascript-essentials'
+  tags:
+    - 'react-native'
+- title: 'Shared Element Transitions with React Navigation'
+  summary: "In this lesson we'll learn how to make UI elements transition with screen changes using React Navigation and Fluid Transitions."
+  date: '2019-09-11T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/shared-element-transitions-with-react-navigation'
+  tags:
+    - 'react-native'
+- title: 'React Native Project Git Workflow'
+  summary: 'Git/source contral is an integral part of a developers workflow, or it should be. In this lesson I share my workflow to manage React Native projects.'
+  date: '2019-09-04T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/react-native-project-git-workflow'
+  tags:
+    - 'react-native'
+- title: 'React Native End to End Testing with Detox'
+  summary: 'When you have common user flows that need to be tested Detox can provide the means to quickly and consistently do so.'
+  date: '2019-08-21T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/react-native-end-to-end-testing-with-detox'
+  tags:
+    - 'react-native'
+- title: 'Component Testing with React Native Testing Library'
+  summary: "In this lesson we'll cover how to setup and use react-native-testing-library to write high quality integration tests for your React Native app."
+  date: '2019-08-14T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/component-testing-with-react-native-testing-library'
+  tags:
+    - 'react-native'
+- title: 'Mocking Fetch API Calls When Using Jest'
+  summary: "In this lesson we'll learn how to mock fetch in your Jest tests."
+  date: '2019-08-07T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/mocking-fetch-api-calls-when-using-jest'
+  tags:
+    - 'react-native'
+- title: 'Test Driven Development with AsyncStorage'
+  summary: "In this lesson we'll learn how to do test driven development when using the AsyncStorage library."
+  date: '2019-07-31T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/test-driven-development-with-asyncstorage'
+  tags:
+    - 'react-native'
+- title: 'Breaking Down React Native v0.60'
+  summary: "In this lesson we'll discuss the biggest changes to React Native v0.60 for developers with existing React Native apps."
+  date: '2019-07-24T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/breaking-down-react-native-v060'
+  tags:
+    - 'react-native'
+- title: 'Integrating React Navigation Back Button with a WebView'
+  summary: "In this lesson we'll learn to integrate the existing back button in React Native to also serve as the back button for an embedded WebView."
+  date: '2019-07-17T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/integrating-react-navigation-back-button-with-a-webview'
+  tags:
+    - 'react-native'
+- title: 'Building a Dimensions Hook in React Native'
+  summary: "In this lesson we'll create a hook that listens to any dimension changes in our app."
+  date: '2019-07-10T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/building-a-dimensions-hook-in-react-native'
+  tags:
+    - 'react-native'
+- title: 'Migrating Data in AsyncStorage'
+  summary: "Despite our best efforts we're never going to store our data exactly right in AsyncStorage. Here's how we can migrate the data when we outgrow the current structure."
+  date: '2019-06-26T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/migrating-data-in-asyncstorage'
+  tags:
+    - 'react-native'
+- title: 'Handling Deep Links with React Navigation'
+  summary: 'Learn to handle deep links from within your application to take the user where they expect to go.'
+  date: '2019-06-19T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/handling-deep-links-with-react-navigation'
+  tags:
+    - 'react-native'
+- title: 'Install and Use Reactotron for Debugging'
+  summary: "In this lesson we'll learn how to take your debugging experience to the next level with Reactotron."
+  date: '2019-06-12T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/install-and-use-reactotron-for-debugging'
+  tags:
+    - 'react-native'
+- title: 'Apollo Setup Kickstart'
+  summary: 'In this lesson we learn how to setup Apollo/GraphQL on the client and server to aggregate different data sources.'
+  date: '2019-05-29T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/apollo-setup-kickstart'
+  tags:
+    - 'react-native'
+- title: 'Swipe Gestures with react-native-gesture-handler'
+  summary: "Swiping is a common gesture on mobile devices. In this lesson we'll learn how to leverage React Native Gesture Handler to build swiping actions in your app."
+  date: '2019-05-22T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/swipe-gestures-with-react-native-gesture-handler'
+  tags:
+    - 'react-native'
+- title: 'Using Context to Build a Light/Dark Theme'
+  summary: "In this lesson we'll leverage context and hooks to build a global light/dark theme in our app."
+  date: '2019-05-15T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/using-context-to-build-a-lightdark-theme'
+  tags:
+    - 'react-native'
+- title: 'Easily Manage Different Environment Configurations in React Native'
+  summary: "Development, staging, production - how do you manage each environment and ensure you're accessing the right endpoints, api keys, and other data for each environment? In this lesson we'll talk about how to set up environment specific variables."
+  date: '2019-05-01T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/easily-manage-different-environment-configurations-in-react-native'
+  tags:
+    - 'react-native'
+- title: 'Pinch to Zoom Gesture'
+  summary: "In this lesson we'll walk through how to use react-native-gesture-handler to implement a pinch to zoom gesture."
+  date: '2019-04-24T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/pinch-to-zoom-gesture'
+  tags:
+    - 'react-native'
+- title: 'Migrating from Component State to Hooks for a Fetch Request'
+  summary: "Hooks are the latest hotness in React Native. Now that they're part of React Native core how can this change your code?"
+  date: '2019-04-17T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/migrating-from-component-state-to-hooks-for-a-fetch-request'
+  tags:
+    - 'react-native'
+- title: 'Adding Data to a React Native App | Live Coding'
+  summary: "In this live stream we'll be putting in sample data to our React Native app."
+  date: '2019-04-11T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/adding-data-to-a-react-native-app-or-live-coding'
+  tags:
+    - 'react-native'
+- title: 'How to Use React Native Calendar'
+  summary: "In this introduction to React Native Calendar we'll learn how to effectively use this package to build high quality calendars for your app."
+  date: '2019-04-10T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/how-to-use-react-native-calendar'
+  tags:
+    - 'react-native'
+- title: 'Starting a New React Native Project | Live Coding'
+  summary: "In this live coding session we'll start a new React Native project and get it set up for development."
+  date: '2019-04-05T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/starting-a-new-react-native-project-or-live-coding'
+  tags:
+    - 'react-native'
+- title: 'Upgrading to React Native 0.59+ & Handling Deprecation Warnings'
+  summary: "v0.59 of React Native is a big deal. It brings new features and is a major stepping stone for the future development with React Native. Here's what you need to know."
+  date: '2019-04-03T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/upgrading-to-react-native-0.59-and-handling-deprecation-warnings'
+  tags:
+    - 'react-native'
+- title: 'Live React Native Development | April 2, 2019'
+  summary: 'Join me in working on a React Native app! Actual videos starts around the 1:30 mark.'
+  date: '2019-04-02T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/live-react-native-development-or-april-2-2019'
+  tags:
+    - 'react-native'
+- title: 'Normalizing Text and Spacing Between Screen Sizes'
+  summary: "Different devices have different pixel densities and different sizes. When we design and implement our app we'll want to factor this in so each user can have a pleasant experience. This tutorial will show you a method of doing so."
+  date: '2019-03-27T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/normalizing-text-and-spacing-between-screen-sizes'
+  tags:
+    - 'react-native'
+- title: 'Best Practices for Capturing User Feedback in React Native'
+  summary: "Nothing beats getting real feedback from your users - but how should you go about capturing that feedback? In this tutorial we'll discuss when you should prompt them, how you should prompt them, and what tools you can use to capture that feedback."
+  date: '2019-03-20T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/best-practices-for-capturing-user-feedback-in-react-native'
+  tags:
+    - 'react-native'
+- title: 'React Native vs. Flutter - Which to Choose?'
+  summary: "I'm often asked about which technology to choose, who is killing who, who's going to win and who's going to fail? Here's my running answer on the React Native vs. Flutter debate."
+  date: '2019-03-14T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/react-native-vs-flutter-which-to-choose'
+  tags:
+    - 'react-native'
+- title: 'Easily Work on Deeply Nested Screens in React Native'
+  summary: "Apps have many screens. Many screens need to be developed. How do we easily work on a nested screen without having to click around a bunch? In this tutorial we'll learn how to leverage your navigation to make developing on nested screens easier."
+  date: '2019-03-13T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/easily-work-on-deeply-nested-screens-in-react-native'
+  tags:
+    - 'react-native'
+- title: 'How to Detect Crashes in a React Native App'
+  summary: "Crashes are going to happen. We can try to minimize them but they'll still happen. When they happen in production what can we do about them? In this tutorial we'll learn how to detect crashes in React Native and what to do about them."
+  date: '2019-03-06T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/how-to-detect-crashes-in-a-react-native-app'
+  tags:
+    - 'react-native'
+- title: 'Setting up an Authentication Flow in React Native'
+  summary: "Learn how to configure your router to check, manage, and route to the right place based on the user's authentication state."
+  date: '2019-02-27T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/setting-up-an-authentication-flow-in-react-native'
+  tags:
+    - 'react-native'
+- title: 'Building an Animation Hook in React Native'
+  summary: 'Take a first look at how you can use React Hooks to simplify your animation logic in React Native.'
+  date: '2019-02-20T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/building-an-animation-hook-in-react-native'
+  tags:
+    - 'react-native'
+- title: 'App Development Preplanning: Data and Requirements'
+  summary: 'In this video I walk through my process of thinking about app requirements, data relationships, and general planning for an app I plan to build.'
+  date: '2019-02-01T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/app-development-preplanning-data-and-requirements'
+  tags:
+    - 'react-native'
+- title: 'Breaking an Interface into Components'
+  summary: 'Learn to break a UI into a series of logical components.'
+  date: '2019-01-29T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/breaking-an-interface-into-components'
+  tags:
+    - 'react-native'
+- title: 'How to Organize Your Components'
+  summary: "Learn some basic tips on organizing your React Native app's components so you can more easily maintain your app."
+  date: '2019-01-23T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/how-to-organize-your-components'
+  tags:
+    - 'react-native'
+- title: 'How to Upload Images in a React Native App'
+  summary: 'Explore this quick tutorial to learn how to upload images in your React Native to create a better user experience.'
+  date: '2018-12-11T00:00:00.000Z'
+  url: 'https://medium.com/@spencer_carli/how-to-upload-images-in-a-react-native-app-4cca03ded855'
+  tags:
+    - 'react-native'
+- title: 'How to use the Image Component - React Native Basics'
+  summary: "In this video you'll learn the basics of using the core Image component in React Native."
+  date: '2018-11-07T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/how-to-use-the-image-component-react-native-basics'
+  tags:
+    - 'react-native'
+- title: 'Layout with Flexbox - React Native Basics'
+  summary: "In this video you'll learn the basics of using Flexbox in React Native to build your app layout."
+  date: '2018-11-07T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/layout-with-flexbox-react-native-basics'
+  tags:
+    - 'react-native'
+- title: 'Building a Global Alert System in React Native'
+  summary: 'Learn to build a global alert system in React Native.'
+  date: '2018-11-05T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/building-a-global-alert-system-in-react-native'
+  tags:
+    - 'react-native'
+- title: 'How to Use the SectionList Component - React Native Basics'
+  summary: "In this video you'll be introduce to the SectionList component from React Native core."
+  date: '2018-10-24T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/how-to-use-the-sectionlist-component-react-native-basics'
+  tags:
+    - 'react-native'
+- title: 'Detect Multiple Touches in React Native with the Gesture Responder System'
+  summary: "In this video you'll be introduced to React Native's Gesture Responder System by creating a component to detect n number of presses."
+  date: '2018-10-17T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/detect-multiple-touches-in-react-native-with-the-gesture-responder-system'
+  tags:
+    - 'react-native'
+- title: "Implement a Long Press Button with React Native's Gesture Responder System"
+  summary: "In this video you'll learn to leverage React Native's Gesture Responder System to create a component that calls a function only if you interact with the component for a set period of time."
+  date: '2018-10-17T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/implement-a-long-press-button-with-react-natives-gesture-responder-system'
+  tags:
+    - 'react-native'
+- title: 'Fix Broken React Native Projects in Xcode 10'
+  summary: "In this video we'll learn how to fix an issue where you're unable to build a React Native app in Xcode 10"
+  date: '2018-10-09T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/fix-broken-react-native-projects-in-xcode-10'
+  tags:
+    - 'react-native'
+- title: 'Progressive Image Loading in React Native'
+  summary: 'Internet connection speeds are variable, especially when you’re working with mobile devices. As developers we often forget that many of our…'
+  date: '2018-09-26T00:00:00.000Z'
+  url: 'https://medium.com/@spencer_carli/progressive-image-loading-in-react-native-e7a01827feb7'
+  tags:
+    - 'react-native'
+- title: 'Building a React Native Multi-Theme Button'
+  summary: "In this video we'll walk through designing a button API for ease of development, maintenance, and (most importantly) use."
+  date: '2018-09-19T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/building-a-react-native-multi-theme-button'
+  tags:
+    - 'react-native'
+- title: 'Animated Image Overlay in React Native'
+  summary: 'Build an Instagram style animated heart when liking a picture'
+  date: '2018-09-12T00:00:00.000Z'
+  url: 'https://medium.com/@spencer_carli/animated-image-overlay-in-react-native-9b8dd22a9c6e'
+  tags:
+    - 'react-native'
+- title: 'Instagram Style Double Tap with React Native'
+  summary: 'There are a host of ways to detect a tap in React Native — but how do you detect a double tap? Detecting double taps has a host of uses —…'
+  date: '2018-09-06T00:00:00.000Z'
+  url: 'https://medium.com/@spencer_carli/instagram-style-double-tap-with-react-native-49e757f68de'
+  tags:
+    - 'react-native'
+- title: 'Install React Native Firebase Core'
+  summary: 'Install React Native Firebase Core'
+  date: '2018-08-16T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/install-react-native-firebase-core'
+  tags:
+    - 'react-native'
+- title: 'Intro to Gestures in React Native'
+  summary: 'In this tutorial we’ll be learning to add gesture handling to a React Native app via PanResponder. In a previous tutorial I walked through…'
+  date: '2018-07-24T00:00:00.000Z'
+  url: 'https://medium.com/@spencer_carli/intro-to-gestures-in-react-native-e9b63dd3305'
+  tags:
+    - 'react-native'
+- title: 'How to Search a React Native FlatList'
+  summary: 'How to Search a React Native FlatList'
+  date: '2018-05-23T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/how-to-search-a-react-native-flatlist'
+  tags:
+    - 'react-native'
+- title: 'React Native Animated Answer Bar'
+  summary: 'A multi-part series teaching you how to create an animated answer bar in React Native.'
+  date: '2018-05-21T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/react-native-animated-answer-bar'
+  tags:
+    - 'react-native'
+- title: 'Enable Scroll in a React Native ScrollView Based on the Content Size'
+  summary: 'Ever have the situation where you sometimes had content that was shorter than the screen size and didn’t require scrolling but occasionally…'
+  date: '2018-04-26T00:00:00.000Z'
+  url: 'https://medium.com/@spencer_carli/enable-scroll-in-a-react-native-scrollview-based-on-the-content-size-87430ccf319b'
+  tags:
+    - 'react-native'
+- title: 'Use the SwitchNavigator in React Navigation for an Authentication Flow (React Native)'
+  summary: 'Use the SwitchNavigator in React Navigation for an Authentication Flow (React Native)'
+  date: '2018-03-27T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/use-the-switchnavigator-in-react-navigation-for-an-authentication-flow-react-native'
+  tags:
+    - 'react-native'
+- title: '4 Questions to Ask When Choosing a Push Notification Provider for a React Native App'
+  summary: 'Push notifications rock. Twice a day I’m reminded about how I can win some 💰 💰 💰 by playing a trivia game. Or I’m sent a daily news…'
+  date: '2018-03-21T00:00:00.000Z'
+  url: 'https://medium.com/@spencer_carli/4-questions-to-ask-when-choosing-a-push-notification-provider-for-a-react-native-app-fc0949eebc40'
+  tags:
+    - 'react-native'
+- title: 'Dismiss the Keyboard in React Native from Anywhere'
+  summary: 'In this video you will learn how create a re-usable component that gives the user the ability to dismiss the keyboard whenever they tap outside of a TextInput.'
+  date: '2018-03-13T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/dismiss-the-keyboard-in-react-native-from-anywhere'
+  tags:
+    - 'react-native'
+- title: 'Fade in an Image with React Native with the Animated API'
+  summary: 'In this video, you will learn how to gradually fade in images in React Native in order to eliminate the jarring flash associated with an image rendering. We will take a look at the Image component onLoad property and use it, in conjunction with the Animated API, to accomplish the desired user experience.'
+  date: '2018-03-13T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/fade-in-an-image-with-react-native-with-the-animated-api'
+  tags:
+    - 'react-native'
+- title: 'iPhoneX Compatibility in React Native with SafeAreaView'
+  summary: ' In this video, you will learn how to use the SafeAreaView component to avoid the sensor cluster (the notch) and home activity indicator on the iPhone X.'
+  date: '2018-03-13T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/iphonex-compatibility-in-react-native-with-safeareaview'
+  tags:
+    - 'react-native'
+- title: 'Migrating from Redux to the New React Context API'
+  summary: "In this video, you'll see an example of replacing Redux with the new React context API in a real-world app."
+  date: '2018-03-13T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/migrating-from-redux-to-the-new-react-context-api'
+  tags:
+    - 'react-native'
+- title: 'Migrating from the Old to New React Context API'
+  summary: "In this video, you'll get an intro & example of migrating a component that uses the old context API to use the new (in React 16.3) context API."
+  date: '2018-03-13T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/migrating-from-the-old-to-new-react-context-api'
+  tags:
+    - 'react-native'
+- title: 'React Native FlatList Grid'
+  summary: 'In this video, we will start with a list of content from a React Native FlatList that we will then transform into a three-per-row grid.'
+  date: '2018-03-13T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/react-native-flatlist-grid'
+  tags:
+    - 'react-native'
+- title: 'How 💩 dad jokes helped me better understand immutable data'
+  summary: 'I recently started working on a course regarding React Native and push notifications (how to, strategy, etc.).'
+  date: '2018-03-07T00:00:00.000Z'
+  url: 'https://medium.com/@spencer_carli/how-dad-jokes-helped-me-better-understand-immutable-data-d4256a0d4eea'
+  tags:
+    - 'react-native'
+- title: 'Configure Visual Studio Code for React Native Development'
+  summary: 'Configure Visual Studio Code for React Native Development'
+  date: '2018-02-21T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/configure-visual-studio-code-for-react-native-development'
+  tags:
+    - 'react-native'
+- title: 'Sum of Items in a React Native FlatList'
+  summary: 'Sum of Items in a React Native FlatList'
+  date: '2018-01-31T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/sum-of-items-in-a-react-native-flatlist'
+  tags:
+    - 'react-native'
+- title: 'How to Become a React Native Developer in 2018'
+  summary: 'If you’ve looked at the results from The State of JavaScript 2017 you’ll find a ton of interesting data.'
+  date: '2018-01-16T00:00:00.000Z'
+  url: 'https://medium.com/@spencer_carli/how-to-become-a-react-native-developer-in-2018-d9bc85e1d91f'
+  tags:
+    - 'react-native'
+- title: 'Checklist to Deploy React Native to Production'
+  summary: 'Many React Native developers came to mobile development from a background of web development (like me). That’s one of the reasons React…'
+  date: '2020-11-16T00:00:00.000Z'
+  url: 'https://medium.com/@spencer_carli/checklist-to-deploy-react-native-to-production-47157f8f85ed'
+  tags:
+    - 'react-native'
+- title: 'How to Add a Splash Screen to a React Native App (iOS and Android)'
+  summary: 'I’m often asked about that last mile of developing a React Native app (actually getting it into the app store). There’s more to it than just building your app and sending it off to Apple/Google —...'
+  date: '2018-02-27T00:00:00.000Z'
+  url: 'https://medium.com/@spencer_carli/how-to-add-a-splash-screen-to-a-react-native-app-ios-and-android-30a3cec835ae'
+  tags:
+    - 'react-native'
+- title: 'Setup Continuous Integration with React Native'
+  summary: 'Learn to Use Visual Studio App Center to Automatically Build and Distribute Your React Native App'
+  date: '2017-11-16T00:00:00.000Z'
+  url: 'https://medium.com/@spencer_carli/setup-continuous-integration-with-react-native-50ad2f6145f4'
+  tags:
+    - 'react-native'
+- title: 'Navigating Navigation in React Native'
+  summary: 'An Opinionated Take on the Current State of Navigation in React Native'
+  date: '2017-11-13T00:00:00.000Z'
+  url: 'https://medium.com/@spencer_carli/navigating-navigation-in-react-native-26c7e4690f94'
+  tags:
+    - 'react-native'
+- title: 'Understanding React Native Deployments'
+  summary: 'If you’re coming to React Native from a web background, or if you’re new to programming in general, you may be confused about what you can…'
+  date: '2017-10-13T00:00:00.000Z'
+  url: 'https://medium.com/@spencer_carli/understanding-react-native-deployments-6e54157920b7'
+  tags:
+    - 'react-native'
+- title: 'Easily Build Forms in React Native'
+  summary: 'If you’re building a React Native app it’s almost a guarantee that you’ll have to build at least one form. The reality is you’ll probably...'
+  date: '2017-09-20T00:00:00.000Z'
+  url: 'https://medium.com/@spencer_carli/easily-build-forms-in-react-native-9006fcd2a73b'
+  tags:
+    - 'react-native'
+- title: 'How to Hire React Native Developers & Find React Native jobs'
+  summary: 'At Handlebar Labs I train people to become React Native developers. Part of that training is exchanging emails with the students to help them through any of the material. Once someone has worked...'
+  date: '2017-09-18T00:00:00.000Z'
+  url: 'https://medium.com/the-react-native-log/how-to-hire-react-native-developers-find-react-native-jobs-6c781aaffe01'
+  tags:
+    - 'react-native'
+- title: 'React Native Basics: Copy to Clipboard'
+  summary: 'Reading and writing from the clipboard is incredibly easy in React Native by using the Clipboard API. In this quick tutorial we’ll build a…'
+  date: '2017-08-29T00:00:00.000Z'
+  url: 'https://medium.com/@spencer_carli/react-native-basics-copy-to-clipboard-86023cda4175'
+  tags:
+    - 'react-native'
+- title: 'How to Get Started with React Native'
+  summary: 'Before diving in I want to tell you a little story — I’ve been wanting to put together a simple website. Not a web app, just a simple…'
+  date: '2017-08-09T00:00:00.000Z'
+  url: 'https://medium.com/@spencer_carli/how-to-get-started-with-react-native-8ef42f65160a'
+  tags:
+    - 'react-native'
+- title: 'A Brief Overview of ES6 for React Native Developers'
+  summary: 'If you’re coming to React Native and you’re'
+  date: '2017-06-28T00:00:00.000Z'
+  url: 'https://medium.com/@spencer_carli/a-brief-overview-of-es6-for-react-native-developers-15e7c68315da'
+  tags:
+    - 'react-native'
+- title: 'Use Redux to Manage React Navigation State'
+  summary: 'If you’ve ever wanted to know how to store the state from React Navigation in Redux and didn’t understand the guide in the docs — look no…'
+  date: '2017-06-14T00:00:00.000Z'
+  url: 'https://medium.com/@spencer_carli/use-redux-to-manage-react-navigation-state-b6d639497143'
+  tags:
+    - 'react-native'
+- title: 'How to Animate the Items of a React Native FlatList'
+  summary: 'I was recently asked about animating items in a React Native list — specifically animating the item when added and removed. That’s what…'
+  date: '2017-06-07T00:00:00.000Z'
+  url: 'https://medium.com/@spencer_carli/how-to-animate-the-items-of-a-react-native-flatlist-32c8cbf7ea3d'
+  tags:
+    - 'react-native'
+- title: 'Building an Authentication Flow with React Navigation'
+  summary: 'I’m asked fairly often about setting up an authentication flow with React Navigation. That’s what we’ll cover today — we’ll have two “layouts” a signed in layout with a TabNavigator and a signed out layout with a two screen StackNavigator.'
+  date: '2017-05-24T00:00:00.000Z'
+  url: 'https://medium.com/@spencer_carli/building-an-authentication-flow-with-react-navigation-fb5de2203b5c'
+  tags:
+    - 'react-native'
+- title: 'Create React Native App + React Native Debugger'
+  summary: 'Quick overview of how I got React Native Debugger working with Create React Native App.'
+  date: '2017-05-15T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/create-react-native-app-+-react-native-debugger'
+  tags:
+    - 'react-native'
+- title: 'React Native + Meteor: react-native-meteor vs. meteor-client-bundler'
+  summary: 'If you’ve spent any time looking into building an app with React Native and Meteor you’ve likely come across the package…'
+  date: '2017-05-10T00:00:00.000Z'
+  url: 'https://medium.com/@spencer_carli/react-native-meteor-react-native-meteor-vs-meteor-client-bundler-f7597442ed0'
+  tags:
+    - 'react-native'
+- title: 'Getting Started with React Native Navigation V1'
+  summary: 'There are quite a few options out there for Navigation in React Native. I typically default to React Navigation (tutorial on getting…'
+  date: '2017-05-03T00:00:00.000Z'
+  url: 'https://medium.com/@spencer_carli/getting-started-with-react-native-navigation-v1-7a16afdeadcd'
+  tags:
+    - 'react-native'
+- title: 'Build a Cross Platform Button in React Native'
+  summary: 'Learn how to make a platform specific button in React Native by using core components and simplifying your styling process with React Native Extended StyleSheet.'
+  date: '2017-05-01T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/build-a-cross-platform-button-in-react-native'
+  tags:
+    - 'react-native'
+- title: 'Replace a Screen Using React Navigation'
+  summary: 'One challenge I faced while migrating to React Navigation was how to replace a screen when using React Navigation. Right now there’s no…'
+  date: '2017-04-24T00:00:00.000Z'
+  url: 'https://medium.com/@spencer_carli/replace-a-screen-using-react-navigation-a503eab207eb'
+  tags:
+    - 'react-native'
+- title: 'How to setup infinite scroll with the FlatList component in React Native'
+  summary: 'How to setup infinite scroll with the FlatList component in React Native'
+  date: '2017-04-18T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/how-to-setup-infinite-scroll-with-the-flatlist-component-in-react-native'
+  tags:
+    - 'react-native'
+- title: 'Pull to Refresh with React Native FlatList'
+  summary: 'A simple video on how to use pull to refresh in the FlatList component.'
+  date: '2017-04-18T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/pull-to-refresh-with-react-native-flatlist'
+  tags:
+    - 'react-native'
+- title: 'How to use the FlatList Component — React Native Basics'
+  summary: 'There have been a quite a few ways to create a scrolling list in React Native, most notably they have been the ScrollView and the ListView…'
+  date: '2017-04-18T00:00:00.000Z'
+  url: 'https://medium.com/react-native-development/how-to-use-the-flatlist-component-react-native-basics-92c482816fe6'
+  tags:
+    - 'react-native'
+- title: 'Migrate from ExNavigation to React Navigation'
+  summary: 'I’ve been using ExNavigation for quite a while. It’s simple to setup and has consistently worked for me. If you’ve checked out the the…'
+  date: '2017-04-12T00:00:00.000Z'
+  url: 'https://medium.com/@spencer_carli/migrate-from-exnavigation-to-react-navigation-1af661ec5082'
+  tags:
+    - 'react-native'
+- title: 'How to Rename A React Native App'
+  summary: 'Renaming your React Native project is something you’ll rarely have to do, if ever. I’ve had to do it in the past and I struggled quite a…'
+  date: '2017-04-05T00:00:00.000Z'
+  url: 'https://medium.com/@spencer_carli/how-to-rename-a-react-native-app-dafd92161c35'
+  tags:
+    - 'react-native'
+- title: 'The Easiest Way to Learn React Native'
+  summary: 'I’ve spent a lot of time working with React Native. I started using it very shortly after it was open sourced and have used it daily since…'
+  date: '2017-04-03T00:00:00.000Z'
+  url: 'https://medium.com/@spencer_carli/the-easiest-way-to-learn-react-native-3aa54b14cf75'
+  tags:
+    - 'react-native'
+- title: 'React Conf 2017 Overview for the React Native Developer'
+  summary: 'For myself, others who didn’t attend, and those wishing to review I wanted to put together a list of presentations &amp; announcements that…'
+  date: '2017-03-15T00:00:00.000Z'
+  url: 'https://medium.com/@spencer_carli/react-conf-2017-overview-for-the-react-native-developer-715c2e5f3b85'
+  tags:
+    - 'react-native'
+- title: 'Getting Started with React Navigation, the Navigation Solution for React Native'
+  summary: 'If you’ve worked with React Native for any amount of time you’ve likely been confused by how you navigate in your app (practices, packages…'
+  date: '2017-03-09T00:00:00.000Z'
+  url: 'https://medium.com/@spencer_carli/getting-started-with-react-navigation-the-navigation-solution-for-react-native-ea3f4bd786a4'
+  tags:
+    - 'react-native'
+- title: 'How to make your React Native app respond gracefully when the keyboard pops up'
+  summary: 'When you’re working with React Native apps, a common problem is that the keyboard will pop up and hide text inputs when you focus on them…'
+  date: '2017-02-23T00:00:00.000Z'
+  url: 'https://medium.com/@spencer_carli/how-to-make-your-react-native-app-respond-gracefully-when-the-keyboard-pops-up-7442c1535580'
+  tags:
+    - 'react-native'
+- title: 'Offline First React Native + Meteor Apps'
+  summary: 'A topic that has come up numerous times in consulting calls, among students in my Learn React Native + Meteor course, and on issues for…'
+  date: '2017-02-08T00:00:00.000Z'
+  url: 'https://medium.com/@spencer_carli/offline-first-react-native-meteor-apps-2bee8e976ec7'
+  tags:
+    - 'react-native'
+- title: 'React Native Basics: Geolocation'
+  summary: 'I’ve been using the Geolocation API in React Native a fair amount lately. It’s an API that I didn’t realize existed in React Native and…'
+  date: '2017-01-18T00:00:00.000Z'
+  url: 'https://medium.com/@spencer_carli/react-native-basics-geolocation-adf3c0d10112'
+  tags:
+    - 'react-native'
+- title: 'Playing with React Native Animations'
+  summary: 'For my first post of the year I wanted to keep it light and experiment a little bit with the React Native Animated API. We’ll create a few…'
+  date: '2017-01-04T00:00:00.000Z'
+  url: 'https://medium.com/@spencer_carli/playing-with-react-native-animations-d065e7e97391'
+  tags:
+    - 'react-native'
+- title: 'Managing Configuration in React Native'
+  summary: 'You’re a developer. You build apps. You probably build them in an iterative way —build something, test it, realize it doesn’t work, try…'
+  date: '2016-12-14T00:00:00.000Z'
+  url: 'https://medium.com/@spencer_carli/managing-configuration-in-react-native-cd2dfb5e6f7b'
+  tags:
+    - 'react-native'
+- title: 'Handling Offline Actions in React Native'
+  summary: 'A few weeks ago I wrote about building offline first react native apps and left the post with a question — “How would you handle actions…'
+  date: '2016-12-07T00:00:00.000Z'
+  url: 'https://medium.com/@spencer_carli/handling-offline-actions-in-react-native-74949cbfabf2'
+  tags:
+    - 'react-native'
+- title: 'Building Offline First React Native Apps'
+  summary: 'When building a mobile app it’s reasonable to expect that a user will, at some point, use your app without an internet connection. How does…'
+  date: '2016-11-16T00:00:00.000Z'
+  url: 'https://medium.com/@spencer_carli/building-offline-first-react-native-apps-b958acac0009'
+  tags:
+    - 'react-native'
+- title: 'Handling Remote Push Notifications from OneSignal in React Native'
+  summary: 'Two weeks ago I published a post covering every step you have to take to set up push notifications, via OneSignal, for React Native (iOS…'
+  date: '2016-11-09T00:00:00.000Z'
+  url: 'https://medium.com/@spencer_carli/handling-remote-push-notifications-from-onesignal-in-react-native-5897804b0015'
+  tags:
+    - 'react-native'
+- title: 'React Native Push Notifications with OneSignal'
+  summary: 'I had initially planned to make a comprehensive multi-part video series on setting up remote push notifications but, unfortunately, I underestimated the time it would take for me to recover from getting my wisdom teeth removed.'
+  date: '2016-10-27T00:00:00.000Z'
+  url: 'https://medium.com/@spencer_carli/react-native-push-notifications-with-onesignal-9db6a7d75e1e'
+  tags:
+    - 'react-native'
+- title: 'Using Meteor as a Backend for Your Apps [Presentation]'
+  summary: 'Hey, long time no see! I just wrapped up a presentation (about 5 minutes ago) on using Meteor exclusively as a backend for your app. I…'
+  date: '2016-10-19T00:00:00.000Z'
+  url: 'https://medium.com/@spencer_carli/using-meteor-as-a-backend-for-your-apps-presentation-2178e8f8e7bd'
+  tags:
+    - 'react-native'
+- title: 'Tools and Services used in a Production React Native + Meteor App'
+  summary: 'A common question (or series of questions) that I’ve had over the last few months is “what do you use for X?”. Today I’ll walk you through…'
+  date: '2016-10-05T00:00:00.000Z'
+  url: 'https://medium.com/@spencer_carli/tools-and-services-used-in-a-production-react-native-meteor-app-d4cc5d6d2a7e'
+  tags:
+    - 'react-native'
+- title: 'React Native Basics: Using react-native-router-flux'
+  summary: 'A core component of any app is navigating between different routes/screens/scenes. I’ve analyzed different navigation solutions in the past…'
+  date: '2016-09-21T00:00:00.000Z'
+  url: 'https://medium.com/@spencer_carli/react-native-basics-using-react-native-router-flux-f11e5128aff9'
+  tags:
+    - 'react-native'
+- title: 'Setting up your Redux Store'
+  summary: 'If you read the articles I publish weekly you know that I’m a fan of React Native and Meteor. I use them everyday and I spend time teaching…'
+  date: '2016-08-31T00:00:00.000Z'
+  url: 'https://medium.com/@spencer_carli/setting-up-your-redux-store-3016eff82d83'
+  tags:
+    - 'react-native'
+- title: 'My Process for Building a Cross Platform React Native Component'
+  summary: 'I’ve talked about sharing code between React Native on Android and iOS but this week I want to talk more about my process of building for…'
+  date: '2016-08-24T00:00:00.000Z'
+  url: 'https://medium.com/@spencer_carli/my-process-for-building-a-cross-platform-react-native-component-1bfa17f30001'
+  tags:
+    - 'react-native'
+- title: 'Preparing a React Native Android App for Production'
+  summary: 'We’re currently going through the launch process of one of our client’s apps — an app built with React Native running on both iOS and…'
+  date: '2016-08-17T00:00:00.000Z'
+  url: 'https://medium.com/@spencer_carli/preparing-a-reach-native-android-app-for-production-f063413d5633'
+  tags:
+    - 'react-native'
+- title: 'Organizing a React Native Project'
+  summary: 'One of the great things about React Native is the flexibility. You can do just about anything — including organize the project however you…'
+  date: '2016-07-27T00:00:00.000Z'
+  url: 'https://medium.com/@spencer_carli/organizing-a-react-native-project-9514dfadaa0'
+  tags:
+    - 'react-native'
+- title: 'Connecting React Native and Meteor'
+  summary: 'A question I commonly get when discussing my React Native Meteor boilerplate is in regards to what is actually going on with the two apps…'
+  date: '2016-07-20T00:00:00.000Z'
+  url: 'https://medium.com/@spencer_carli/connecting-react-native-and-meteor-cccdb0df29e3'
+  tags:
+    - 'react-native'
+- title: 'Snapchat Interface in React Native'
+  summary: 'I’m kind of back to my routine this week and I wanted to make sure I dropped a new post for everyone before moving next week (likely a…'
+  date: '2016-06-29T00:00:00.000Z'
+  url: 'https://medium.com/@spencer_carli/snapchat-interface-in-react-native-3cd3f6b87216'
+  tags:
+    - 'react-native'
+- title: 'How to Setup Push Notifications in React Native (iOS & Android)'
+  summary: 'This week I wanted to try something different and, rather than write a blog post, record a screencast. Video is a completely different beast than writing and something I’m not (yet) comfortable with…'
+  date: '2016-06-15T00:00:00.000Z'
+  url: 'https://medium.com/differential/how-to-setup-push-notifications-in-react-native-ios-android-30ea0131355e'
+  tags:
+    - 'react-native'
+- title: 'Blueprint to becoming a React Native Developer'
+  summary: 'I’m a big believer in React Native — if you’re reading this you’re likely interested in it as well. The Javascript ecosystem is quickly…'
+  date: '2016-06-08T00:00:00.000Z'
+  url: 'https://medium.com/@spencer_carli/blueprint-to-becoming-a-react-native-developer-6cad2b894887'
+  tags:
+    - 'react-native'
+- title: 'How I use React Native, Redux, and Meteor'
+  summary: 'Note: What I’ll be talking about here only covers using Meteor and Redux in the context of a React Native client.'
+  date: '2016-06-01T00:00:00.000Z'
+  url: 'https://medium.com/@spencer_carli/how-i-use-react-native-redux-and-meteor-b69b3875dc00'
+  tags:
+    - 'react-native'
+- title: 'React Native Basics: How to Use the ListView Component'
+  summary: 'ListView — A core component designed for efficient display of vertically scrolling lists of changing data.'
+  date: '2016-05-18T00:00:00.000Z'
+  url: 'https://medium.com/@spencer_carli/react-native-basics-how-to-use-the-listview-component-a0ec44cf1fe8'
+  tags:
+    - 'react-native'
+- title: 'Intro to Styling in React Native'
+  summary: 'React does styling a bit different than you may be used to on the web. It’s CSS in JS which is a controversial topic. If you’re interested…'
+  date: '2016-05-11T00:00:00.000Z'
+  url: 'https://medium.com/@spencer_carli/intro-to-styling-in-react-native-c2c942bf1306'
+  tags:
+    - 'react-native'
+- title: 'Why Meteor is the Perfect Backend for React Native'
+  summary: 'There’s no such thing as a perfect technology stack. If you’re asking if X stack can handle the same traffic/load as Facebook I’ll tell you…'
+  date: '2016-05-04T00:00:00.000Z'
+  url: 'https://medium.com/@spencer_carli/why-meteor-is-the-perfect-backend-for-react-native-4c8a776726c2'
+  tags:
+    - 'react-native'
+- title: 'React Native Meteor: Auth with Email, Username, and Password'
+  summary: 'Welcome to post #2 of my series on authentication using React Native &amp; Meteor! This week we’re going to cover auth as it pertains to…'
+  date: '2016-04-26T00:00:00.000Z'
+  url: 'https://medium.com/@spencer_carli/react-native-meteor-auth-with-email-username-and-password-d2085c732276'
+  tags:
+    - 'react-native'
+- title: 'React Native Meteor: OAuth with Facebook'
+  summary: 'This is a bit more advanced of a tutorial — if you’re going through this tutorial you should already be comfortable establishing a DDP…'
+  date: '2016-04-20T00:00:00.000Z'
+  url: 'https://medium.com/@spencer_carli/react-native-meteor-oauth-with-facebook-3d1346d7cdb7'
+  tags:
+    - 'react-native'
+- title: 'Exploring Navigators in React Native'
+  summary: 'One of the core components of any app, be it web or mobile, is navigation/routing. It’s the basis of how a user interacts with your app. It…'
+  date: '2016-04-13T00:00:00.000Z'
+  url: 'https://medium.com/@spencer_carli/exploring-navigators-in-react-native-869b6ab47e0f'
+  tags:
+    - 'react-native'
+- title: 'Pub/Sub versus Methods in React Native Meteor'
+  summary: 'This week’s post is a short one and more of a thought exercise rather than a tutorial. It stems from a comment made by Abhi Aiyer on a…'
+  date: '2016-04-06T00:00:00.000Z'
+  url: 'https://medium.com/@spencer_carli/pub-sub-versus-methods-in-react-native-meteor-eb9213a77633'
+  tags:
+    - 'react-native'
+- title: 'Sharing Code between Android and iOS in React Native'
+  summary: 'One of the (many) advantages of writing an app with React Native is that you can write a mobile app for both iOS and Android from the same…'
+  date: '2016-03-29T00:00:00.000Z'
+  url: 'https://medium.com/@spencer_carli/sharing-code-between-android-and-ios-in-react-native-142f6566a0fe'
+  tags:
+    - 'react-native'
+- title: 'React Native Meteor FAQ'
+  summary: "There are a few questions that I see pop up on the various blog posts I've written on React Native Meteor. I want to put together an FAQ to, hopefully, help you out and point you in the right direction. This document will be updated over time so please send me anything you feel should be included."
+  date: '2016-03-22T00:00:00.000Z'
+  url: 'https://medium.com/@spencer_carli/react-native-meteor-faq-919af1db7239'
+  tags:
+    - 'react-native'
+- title: 'Google OAuth using Meteor and React Native'
+  summary: 'As technology changes articles get out of date. This post may be in that state now so be aware that things may not work exactly the same…'
+  date: '2016-03-08T00:00:00.000Z'
+  url: 'https://medium.com/@spencer_carli/meteor-google-oauth-from-react-native-e30d146dfad6'
+  tags:
+    - 'react-native'
+- title: 'Intro to Debugging React Native (iOS and Android)'
+  summary: 'As technology changes articles get out of date. This post may be in that state now so be aware that things may not work exactly the same…'
+  date: '2016-03-01T00:00:00.000Z'
+  url: 'https://medium.com/@spencer_carli/intro-to-debugging-react-native-ios-and-android-cbff504898b2'
+  tags:
+    - 'react-native'
+- title: 'Password Hashing for Meteor React Native'
+  summary: 'As technology changes articles get out of date. This post may be in that state now so be aware that things may not work exactly the same…'
+  date: '2016-02-16T00:00:00.000Z'
+  url: 'https://medium.com/@spencer_carli/password-hashing-for-meteor-react-native-fe7d154d3e67'
+  tags:
+    - 'react-native'
+- title: 'Easily Connect React Native to a Meteor Server'
+  summary: 'This post is now outdated as the technology has changed. If you want to learn the latest please check out my profile or sign up for my…'
+  date: '2016-02-11T00:00:00.000Z'
+  url: 'https://medium.com/@spencer_carli/easily-connect-react-native-to-a-meteor-server-128dc3683041'
+  tags:
+    - 'react-native'
+- title: 'Meteor Authentication from React Native'
+  summary: 'As technology changes articles get out of date. This post may be in that state now so be aware that things may not work exactly the same…'
+  date: '2016-02-09T00:00:00.000Z'
+  url: 'https://medium.com/@spencer_carli/meteor-authentication-from-react-native-5f33d3c287b3'
+  tags:
+    - 'react-native'
+- title: 'React Native + CodePush'
+  summary: 'As technology changes articles get out of date. This post may be in that state now so be aware that things may not work exactly the same…'
+  date: '2016-01-26T00:00:00.000Z'
+  url: 'https://medium.com/@spencer_carli/react-native-codepush-dca21c76645a'
+  tags:
+    - 'react-native'
