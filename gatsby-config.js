@@ -40,6 +40,7 @@ module.exports = {
         ],
       },
     },
+    'gatsby-transformer-yaml',
     'gatsby-plugin-sitemap',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sharp',
