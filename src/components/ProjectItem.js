@@ -28,7 +28,7 @@ const Item = ({ imageUrl, name, caption, showCTA = true, date, external }) => (
       </span>
       <p className="text-gray-600 text-lg mb-4">{caption}</p>
       {showCTA && (
-        <p className="text-gray-700 hover:text-black text-sm no-underline group-hover:underline text-base leading-normal">
+        <p className="text-gray-700 hover:text-black no-underline group-hover:underline text-base leading-normal">
           Read this article →
         </p>
       )}
