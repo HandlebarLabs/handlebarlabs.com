@@ -3,7 +3,15 @@ import { Link } from 'gatsby';
 import { format } from 'date-fns';
 import { ExternalLinkIcon } from '@heroicons/react/solid';
 
-const Item = ({ imageUrl, name, caption, showCTA = true, date, external }) => (
+const Item = ({
+  imageUrl,
+  name,
+  caption,
+  showCTA = true,
+  date,
+  external,
+  ctaText = 'Read this article →',
+}) => (
   <div className="group mb-10 flex flex-col md:flex-row ">
     {imageUrl && (
       <img
@@ -29,7 +37,7 @@ const Item = ({ imageUrl, name, caption, showCTA = true, date, external }) => (
       <p className="text-gray-600 text-lg mb-4">{caption}</p>
       {showCTA && (
         <p className="text-gray-700 hover:text-black no-underline group-hover:underline text-base leading-normal">
-          Read this article →
+          {ctaText}
         </p>
       )}
     </div>
@@ -38,9 +46,15 @@ const Item = ({ imageUrl, name, caption, showCTA = true, date, external }) => (
 
 const ProjectItem = ({ slug, external, ...rest }) => {
   if (external) {
+    const out = new URL(slug);
+    console.log(out);
     return (
       <a href={slug} target="_blank" rel="noreferrer">
-        <Item {...rest} external />
+        <Item
+          {...rest}
+          external
+          ctaText={`Read on ${out.hostname.replace('www.', '')} →`}
+        />
       </a>
     );
   }
