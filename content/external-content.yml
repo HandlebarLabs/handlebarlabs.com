@@ -1,3 +1,15 @@
+- title: 'How to Detect User Color Preference in React Native'
+  summary: 'Learn to manage multiple color schemes in your React Native app using the core useColorScheme hook.'
+  date: '2022-06-13T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/how-to-detect-user-color-preference-in-react-native'
+  tags:
+    - 'react-native'
+- title: 'How to Setup Path Alias in a React Native TypeScript App'
+  summary: "This tutorial will show you how to replace '../../../components' with 'components' in your React Native + TypeScript projects."
+  date: '2022-06-09T00:00:00.000Z'
+  url: 'https://www.reactnativeschool.com/how-to-setup-path-alias-in-a-react-native-typescript-app'
+  tags:
+    - 'react-native'
 - title: 'Building an iOS Calculator Clone with React Native'
   summary: "Today we'll be building a clone of the iOS calculator (portrait only). It brings some unique challenges that allow us to leverage Flexbox and other styling properties to build it properly."
   date: '2022-04-11T00:00:00.000Z'
