@@ -1,3 +1,39 @@
+- title: Build a Stop Watch Hook that Works Even When the App is Quit
+  summary: Learn to leverage AsyncStorage and a custom hook to create a stop watch that continues to run even if the app is quit.
+  date: 2022-08-03
+  url: https://www.reactnativeschool.com/build-a-stop-watch-hook-that-works-even-when-the-app-is-quit
+  tags:
+    - 'react-native'
+- title: Animated Progress Bar with Reanimated 2
+  summary: This tutorial is an introduction to using Reanimated 2 to add animations to your React Native app. In it we'll build an animated progress bar for a game of Match the Pairs.
+  date: 2022-07-20
+  url: https://www.reactnativeschool.com/animated-progress-bar-with-reanimated-2
+  tags:
+    - 'react-native'
+- title: 'Build a Custom React Hook: Stopwatch'
+  summary: Hooks are a powerful way to abstract logic out of a component to make it reusable and to simplify the component. Today we've got an exercise that will help you practice writing your own hooks by creating a stop watch with the ability to track laps.
+  date: 2022-08-03
+  url: https://www.reactnativeschool.com/build-a-custom-react-hook-stopwatch
+  tags:
+    - 'react-native'
+- title: 'Flexbox Exercise: Building a Card Game Board'
+  summary: A quick exercise (under 3 minutes) to practice using Flexbox to build layouts in React Native.
+  date: 2022-07-06
+  url: https://www.reactnativeschool.com/flexbox-exercise-building-a-card-game-board
+  tags:
+    - 'react-native'
+- title: Fixed Width Text in React Native
+  summary: In this quick post we'll explore the font-variant property to improve your layout when text is rapidly changing.
+  date: 2022-06-28
+  url: https://www.reactnativeschool.com/fixed-width-text-in-react-native
+  tags:
+    - 'react-native'
+- title: Build Themed Components in React Native
+  summary: This tutorial will show you how you can build and use themed components in your React Native apps.
+  date: 2022-06-22
+  url: https://www.reactnativeschool.com/build-themed-components-in-react-native
+  tags:
+    - 'react-native'
 - title: 'How to Detect User Color Preference in React Native'
   summary: 'Learn to manage multiple color schemes in your React Native app using the core useColorScheme hook.'
   date: '2022-06-13T00:00:00.000Z'
