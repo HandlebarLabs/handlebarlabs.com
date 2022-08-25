@@ -5,7 +5,9 @@ import SEO from '../components/SEO';
 import Header from '../components/Header';
 import HeroHome from '../components/HeroHome';
 import FeaturedWork from '../components/FeaturedWork';
-import FeaturesBlock from '../components/FeaturesBlock';
+// import FeaturesBlock from '../components/FeaturesBlock';
+import AboutHBL from '../components/AboutHBL';
+import Contact from '../components/Contact';
 
 const Home = ({ data }) => {
   return (
@@ -20,7 +22,13 @@ const Home = ({ data }) => {
       <main className="flex-grow">
         <HeroHome />
         <FeaturedWork projects={data.content.frontmatter.products} />
-        <FeaturesBlock />
+        {/* <FeaturesBlock /> */}
+        <AboutHBL />
+        <div id="contact">
+          <Contact />
+        </div>
+
+        <div className="flex h-40" />
       </main>
     </div>
   );

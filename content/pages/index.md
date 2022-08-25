@@ -18,8 +18,8 @@ products:
     logo: ../logos/firstline.png
   - name: React Native School
     description: An internal project geared towards teaching developers how to confidently build React Native apps. With over 180 tutorials, 18 courses, and more than 26,500 students React Native School has become a go-to resource for anyone looking to use React Native. All development and content creation has been done in house.
-    testimonial: Spencer has a great teaching style, and effortlessly conveys the material in a logical manner. It is easy to learn from him and that is a testament to his skill!
-    testimonialAuthor: Nathan L.
+    testimonial: Not only is the course instructor very attentive but it's the first course and community I've been in (and I have been in many), where the instructor walks through every step. The tutorials and guidance given by Spencer are more in depth than anything else you'll find. I truly get the feeling that the goal of teaching is based upon the desire to solve problems and make solutions instead of just create tutorials and make a buck. The experience learned here cannot be replaced and I cannot recommend the content of React Native School enough. If you want to learn and understand, look no further.
+    testimonialAuthor: Lorin L.
     role: Student
     company: React Native School
     url: https://reactnativeschool.com

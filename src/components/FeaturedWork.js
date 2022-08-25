@@ -55,10 +55,10 @@ const Tab = ({ show, testimonial, author, role, company, url, logo }) => {
       leaveEnd="opacity-0 -translate-y-16"
     >
       <div className="relative inline-flex flex-col">
-        <div className="max-w-3xl mx-auto mt-20" data-aos="zoom-y-out">
+        <div className="max-w-3xl mx-auto mt-20">
           <div className="relative flex items-start border-2 border-gray-200 rounded bg-white">
             {/* Testimonial */}
-            <div className="text-center px-12 py-8 pt-20 mx-4 md:mx-0">
+            <div className="text-center px-4 md:px-12 py-8 pt-20 mx-4 md:mx-0">
               <div className="absolute top-0 -mt-8 left-1/2 transform -translate-x-1/2">
                 {/* <svg
                   className="absolute top-0 right-0 -mt-3 -mr-8 w-16 h-16 fill-current text-blue-500"
@@ -144,10 +144,7 @@ const FeaturedWork = ({ projects = [] }) => {
           {/* Section content */}
           <div className="md:grid md:grid-cols-12 md:gap-6">
             {/* Content */}
-            <div
-              className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6"
-              data-aos="fade-right"
-            >
+            <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6">
               <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
                 <h3 className="h3 mb-3">Featured Projects</h3>
                 {/* <p className="text-xl text-gray-600">
@@ -216,7 +213,6 @@ const FeaturedWork = ({ projects = [] }) => {
             {/* Tabs items */}
             <div
               className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1"
-              data-aos="zoom-y-out"
               ref={tabs}
             >
               <div className="relative flex flex-col text-center lg:text-right">
