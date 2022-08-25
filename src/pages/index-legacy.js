@@ -61,8 +61,10 @@ const Products = ({ products = [] }) => {
                 {product.testimonial}
               </p>
               <p className="mt-3 ">{product.testimonialAuthor}</p>
-              {product.testimonialRole && (
-                <p className="font-semibold">{product.testimonialRole}</p>
+              {product.role && product.company && (
+                <p className="font-semibold">
+                  {product.role}, {product.company}
+                </p>
               )}
             </div>
           </div>
@@ -146,18 +148,19 @@ export const query = graphql`
   query {
     content: markdownRemark(fileAbsolutePath: { regex: "/pages/index/g" }) {
       html
-      # frontmatter {
-      #   products {
-      #     name
-      #     description
-      #     testimonial
-      #     testimonialAuthor
-      #     testimonialRole
-      #     logo {
-      #       publicURL
-      #     }
-      #   }
-      # }
+      frontmatter {
+        products {
+          name
+          description
+          testimonial
+          testimonialAuthor
+          role
+          company
+          logo {
+            publicURL
+          }
+        }
+      }
     }
   }
 `;
